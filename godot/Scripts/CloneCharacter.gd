@@ -40,6 +40,8 @@ func _process(delta):
 func a_move(target_vel):
 	linear_vel = lerp(linear_vel, target_vel * 200, 0.5)
 	linear_vel = move_and_slide(linear_vel)
+	
+	# if($CollisionShape2D.call_deferred())
 
 func a_load():
 	position = Vector2(file.get_float(), file.get_float())
