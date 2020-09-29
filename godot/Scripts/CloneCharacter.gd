@@ -11,19 +11,18 @@ var str_len = 512
 
 var file_name:String
 var load_string:String
-var done_move = false
+var done_move = true
 var ind:int
 
-func _init(file_name:String):
+func start_movement(file_name:String):
 	self.file_name = file_name
-
-func _ready():
-	file.open_compressed("user://"+file_name, File.READ, File.COMPRESSION_ZSTD)
+	file.open_compressed("user://"+file_name+".dat", File.READ, File.COMPRESSION_ZSTD)
 	load_string = a_load()
+	done_move = false
 
 func _process(delta):
 	if done_move:
-		pass
+		return
 	
 	target_vel = load_dict[String(load_string.substr(ind, 1))]
 	ind += 1
