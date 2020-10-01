@@ -1,8 +1,8 @@
 extends Node2D
 
-var DemoMap = preload("res://Scenes/DemoMap1.tscn")
-var MainCharacter = preload("res://Scenes/MainCharacter.tscn")
-var CloneCharacter = preload("res://Scenes/CloneCharacter.tscn")
+var DemoMap = preload("res://scenes/DemoProcedural0.tscn")
+var MainCharacter = preload("res://scenes/MainCharacter.tscn")
+var CloneCharacter = preload("res://scenes/CloneCharacter.tscn")
 
 var DemoMapNode = DemoMap.instance()
 var MainCharacterNode = MainCharacter.instance()
