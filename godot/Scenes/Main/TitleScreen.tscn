@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://fonts/DungeonFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/DungeonFont.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Scripts/Main/TitleScreen.gd" type="Script" id=3]
+
+
+
+
+
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.792157, 0.792157, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 48
+font_data = ExtResource( 2 )
+
+[node name="TitleScreen" type="CanvasLayer"]
+script = ExtResource( 3 )
+
+[node name="Panel" type="Panel" parent="."]
+anchor_top = 0.0017658
+anchor_right = 1.0
+anchor_bottom = 1.00177
+margin_top = 1.25992
+margin_bottom = 1.25995
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+anchor_left = 0.3
+anchor_top = 0.303742
+anchor_right = 0.76582
+anchor_bottom = 0.740406
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer"]
+margin_right = 477.0
+margin_bottom = 49.0
+custom_fonts/font = SubResource( 2 )
+text = "Demo Trivial Re-Solutions"
+align = 1
+
+[node name="Procedural" type="Button" parent="Panel/VBoxContainer"]
+margin_top = 53.0
+margin_right = 477.0
+margin_bottom = 120.0
+custom_fonts/font = ExtResource( 1 )
+text = "Procedural Map"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Button" parent="Panel/VBoxContainer"]
+margin_top = 124.0
+margin_right = 477.0
+margin_bottom = 191.0
+custom_fonts/font = ExtResource( 1 )
+text = "Exit"

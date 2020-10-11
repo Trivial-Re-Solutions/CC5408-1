@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/MCamp0.tmx-4eb53c3d186d9a0837970d4ac09ece81.scn"
+
+[deps]
+
+source_file="res://tileset/MCamp0.tmx"
+dest_files=[ "res://.import/MCamp0.tmx-4eb53c3d186d9a0837970d4ac09ece81.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

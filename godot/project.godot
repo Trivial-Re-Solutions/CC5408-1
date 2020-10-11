@@ -8,16 +8,21 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node",
+"class": "StateMachine",
+"language": "GDScript",
+"path": "res://Scripts/StateMachine/StateMachine.gd"
+} ]
 _global_script_class_icons={
-
+"StateMachine": ""
 }
 
 [application]
 
 config/name="Game1"
-run/main_scene="res://Scenes/GGame.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://Scenes/Main/Game.tscn"
+config/icon="res://icon.jpg"
 
 [autoload]
 
