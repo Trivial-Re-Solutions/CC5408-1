@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/MCastle0.tmx-265a16a2210d38eb249795748e1a8d84.scn"
+
+[deps]
+
+source_file="res://sprites/tileset/MCastle0.tmx"
+dest_files=[ "res://.import/MCastle0.tmx-265a16a2210d38eb249795748e1a8d84.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

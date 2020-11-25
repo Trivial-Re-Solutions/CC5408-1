@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Intro - Ludum Dare 28 - Track 7.ogg-73e9566315703709fba54b7665c2e93a.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Intro - Ludum Dare 28 - Track 7.ogg"
+dest_files=[ "res://.import/Intro - Ludum Dare 28 - Track 7.ogg-73e9566315703709fba54b7665c2e93a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

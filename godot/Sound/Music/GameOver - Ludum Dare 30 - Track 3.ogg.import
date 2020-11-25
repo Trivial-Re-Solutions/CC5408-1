@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/GameOver - Ludum Dare 30 - Track 3.ogg-2e764e2db6a50d781a9c6562e8de34b9.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/GameOver - Ludum Dare 30 - Track 3.ogg"
+dest_files=[ "res://.import/GameOver - Ludum Dare 30 - Track 3.ogg-2e764e2db6a50d781a9c6562e8de34b9.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

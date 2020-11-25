@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprites/tileset/NCamp2.json" type="PackedScene" id=1]
+
+[node name="NCamp2" instance=ExtResource( 1 )]

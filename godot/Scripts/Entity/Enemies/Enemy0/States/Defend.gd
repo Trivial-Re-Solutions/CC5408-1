@@ -37,8 +37,8 @@ func a_move():
 		Entity.travel("Defend")
 		return
 	elif distance < 50:
-		Entity.travel("Defend")
-		Entity.state.change_to(Entity.Attack)
+		#Entity.travel("Defend")
+		#Entity.state.change_to(Entity.Attack)
 		return
 	Entity.travel("Run")
 	var target_vel = to_player.normalized()

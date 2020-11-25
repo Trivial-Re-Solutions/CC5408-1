@@ -1,23 +1,55 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://fonts/DungeonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://fonts/DungeonFont.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Scripts/Main/TitleScreen.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Cutscene/Prelude1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Sound/Music/Intro - Ludum Dare 28 - Track 7.ogg" type="AudioStream" id=5]
+[ext_resource path="res://Scenes/Entity/Cutscenes/CutScenes.tscn" type="PackedScene" id=6]
+[ext_resource path="res://sprites/enemies/Tileset samurai.png" type="Texture" id=7]
 
+[sub_resource type="Animation" id=1]
+resource_name = "run"
+length = 0.8
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+}
 
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0, 0, 0, 0.282353 )
 
-
-
-
-[sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0, 0.792157, 0.792157, 1 )
-
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=3]
 size = 48
 font_data = ExtResource( 2 )
 
 [node name="TitleScreen" type="CanvasLayer"]
 script = ExtResource( 3 )
+
+[node name="Prelude1" parent="." instance=ExtResource( 4 )]
+
+[node name="CutScenes" parent="." instance=ExtResource( 6 )]
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 800, 520 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 7 )
+vframes = 7
+hframes = 9
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Sprite")
+anims/run = SubResource( 1 )
 
 [node name="Panel" type="Panel" parent="."]
 anchor_top = 0.0017658
@@ -25,40 +57,215 @@ anchor_right = 1.0
 anchor_bottom = 1.00177
 margin_top = 1.25992
 margin_bottom = 1.25995
-custom_styles/panel = SubResource( 1 )
+custom_styles/panel = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
-anchor_left = 0.3
-anchor_top = 0.303742
-anchor_right = 0.76582
-anchor_bottom = 0.740406
+[node name="Main0" type="VBoxContainer" parent="Panel"]
+anchor_left = 0.25
+anchor_top = 0.3
+anchor_right = 0.75
+anchor_bottom = 0.8
+margin_top = -62.246
+margin_right = 0.000305176
+margin_bottom = -10.2455
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="Panel/VBoxContainer"]
-margin_right = 477.0
-margin_bottom = 49.0
-custom_fonts/font = SubResource( 2 )
-text = "Demo Trivial Re-Solutions"
+[node name="Label" type="Label" parent="Panel/Main0"]
+margin_right = 512.0
+margin_bottom = 101.0
+custom_fonts/font = SubResource( 3 )
+text = "Demo Trivial Re-Solutions
+"
 align = 1
 
-[node name="Procedural" type="Button" parent="Panel/VBoxContainer"]
-margin_top = 53.0
-margin_right = 477.0
-margin_bottom = 120.0
+[node name="Game" type="Button" parent="Panel/Main0"]
+margin_top = 105.0
+margin_right = 512.0
+margin_bottom = 172.0
 custom_fonts/font = ExtResource( 1 )
-text = "Procedural Map"
+text = "Iniciar Partida"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Exit" type="Button" parent="Panel/VBoxContainer"]
-margin_top = 124.0
-margin_right = 477.0
-margin_bottom = 191.0
+[node name="Settings" type="Button" parent="Panel/Main0"]
+margin_top = 176.0
+margin_right = 512.0
+margin_bottom = 243.0
 custom_fonts/font = ExtResource( 1 )
-text = "Exit"
+text = "Ajustes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Button" parent="Panel/Main0"]
+margin_top = 247.0
+margin_right = 512.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "Salir"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Game" type="VBoxContainer" parent="Panel"]
+visible = false
+anchor_left = 0.25
+anchor_top = 0.3
+anchor_right = 0.75
+anchor_bottom = 0.8
+margin_top = -62.246
+margin_right = 0.000305176
+margin_bottom = -10.2455
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/Game"]
+margin_right = 512.0
+margin_bottom = 101.0
+custom_fonts/font = SubResource( 3 )
+text = "Demo Trivial Re-Solutions
+"
+align = 1
+
+[node name="New" type="Button" parent="Panel/Game"]
+margin_top = 105.0
+margin_right = 512.0
+margin_bottom = 172.0
+custom_fonts/font = ExtResource( 1 )
+text = "Nueva Partida"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Load" type="Button" parent="Panel/Game"]
+margin_top = 176.0
+margin_right = 512.0
+margin_bottom = 243.0
+custom_fonts/font = ExtResource( 1 )
+text = "Cargar Partida"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Back" type="Button" parent="Panel/Game"]
+margin_top = 247.0
+margin_right = 512.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "Atras"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Load" type="VBoxContainer" parent="Panel"]
+visible = false
+anchor_left = 0.25
+anchor_top = 0.3
+anchor_right = 0.75
+anchor_bottom = 0.8
+margin_top = -62.246
+margin_right = 0.000305176
+margin_bottom = -10.2455
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/Load"]
+margin_right = 512.0
+margin_bottom = 101.0
+custom_fonts/font = SubResource( 3 )
+text = "Demo Trivial Re-Solutions
+"
+align = 1
+
+[node name="Last" type="Button" parent="Panel/Load"]
+margin_top = 105.0
+margin_right = 512.0
+margin_bottom = 172.0
+custom_fonts/font = ExtResource( 1 )
+text = "Partida Actual"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="List" type="Button" parent="Panel/Load"]
+margin_top = 176.0
+margin_right = 512.0
+margin_bottom = 243.0
+custom_fonts/font = ExtResource( 1 )
+text = "Lista de Partida"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Back" type="Button" parent="Panel/Load"]
+margin_top = 247.0
+margin_right = 512.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "Atras"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Settings" type="VBoxContainer" parent="Panel"]
+visible = false
+anchor_left = 0.25
+anchor_top = 0.3
+anchor_right = 0.75
+anchor_bottom = 0.8
+margin_top = -62.246
+margin_right = 0.000305176
+margin_bottom = -10.2455
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/Settings"]
+margin_right = 512.0
+margin_bottom = 101.0
+custom_fonts/font = SubResource( 3 )
+text = "Demo Trivial Re-Solutions
+"
+align = 1
+
+[node name="Video" type="Button" parent="Panel/Settings"]
+margin_top = 105.0
+margin_right = 512.0
+margin_bottom = 172.0
+custom_fonts/font = ExtResource( 1 )
+text = "Audio y Video"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Controls" type="Button" parent="Panel/Settings"]
+margin_top = 176.0
+margin_right = 512.0
+margin_bottom = 243.0
+custom_fonts/font = ExtResource( 1 )
+text = "Controles"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Back" type="Button" parent="Panel/Settings"]
+margin_top = 247.0
+margin_right = 512.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "Atras"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -5.0
+autoplay = true

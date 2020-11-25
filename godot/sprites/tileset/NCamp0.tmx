@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="1" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="[Base]BaseChip_pipo" tilewidth="16" tileheight="16" tilecount="4256" columns="16">
+  <image source="[Base]BaseChip_pipo.png" width="256" height="4256"/>
+  <tile id="3672">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="2.83856" y="0.141928" width="13.2466" height="14.3347"/>
+   </objectgroup>
+  </tile>
+  <tile id="3673">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.0946186" y="0.0473093" width="14.7132" height="14.5713"/>
+   </objectgroup>
+  </tile>
+  <tile id="4080">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.615021" y="7.33294" width="15.6594" height="10.5973"/>
+   </objectgroup>
+  </tile>
+  <tile id="4081">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-0.141928" y="7.19101" width="15.1863" height="10.408"/>
+   </objectgroup>
+  </tile>
+  <tile id="4096">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.79775" y="-0.0946186" width="14.4766" height="16.1325"/>
+   </objectgroup>
+  </tile>
+  <tile id="4097">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-0.0946186" y="-0.189237" width="14.2401" height="16.3217"/>
+   </objectgroup>
+  </tile>
+  <tile id="4112">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.42105" y="-1.46659" width="8.46836" height="3.92667"/>
+   </objectgroup>
+  </tile>
+  <tile id="4113">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.17623" y="-2.36546" width="11.4015" height="5.39326"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="1" name="Capa de patrones 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-32" y="-32" width="16" height="16">
+   eJxjYBgFo2AUjETADMQABAwABA==
+  </chunk>
+   <chunk x="-16" y="-32" width="16" height="16">
+   eJxjYBgFQx0wAzELFoxPHboYLjNYsOgVQWKj6xfBgnGZi00/jBaGYmzmIWNmJIzsPmESaGEs/sflLmT3iSCFDbr/CdlLyHxi7Ud3Lyn+BtEADLsFWw==
+  </chunk>
+   <chunk x="0" y="-32" width="16" height="16">
+   eJxjYBgFo4B8wIKGydEvgoQpsZ8c/ch2k+MPdP8jm0Wq/SAszEBaWAgj6WFG4xMDAGuTAfc=
+  </chunk>
+   <chunk x="-32" y="-16" width="16" height="16">
+   eJxjYCAPMAMxC5l6YfqZB1C/MIX6YWaMglEwlAEAvmAAPQ==
+  </chunk>
+   <chunk x="-16" y="-16" width="16" height="16">
+   eJzdUkEKwDAIC9Qf1P+/dR1MCEHdvK4QrNpGDRqAdWAP1tAy/GAPbfxz4q1Q9aHYCTIuL95yb/H2jWsyv3JZUu+L7XSq6mcadVydtjcfinlUM83FHUmO9ch2jefg+rpPLjzh8x+Qz3mNcfxP5wLZfgf7
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   eJwTZmBgEAFiYSQM4hMLYOpZSNCDTT+5ZiC7mRwzmNH0k2oGsv3I5pBiPwyTG/7kxh0DA/n+RrefVH/DALLfydFPid9HAQMDAK7PA6c=
+  </chunk>
+  </data>
+ </layer>
+ <layer id="2" name="Extras 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-16" y="-32" width="16" height="16">
+   eJxjYBgFo4A64CAQH6JA/0UgvkQHMykBh4H4CJR9kAz9l4H4CpR9EYs8LfyrycfAoMWH3XwADkMQJQ==
+  </chunk>
+   <chunk x="0" y="-32" width="16" height="16">
+   eJxjYBgFo2DkgkMU6r9EFVcMHAAAY48BlQ==
+  </chunk>
+   <chunk x="-16" y="-16" width="16" height="16">
+   eJxjYMAODgPxESjbko+BwYoPwr4IxJdw6AGBj/wMDJ+A+DKQfQUq5gnU68WHRxMSYBRgYGASQBWLBOqNQtOP7D5kIAjUKySARQINILsPGzgIxIfwyMP8iQsQCid0fxKyDx2g+xNmH3KYYDMTnz3oYYLND4T8NQqGFgAACqQd3g==
+  </chunk>
+  </data>
+ </layer>
+</map>

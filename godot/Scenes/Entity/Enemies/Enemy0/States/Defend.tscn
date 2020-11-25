@@ -2,8 +2,5 @@
 
 [ext_resource path="res://Scripts/Entity/Enemies/Enemy0/States/Defend.gd" type="Script" id=1]
 
-
-
-
 [node name="Defend" type="Node"]
 script = ExtResource( 1 )

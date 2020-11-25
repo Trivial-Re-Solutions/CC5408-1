@@ -52,4 +52,4 @@ func travel(animation):
 	if (animation == current_animation || not animation in $AnimationPlayer.get_animation_list()):
 		return
 	self.current_animation = animation
-	playback.start(current_animation)
+	playback.travel(current_animation)

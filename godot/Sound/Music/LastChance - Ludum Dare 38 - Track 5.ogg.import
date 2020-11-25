@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/LastChance - Ludum Dare 38 - Track 5.ogg-4d80fe065d326180213a5b0e84dfc0e3.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/LastChance - Ludum Dare 38 - Track 5.ogg"
+dest_files=[ "res://.import/LastChance - Ludum Dare 38 - Track 5.ogg-4d80fe065d326180213a5b0e84dfc0e3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

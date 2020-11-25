@@ -5,11 +5,15 @@ var MDemo = preload("res://scenes/Maps/Procedural0.tscn")
 var Camp0 = preload("res://scenes/Maps/MCamp0.tscn")
 var Camp1 = preload("res://scenes/Maps/MCamp1.tscn")
 var Camp2 = preload("res://scenes/Maps/MCamp2.tscn")
+var Castle0 = preload("res://scenes/Maps/MCastle0.tscn")
 var CClone = preload("res://scenes/Entity/Clone/Clone.tscn")
 
 # Mapa
 var MDemoNode = MDemo.instance()
-var MCampNode = Camp2.instance()
+#var M0 = Camp0.instance()
+#var M1 = Camp1.instance()
+#var M2 = Camp2.instance()
+#var M3 = Castle0.instance()
 var map_scale = MDemoNode.scale
 var map_mul = MDemoNode.mapmul
 
@@ -29,7 +33,10 @@ var timer = Timer.new()
 
 func _ready():
 	add_child(MDemoNode)
-	add_child(MCampNode)
+	#add_child(M0)
+	#add_child(M1)
+	#add_child(M2)
+	#add_child(M3)
 
 # ------------------------------------------------------------------------------
 # Procesamiento

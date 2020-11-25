@@ -18,6 +18,10 @@ func change_to(new_state):
 	state = new_state
 	_enter_state()
 
+func force_change(new_state):
+	state = new_state
+	_enter_state()
+
 func back():
 	if history.size() == 0:
 		return

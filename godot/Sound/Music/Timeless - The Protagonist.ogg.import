@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Timeless - The Protagonist.ogg-e1c345e04c68c0558216081c9ead88e3.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Timeless - The Protagonist.ogg"
+dest_files=[ "res://.import/Timeless - The Protagonist.ogg-e1c345e04c68c0558216081c9ead88e3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
