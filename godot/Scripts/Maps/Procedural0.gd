@@ -134,10 +134,15 @@ func camp_generator (pos:Vector2, noise: float):
 			if (abs(last_pos.x - pos.x*32) + abs(last_pos.y - pos.y*32) < 2560):
 				return
 		print("Generando Campamento: "+String(pos))
-		var camp = Camp0.instance()
-		camp.position = pos*32
-		$Node_Camp.add_child(camp)
-		Instanced_camps.append(camp)
+		var camp_scene = random_camp()
+		camp_scene.position = pos*32
+		$Node_Camp.add_child(camp_scene)
+		Instanced_camps.append(camp_scene)
+
+func random_camp():
+	var randint = randi()%5
+	
+	return Camp0.instance()
 
 # ------------------------------------------------------------------------------
 # Control de eventos

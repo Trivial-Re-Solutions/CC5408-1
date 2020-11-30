@@ -34,9 +34,11 @@ func a_move():
 	var target_vel = Vector2(Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 			Input.get_action_strength("move_down") - Input.get_action_strength("move_up"))
 	Entity.a_record(target_vel)
+	Entity.animation_vector(target_vel)
 	linear_vel = lerp(linear_vel, target_vel * 200, 0.5)
 	linear_vel = Entity.move_and_slide(linear_vel)
 
 func take_damage(value):
 	Entity.set_health(Entity.health - value)
-	Entity.state.change_to(Entity.Damage)
+	#Entity.state.change_to(Entity.Damage)
+	

@@ -7,6 +7,10 @@ var Entity: Node
 # Movimiento
 var linear_vel = Vector2()
 var facing_right = true
+var backing = false
+var target_vel = Vector2()
+
+var periodic = 0
 
 # ------------------------------------------------------------------------------
 # Inicialización
@@ -32,16 +36,27 @@ func process(delta):
 
 func a_move():
 	var to_player = Vector2(Entity.CMain.global_position - Entity.global_position)
-	var distance = to_player.length()
-	if distance > 200:
-		Entity.travel("Defend")
+	var distance_player = to_player.length()
+	if distance_player > 800:
 		return
-	elif distance < 50:
-		#Entity.travel("Defend")
-		#Entity.state.change_to(Entity.Attack)
-		return
-	Entity.travel("Run")
-	var target_vel = to_player.normalized()
+	
+	var to_spawn = Vector2(Entity.spawn_point - Entity.global_position)
+	var distance_spawn = to_spawn.length()
+	if distance_spawn > 600:
+		backing = true
+		target_vel = to_spawn.normalized()
+	elif distance_spawn < 100 and backing:
+		backing = false
+	elif distance_player > 300 or backing:
+		target_vel = to_spawn.normalized()
+	else:
+		target_vel = to_player.normalized()
+	
+	periodic +=0.05
+	if distance_player > 50:
+		target_vel += Vector2(sin(periodic)*1.5, cos(periodic)*1.5)
+	else:
+		target_vel += Vector2(sin(periodic)*1.2+sin(periodic*4)*0.4, cos(periodic)*1.2+cos(periodic*4)*0.4)
 	linear_vel = lerp(linear_vel, target_vel * 100, 0.5)
 	linear_vel = Entity.move_and_slide(linear_vel)
 

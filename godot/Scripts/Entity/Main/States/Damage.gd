@@ -14,8 +14,6 @@ func set_params(Entity:Node):
 
 func enter():
 	print("State Main: Damage")
-	Entity.travel("Damage")
-	yield(Entity.get_tree().create_timer(0.3), "timeout")
 	exit()
 
 func exit():
