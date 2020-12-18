@@ -6,6 +6,16 @@ var Defend = preload("res://Scenes/Entity/Main/States/Defend.tscn").instance()
 var Damage = preload("res://Scenes/Entity/Main/States/Damage.tscn").instance()
 var Death = preload("res://Scenes/Entity/Main/States/Death.tscn").instance()
 
+var CClone = preload("res://scenes/Entity/Clone/Clone.tscn")
+
+# Clones
+var CloneStorage = []
+var CloneNum = 0
+
+# Control de Clones
+var recording = false
+var saving_clone = false
+
 # Diccionarios
 var save_dict = {Vector2(-1,-1):"a", Vector2(0,-1):"b", Vector2(1,-1):"c",
 				Vector2(-1,0):"d", Vector2(0,0):"e", Vector2(1,0):"f",
@@ -30,6 +40,7 @@ var invulnerable = false
 
 # Ataque
 var Attack = preload("res://scenes/Entity/Main/Attack.tscn")
+var Sword = preload("res://scenes/Entity/Main/Sword.tscn")
 
 # Archivo
 var file = File.new()
@@ -62,6 +73,13 @@ func _ready():
 	Damage.set_params(self)
 	playback.start("Idle")
 	state.force_change(Defend)
+
+# ------------------------------------------------------------------------------
+# Procesamiento
+
+func _process(delta):
+	if (recording):
+		record()
 
 # ------------------------------------------------------------------------------
 # Control de guardado
@@ -119,16 +137,22 @@ func attack():
 	$Attack.rotation_degrees = rotate_dict [last_animation]
 	travel(attack_dict [last_animation])
 	
-	yield(get_tree().create_timer(0.2), "timeout")
 	var attack = Attack.instance()
+	var sword = Sword.instance()	
 	attack.set_damage(10)
-	
+	attack.rotation_degrees = rotate_dict [last_animation]
+	yield(get_tree().create_timer(0.2), "timeout")
+	attack.add_child(sword)
 	get_parent().add_child(attack)
 	attack.global_position = $Attack.get_child(0).global_position
+	sword.global_position = $Attack.get_child(0).global_position
 	yield(get_tree().create_timer(0.3), "timeout")
 	attack.global_position = $Attack.get_child(0).global_position
+	sword.global_position = $Attack.get_child(0).global_position
 	yield(get_tree().create_timer(0.3), "timeout")
 	is_attacking = false
+	get_parent().remove_child(attack)
+	get_parent().remove_child(sword)
 
 # ------------------------------------------------------------------------------
 # Control de eventos
@@ -137,6 +161,9 @@ func _input(event) -> void:
 	if (Input.is_action_just_pressed("action_menu") and not is_attacking):
 		is_attacking = true
 		attack()
+	
+	if (Input.is_action_just_pressed("action_record")):
+		record()
 
 func get_damage():
 	invulnerable = true
@@ -164,4 +191,28 @@ func animation_vector(vector):
 	else:
 		last_animation = vector
 		travel(run_text)
+
+# ------------------------------------------------------------------------------
+# Control de Clones
+
+func record():
+	# Para que solo empiece a grabar una vez
+	var record = Input.is_action_just_released("action_record")
+	
+	#if (not record):
+	#	return
+		
+	if (saving_clone):
+		stop_record()
+		var CCloneNode = CClone.instance()
+		CCloneNode.set_params(self)
+		
+		CCloneNode.start_movement("Clone"+str(CloneNum), 10)
+		$Clone.add_child(CCloneNode)
+		CloneNum += 1
+		saving_clone = false
+	
+	elif (not saving_clone):
+		start_record("Clone"+str(CloneNum))
+		saving_clone = true
 

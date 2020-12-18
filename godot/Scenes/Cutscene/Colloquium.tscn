@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/Cutscene/Colloquium.gd" type="Script" id=1]
+[ext_resource path="res://fonts/new-gen.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="Node" type="Container"]
+margin_right = 600.0
+margin_bottom = 150.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="RichTextLabel" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 593.0
+margin_bottom = 143.0
+custom_fonts/normal_font = SubResource( 1 )
+custom_constants/line_separation = -4
+tab_size = 0
+text = "Texto de prueba"
+scroll_active = false
+scroll_following = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true

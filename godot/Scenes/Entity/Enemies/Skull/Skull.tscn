@@ -55,7 +55,7 @@ script = ExtResource( 1 )
 texture = ExtResource( 2 )
 vframes = 4
 hframes = 4
-frame = 5
+frame = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )

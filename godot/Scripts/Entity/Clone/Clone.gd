@@ -44,6 +44,7 @@ var invulnerable = false
 
 # Ataque
 var Attack = preload("res://scenes/Entity/Main/Attack.tscn")
+var Sword = preload("res://scenes/Entity/Main/Sword.tscn")
 
 # Vida
 var health = 100 setget set_health
@@ -127,16 +128,22 @@ func attack():
 	$Attack.rotation_degrees = rotate_dict [last_animation]
 	travel(attack_dict [last_animation])
 	
-	yield(get_tree().create_timer(0.2), "timeout")
 	var attack = Attack.instance()
+	var sword = Sword.instance()	
 	attack.set_damage(10)
-	
+	attack.rotation_degrees = rotate_dict [last_animation]
+	yield(get_tree().create_timer(0.2), "timeout")
+	attack.add_child(sword)
 	get_parent().add_child(attack)
 	attack.global_position = $Attack.get_child(0).global_position
+	sword.global_position = $Attack.get_child(0).global_position
 	yield(get_tree().create_timer(0.3), "timeout")
 	attack.global_position = $Attack.get_child(0).global_position
+	sword.global_position = $Attack.get_child(0).global_position
 	yield(get_tree().create_timer(0.3), "timeout")
 	is_attacking = false
+	get_parent().remove_child(attack)
+	get_parent().remove_child(sword)
 
 func get_damage():
 	invulnerable = true
@@ -147,9 +154,7 @@ func get_damage():
 	invulnerable = false
 
 func killed():
-	pass
-	#Entity.del_clone(self)
-	#queue_free()
+	queue_free()
 
 # ------------------------------------------------------------------------------
 # Control de temporizadores
@@ -158,7 +163,7 @@ func _on_timer_timeout():
 	time -=1
 	$ControlBar/TimeBar.value = time
 	
-	if (time <= 0):
+	if (time < 0):
 		killed()
 
 # ------------------------------------------------------------------------------

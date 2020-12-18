@@ -1,10 +1,13 @@
-[gd_scene load_steps=64 format=2]
+[gd_scene load_steps=68 format=2]
 
 [ext_resource path="res://Scripts/Maps/Procedural0.gd" type="Script" id=1]
 [ext_resource path="res://sprites/tileset/overworld/[A]Water_pipo.png" type="Texture" id=2]
 [ext_resource path="res://sprites/tileset/overworld/[Base]BaseChip_pipo.tsx" type="TileSet" id=3]
 [ext_resource path="res://sprites/tileset/overworld/[A]Flower_pipo.png" type="Texture" id=4]
 [ext_resource path="res://sprites/tileset/overworld/[Base]BaseChip_pipo.png" type="Texture" id=5]
+[ext_resource path="res://sprites/tileset/minimap/AllAssetsPreview.png" type="Texture" id=6]
+[ext_resource path="res://godot.png" type="Texture" id=7]
+[ext_resource path="res://sprites/Mask.png" type="Texture" id=8]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
@@ -694,30 +697,110 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
 } ]
 0/z_index = 0
 
+[sub_resource type="TileSet" id=59]
+0/name = "AllAssetsPreview.png 0"
+0/texture = ExtResource( 6 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 144, 240, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "AllAssetsPreview.png 1"
+1/texture = ExtResource( 6 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 160, 240, 16, 16 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "AllAssetsPreview.png 2"
+2/texture = ExtResource( 6 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 144, 256, 16, 16 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+
 [node name="Procedural0" type="Node2D"]
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_vertical_guides_": [  ]
 }
 
-[node name="Terrain_dirt" type="TileMap" parent="."]
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Terrain_dirt" type="TileMap" parent="Node2D"]
 tile_set = ExtResource( 3 )
 cell_size = Vector2( 32, 32 )
 format = 1
 
-[node name="Terrain_bush" type="TileMap" parent="."]
+[node name="Terrain_bush" type="TileMap" parent="Node2D"]
 tile_set = SubResource( 6 )
 cell_size = Vector2( 32, 32 )
 format = 1
 
-[node name="Node_Camp" type="Node2D" parent="."]
+[node name="Node_Camp" type="Node2D" parent="Node2D"]
 
-[node name="Terrain_tree" type="TileMap" parent="."]
+[node name="Terrain_tree" type="TileMap" parent="Node2D"]
 z_index = 10
 tile_set = SubResource( 10 )
 format = 1
 
-[node name="Water" type="TileMap" parent="."]
+[node name="Water" type="TileMap" parent="Node2D"]
 tile_set = SubResource( 58 )
 cell_size = Vector2( 32, 32 )
 format = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Light2D" type="Light2D" parent="CanvasLayer"]
+texture = ExtResource( 8 )
+offset = Vector2( 512, 300 )
+mode = 3
+range_height = 1.0
+range_z_min = 0
+range_z_max = 1
+range_layer_min = 1
+range_layer_max = 1
+
+[node name="Sprite" type="Sprite" parent="CanvasLayer"]
+position = Vector2( 855.609, 474.633 )
+texture = ExtResource( 7 )
+
+[node name="CenterContainer" type="Panel" parent="CanvasLayer"]
+margin_left = 719.82
+margin_top = 395.292
+margin_right = 1019.82
+margin_bottom = 595.292
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Terrain_dirt" type="TileMap" parent="CanvasLayer/CenterContainer"]
+position = Vector2( 150, 100 )
+scale = Vector2( 0.25, 0.25 )
+tile_set = SubResource( 59 )
+cell_size = Vector2( 16, 16 )
+cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 3211322, 0, 0 )

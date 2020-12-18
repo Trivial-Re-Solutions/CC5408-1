@@ -6,7 +6,6 @@ var Camp0 = preload("res://scenes/Maps/MCamp0.tscn")
 var Camp1 = preload("res://scenes/Maps/MCamp1.tscn")
 var Camp2 = preload("res://scenes/Maps/MCamp2.tscn")
 var Castle0 = preload("res://scenes/Maps/MCastle0.tscn")
-var CClone = preload("res://scenes/Entity/Clone/Clone.tscn")
 
 # Mapa
 var MDemoNode = MDemo.instance()
@@ -17,13 +16,7 @@ var MDemoNode = MDemo.instance()
 var map_scale = MDemoNode.scale
 var map_mul = MDemoNode.mapmul
 
-# Clones
-var CloneStorage = []
-
-# Controles
 var generation = true
-var recording = true
-var saving = false
 
 # Temporizador
 var timer = Timer.new()
@@ -33,10 +26,6 @@ var timer = Timer.new()
 
 func _ready():
 	add_child(MDemoNode)
-	#add_child(M0)
-	#add_child(M1)
-	#add_child(M2)
-	#add_child(M3)
 
 # ------------------------------------------------------------------------------
 # Procesamiento
@@ -44,34 +33,6 @@ func _ready():
 func _process(delta):
 	if (generation):
 		generate_map()
-	if (recording):
-		record()
-
-# ------------------------------------------------------------------------------
-# Control de guardado
-
-func del_clone(clone):
-	CloneStorage.pop_front()
-
-func record():
-	var record = Input.is_action_just_released("action_record")
-	
-	if (not record):
-		return
-		
-	if (saving):
-		$MainCharacter.stop_record()
-		var CCloneNode = CClone.instance()
-		CCloneNode.set_params(self)
-		
-		CCloneNode.start_movement("Clone"+str(len(CloneStorage)), 10)
-		add_child(CCloneNode)
-		CloneStorage.append(CCloneNode)
-		saving = false
-	
-	elif (not saving):
-		$MainCharacter.start_record("Clone"+str(len(CloneStorage)))
-		saving = true
 
 # ------------------------------------------------------------------------------
 # Control de generación

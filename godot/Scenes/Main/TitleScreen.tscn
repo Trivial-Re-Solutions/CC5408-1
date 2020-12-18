@@ -133,7 +133,7 @@ text = "Demo Trivial Re-Solutions
 "
 align = 1
 
-[node name="New" type="Button" parent="Panel/Game"]
+[node name="B0" type="Button" parent="Panel/Game"]
 margin_top = 105.0
 margin_right = 512.0
 margin_bottom = 172.0
@@ -143,127 +143,31 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Load" type="Button" parent="Panel/Game"]
+[node name="B1" type="Button" parent="Panel/Game"]
 margin_top = 176.0
 margin_right = 512.0
 margin_bottom = 243.0
 custom_fonts/font = ExtResource( 1 )
-text = "Cargar Partida"
+text = "Nueva Partida"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="B2" type="Button" parent="Panel/Game"]
+margin_top = 247.0
+margin_right = 512.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "Nueva Partida"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Back" type="Button" parent="Panel/Game"]
-margin_top = 247.0
-margin_right = 512.0
-margin_bottom = 314.0
+margin_right = 12.0
+margin_bottom = 20.0
 custom_fonts/font = ExtResource( 1 )
 text = "Atras"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Load" type="VBoxContainer" parent="Panel"]
-visible = false
-anchor_left = 0.25
-anchor_top = 0.3
-anchor_right = 0.75
-anchor_bottom = 0.8
-margin_top = -62.246
-margin_right = 0.000305176
-margin_bottom = -10.2455
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="Panel/Load"]
-margin_right = 512.0
-margin_bottom = 101.0
-custom_fonts/font = SubResource( 3 )
-text = "Demo Trivial Re-Solutions
-"
-align = 1
-
-[node name="Last" type="Button" parent="Panel/Load"]
-margin_top = 105.0
-margin_right = 512.0
-margin_bottom = 172.0
-custom_fonts/font = ExtResource( 1 )
-text = "Partida Actual"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="List" type="Button" parent="Panel/Load"]
-margin_top = 176.0
-margin_right = 512.0
-margin_bottom = 243.0
-custom_fonts/font = ExtResource( 1 )
-text = "Lista de Partida"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Back" type="Button" parent="Panel/Load"]
-margin_top = 247.0
-margin_right = 512.0
-margin_bottom = 314.0
-custom_fonts/font = ExtResource( 1 )
-text = "Atras"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Settings" type="VBoxContainer" parent="Panel"]
-visible = false
-anchor_left = 0.25
-anchor_top = 0.3
-anchor_right = 0.75
-anchor_bottom = 0.8
-margin_top = -62.246
-margin_right = 0.000305176
-margin_bottom = -10.2455
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="Panel/Settings"]
-margin_right = 512.0
-margin_bottom = 101.0
-custom_fonts/font = SubResource( 3 )
-text = "Demo Trivial Re-Solutions
-"
-align = 1
-
-[node name="Video" type="Button" parent="Panel/Settings"]
-margin_top = 105.0
-margin_right = 512.0
-margin_bottom = 172.0
-custom_fonts/font = ExtResource( 1 )
-text = "Audio y Video"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Controls" type="Button" parent="Panel/Settings"]
-margin_top = 176.0
-margin_right = 512.0
-margin_bottom = 243.0
-custom_fonts/font = ExtResource( 1 )
-text = "Controles"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Back" type="Button" parent="Panel/Settings"]
-margin_top = 247.0
-margin_right = 512.0
-margin_bottom = 314.0
-custom_fonts/font = ExtResource( 1 )
-text = "Atras"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
