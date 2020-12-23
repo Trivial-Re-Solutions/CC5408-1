@@ -1,0 +1,22 @@
+{
+    "scene": "pre sala del tiempo",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Qué fue eso?... "},
+        "1": {"P":0, "D":"¿General?... ¿Señor Oscuro?... quien… ¿quién soy yo?..."},
+        "2": {"P":0, "D":"No entiendo nada…"},
+        "3": {"P":1, "D":"Volviste eh?... interesante…"},
+        "4": {"P":1, "D":" [player], ¿no? "},
+        "5": {"P":1, "D":"Cruza esa puerta y hablemos, [player]…"},
+        "6": {"P":0, "D":"!!!"}
+    }
+}
+
+

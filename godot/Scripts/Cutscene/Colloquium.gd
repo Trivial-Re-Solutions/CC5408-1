@@ -3,16 +3,16 @@ extends Container
 var parent
 
 var act_dial = 0
-var scene:int
+var scene:String
 var dials:int
 var chars:int
 var names
 var texts
 
-var start = false
 var text = false
 var ready = false
-var finish = false
+var finish = true
+var start = false
 
 func _ready():
 	$Timer.connect("timeout",self,"_on_timer_timeout")
@@ -21,13 +21,17 @@ func _on_timer_timeout():
 	ready = true
 
 func set_parameters(dict, node):
+	$Text.text = ""
+	parent = node
+	act_dial = 0
 	scene = dict["scene"]
 	dials = dict["dials"]
 	chars = dict["chars"]
 	names = dict["names"]
 	texts = dict["texts"]
-	$Text.text = ""
-	parent = node
+	text = false
+	ready = false
+	finish = false
 	start = true
 
 func _process(delta):
@@ -43,6 +47,9 @@ func _process(delta):
 		if (act_dialog["P"] != -1 or act_dialog["P"] >= chars):
 			character = names[String(act_dialog["P"])]+" : "
 		var dialog:String = act_dialog["D"]
+		if (GameManager.save_data["name"] != null):
+			character = character.replacen("[player]", GameManager.save_data["name"])
+			dialog = dialog.replacen("[player]", GameManager.save_data["name"])
 		$Text.text = character+dialog
 		$Text.visible_characters = character.length()+3
 		act_dial += 1

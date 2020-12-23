@@ -1,0 +1,14 @@
+{
+    "scene": "escape",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"(¡¡¡¿Qué fue eso?!!!"},
+        "1": {"P":0, "D":"No importa, debo escapar…"}
+    }
+}

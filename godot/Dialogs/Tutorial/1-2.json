@@ -1,0 +1,14 @@
+{
+    "scene": " post flaskback 1",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"ahg… mi cabeza, que dolor…"},
+        "1": {"P":0, "D":"¿Qué fue eso?... ¿Cómo llegue aquí?... debería salir pronto de este lugar"}
+    }
+}

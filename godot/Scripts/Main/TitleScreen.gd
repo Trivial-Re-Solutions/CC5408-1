@@ -24,12 +24,12 @@ func _ready():
 # Main0
 func on_Game_pressed():
 	main_data = GameManager.get_preview()
-	if (main_data[0]["name"] != null):
-		$Panel/Game/B0.text = 	main_data[0]["name"]
-	if (main_data[1]["name"] != null):
-		$Panel/Game/B1.text = 	main_data[1]["name"]
-	if (main_data[2]["name"] != null):
-		$Panel/Game/B2.text = 	main_data[2]["name"]
+	if (main_data["0"]["name"] != null):
+		$Panel/Game/B0.text = 	main_data["0"]["name"]
+	if (main_data["1"]["name"] != null):
+		$Panel/Game/B1.text = 	main_data["1"]["name"]
+	if (main_data["2"]["name"] != null):
+		$Panel/Game/B2.text = 	main_data["2"]["name"]
 	$Panel/Main0.visible = false
 	$Panel/Game.visible = true
 
@@ -41,12 +41,24 @@ func on_Exit_pressed():
 
 # Game
 func on_0_pressed():
+	if (main_data["0"]["name"] == null):
+		GameManager.new_game(0)
+	else:
+		GameManager.load_game(0)
 	LevelManager.next()
 
 func on_1_pressed():
+	if (main_data["1"]["name"] == null):
+		GameManager.new_game(1)
+	else:
+		GameManager.load_game(0)
 	LevelManager.next()
 
 func on_2_pressed():
+	if (main_data["2"]["name"] == null):
+		GameManager.new_game(2)
+	else:
+		GameManager.load_game(0)
 	LevelManager.next()
 
 func on_GBack_pressed():

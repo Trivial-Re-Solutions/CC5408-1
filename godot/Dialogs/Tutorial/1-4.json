@@ -1,0 +1,14 @@
+{
+    "scene": "fin del tutorial de combate",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"Uff… eso estuvo cerca…"},
+        "1": {"P":0, "D":"¿Cómo pude hacer eso? no entiendo nada…"}
+    }
+}

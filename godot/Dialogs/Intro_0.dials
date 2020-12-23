@@ -1,0 +1,16 @@
+{
+    "scene": "Intro",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“En una realidad muy muy lejana…”"},
+        "1": {"P":-1, "D":"“La humanidad estaba nuevamente en guerra y esta vez… se acercaba el apocalipsis”"},
+        "2": {"P":-1, "D":"“El Señor Oscuro invadió el mundo con sus entidades malvadas…”"},
+        "3": {"P":-1, "D":"“La República, la potencia más grande del mundo desataba la última batalla, el todo o nada…”"},
+        "4": {"P":-1, "D":"“pero…”"}
+    }
+}

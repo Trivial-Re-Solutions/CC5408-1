@@ -6,6 +6,9 @@ export (int) var m_len = 32 *mapmul
 export (int) var n_len = 8 *mapmul
 export (int) var dif_len = int(m_len/n_len)
 
+var minimap_scale:int
+var minimap_center = Vector2(150, 100)
+
 var Camp0 = preload("res://scenes/Maps/NCamp0.tscn")
 
 var Instanced_camps = []
@@ -16,7 +19,7 @@ var terrain_bush_tiles = { "grass": 0, "flower": 1, "bush": 2, "tree": 3, "ornam
 var terrain_tree_tiles = { "tree": 0, "dead": 1}
 var water_tiles = { "autotile_water": 0, "deep_water": 1}
 
-var minimap_dirt_tiles = { "water": 0, "grass": 1, "sand": 2}
+var minimap_tiles = { "water": 0, "grass": 1, "sand": 2, "castle": 3, "camp": 4}
 
 var around = [Vector2(1,-1), Vector2(1,0), Vector2(1,1),
 			Vector2(0,-1), Vector2(0,0), Vector2(0,1),
@@ -42,6 +45,8 @@ func _ready() -> void:
 	set_process(false)
 	configurate_noise()
 	configurate_tilemaps()
+	
+	minimap_scale = int(16*4*$CanvasLayer/CenterContainer/Node2D.scale.x) #130
 
 # ------------------------------------------------------------------------------
 # Configuración
@@ -60,12 +65,14 @@ func configurate_tilemaps() -> void:
 	terrain_tree_map = $Node2D/Terrain_tree
 	water_map = $Node2D/Water
 	
-	minimap_dirt = $CanvasLayer/CenterContainer/Terrain_dirt
+	minimap_dirt = $CanvasLayer/CenterContainer/Node2D/Terrain_dirt
+	minimap_tree = $CanvasLayer/CenterContainer/Node2D/Terrain_tree
 
 # ------------------------------------------------------------------------------
 # Generación de terreno
 
 func generate_terrain(pos):
+	$CanvasLayer/CenterContainer/Node2D.position = minimap_center - pos*minimap_scale
 	for arr in around:
 		generate_chunk(pos+arr)
 
@@ -85,6 +92,7 @@ func generate_chunk(pos:Vector2)->void:
 		for j in n_len:
 			var noise_val = noise.get_noise_2d(float(x + i*dif_len), float(y + j*dif_len))
 			minimap_dirt_generator (Vector2(_x + i, _y + j), noise_val)
+			minimap_tree_generator (Vector2(_x + i, _y + j), noise_val)
 	
 	for i in m_len:
 		for j in m_len:
@@ -101,12 +109,20 @@ func generate_chunk(pos:Vector2)->void:
 # ------------------------------------------------------------------------------
 # Control de casillas
 
+func toggle_minimap():
+	$CanvasLayer/CenterContainer/Node2D.visible = not $CanvasLayer/CenterContainer/Node2D.visible
+# ------------------------------------------------------------------------------
+# Control de casillas
+
 func minimap_dirt_generator (pos:Vector2, noise: float):
 	if (noise < -0.3):
-		minimap_dirt.set_cellv(pos, minimap_dirt_tiles.water); return
+		minimap_dirt.set_cellv(pos, minimap_tiles.water); return
 	if (noise < -0.1):
-		minimap_dirt.set_cellv(pos, minimap_dirt_tiles.sand); return
-	minimap_dirt.set_cellv(pos, minimap_dirt_tiles.grass); return
+		minimap_dirt.set_cellv(pos, minimap_tiles.sand); return
+	minimap_dirt.set_cellv(pos, minimap_tiles.grass); return
+
+func minimap_tree_generator (pos:Vector2, noise: float):
+	pass
 
 func water_generator (pos:Vector2, noise: float):
 	if (noise < -0.3):

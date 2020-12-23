@@ -1,0 +1,19 @@
+{
+    "scene": "1-0 turorial de mov",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":0, "D":"Uff… hmm…"},
+        "1": {"P":0, "D":"¿Eh?... ¿dónde… "},
+        "2": {"P":0, "D":"¿Dónde estoy?... No recuerdo nada… ¿Qué sucedió?..."},
+        "3": {"P":-1, "D":"[stop]“Ocupa WASD para caminar…”"},
+        "4": {"P":0, "D":"¿Qué es esa cosa?... debería…"},
+        "5": {"P":0, "D":"“Revisa la Gema...”"}
+    }
+}
+

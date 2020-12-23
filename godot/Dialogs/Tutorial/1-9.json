@@ -1,0 +1,26 @@
+{
+    "scene": "turorial de clones 2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 9,
+    "texts":
+    {
+        "0": {"P":1, "D":"¿Puedes… prueba generar otro Remanente…"},
+        "1": {"P":0, "D":"Remanente… hmm…"},
+        "2": {"P":-1, "D":"[stop]“[player] aprieta su musculo ESPACIO”"},
+        "3": {"P":1, "D":"Interesante… así que si eres capaz de generarlos a voluntad"},
+        "4": {"P":0, "D":"¿Qué es esto?... ¡¡¡qué fue lo que me hiciste!!!"},
+        "5": {"P":1, "D":"No te desesperes, ya te dije que yo no te hice nada…"},
+        "6": {"P":1, "D":"No tengo interés en experimentar con humanos, no son los seres más brillantes que digamos… así que no seas narcisista… no eres nadie especial aquí… "},
+        "7": {"P":1, "D":"Solo es …¿Cómo decirlo?, una curiosa tu situación la tuya, nada más…"},
+        "8": {"P":0, "D":"Hmm…"}
+    }
+}
+
+
+
+

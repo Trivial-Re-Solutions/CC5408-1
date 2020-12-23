@@ -1,0 +1,21 @@
+{
+    "scene": " tutorial de combate",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Qué es eso? ..."},
+        "1": {"P":0, "D":"!!!"},
+        "2": {"P":0, "D":"¡¡¡UN MONSTRUO!!!, ¡¡¡ALEJATE!!!... "},
+        "3": {"P":0, "D":"(diablos… ¿Cómo me enfrento a esta cosa?...)"},
+        "4": {"P":0, "D":"(¡¡¡Tengo que Huir!!!)"},
+        "5": {"P":1, "D":" [stop] aprieta el BOTON DE ATAQUE…"},
+        "6": {"P":0, "D":"¿Qué?... ¿una espada?"},
+        "7": {"P":-1,"D":"“Derrota al enemigo”"}
+    }
+}

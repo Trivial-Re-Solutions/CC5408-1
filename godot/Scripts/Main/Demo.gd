@@ -3,16 +3,9 @@ extends Node2D
 # Escenas
 var MDemo = preload("res://scenes/Maps/Procedural0.tscn")
 var Camp0 = preload("res://scenes/Maps/MCamp0.tscn")
-var Camp1 = preload("res://scenes/Maps/MCamp1.tscn")
-var Camp2 = preload("res://scenes/Maps/MCamp2.tscn")
-var Castle0 = preload("res://scenes/Maps/MCastle0.tscn")
 
 # Mapa
 var MDemoNode = MDemo.instance()
-#var M0 = Camp0.instance()
-#var M1 = Camp1.instance()
-#var M2 = Camp2.instance()
-#var M3 = Castle0.instance()
 var map_scale = MDemoNode.scale
 var map_mul = MDemoNode.mapmul
 

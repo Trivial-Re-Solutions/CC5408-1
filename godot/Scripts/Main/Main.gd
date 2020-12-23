@@ -2,6 +2,8 @@ extends Node2D
 
 # Diccionarios
 var Levels = [preload("res://scenes/Main/TitleScreen.tscn"),
+			preload("res://scenes/Main/Intro.tscn"),
+			preload("res://scenes/Main/Tutorial.tscn"),
 			preload("res://scenes/Main/Demo.tscn")]
 
 # Niveles

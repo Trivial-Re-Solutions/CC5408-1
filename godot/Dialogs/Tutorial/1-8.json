@@ -1,0 +1,29 @@
+{
+    "scene": "HOLA PARADOX",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 16,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡DIOS!!!... estoy… exhausto."},
+        "1": {"P":1, "D":"Interesante…"},
+        "2": {"P":0, "D":"¿Eh?"},
+        "3": {"P":1, "D":"Nunca ví a un humano generar Remanentes Temporales… "},
+        "4": {"P":1, "D":"Es… ¿Cómo decirlo?, curioso…"},
+        "5": {"P":0, "D":"¡¡¡Suficiente!!!"},
+        "6": {"P":0, "D":"¿Quién eres?, ¿Por qué me trajiste a este lugar?"},
+        "7": {"P":1, "D":"Calma humano… nunca dije que yo te traje a este lugar… no te sientas especial por pisar mis tierras…"},
+        "8": {"P":0, "D":"¿así que tu enviaste esas cosas?... ¡¡¡DIME!!!, no tengo tiempo para esto, tengo que…"},
+        "9": {"P":0, "D":"Que… tenía… que… "},
+        "10": {"P":0, "D":"[flash]¡¡¡Agh!!!"},
+        "11": {"P":1, "D":"Interesante, interesante… "},
+        "12": {"P":1, "D":"Necesito que vengas conmigo, creo que es lo que está pasando aquí…"},
+        "13": {"P":1, "D":"Tal vez los dos podamos resolvamos esta situación… entra."},
+        "14": {"P":0, "D":"¿Pero?..."},
+        "15": {"P":1, "D":"¿No deseas saber qué es lo que te está sucediendo?"}
+    }
+}

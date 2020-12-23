@@ -30,6 +30,7 @@ var attack_dict = {Vector2(0,-1):"Attack_U", Vector2(-1,0):"Attack_L", Vector2(1
 var idle_dict = {Vector2(0,-1):"Idle_U", Vector2(-1,0):"Idle_L", Vector2(1,0):"Idle_R", Vector2(0,1):"Idle_D"}
 
 var rotate_dict = {Vector2(0,-1):270, Vector2(-1,0):180, Vector2(1,0):0, Vector2(0,1):90}
+var scale_dict = {Vector2(0,-1):270, Vector2(-1,0):180, Vector2(1,0):0, Vector2(0,1):90}
 
 # Animation
 onready var playback = $AnimationTree.get("parameters/playback")
@@ -140,22 +141,20 @@ func attack():
 	var attack = Attack.instance()
 	var sword = Sword.instance()	
 	attack.set_damage(10)
-	attack.rotation_degrees = rotate_dict [last_animation]
+	#attack.rotation_degrees = rotate_dict [last_animation]
 	yield(get_tree().create_timer(0.2), "timeout")
 	attack.add_child(sword)
-	get_parent().add_child(attack)
-	attack.global_position = $Attack.get_child(0).global_position
-	sword.global_position = $Attack.get_child(0).global_position
-	yield(get_tree().create_timer(0.3), "timeout")
-	attack.global_position = $Attack.get_child(0).global_position
-	sword.global_position = $Attack.get_child(0).global_position
-	yield(get_tree().create_timer(0.3), "timeout")
+	$Attack/Pos.add_child(attack)
+	yield(get_tree().create_timer(0.6), "timeout")
 	is_attacking = false
 	get_parent().remove_child(attack)
 	get_parent().remove_child(sword)
 
 # ------------------------------------------------------------------------------
 # Control de eventos
+
+func zoom_camera(scale:Vector2):
+	$Camera2D.zoom = scale
 
 func _input(event) -> void:
 	if (Input.is_action_just_pressed("action_menu") and not is_attacking):

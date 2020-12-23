@@ -4,10 +4,11 @@
 [ext_resource path="res://fonts/new-gen.ttf" type="DynamicFontData" id=2]
 
 [sub_resource type="DynamicFont" id=1]
+size = 20
 font_data = ExtResource( 2 )
 
 [node name="Node" type="Container"]
-margin_right = 600.0
+margin_right = 800.0
 margin_bottom = 150.0
 script = ExtResource( 1 )
 __meta__ = {
@@ -17,7 +18,7 @@ __meta__ = {
 [node name="Text" type="RichTextLabel" parent="."]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 593.0
+margin_right = 793.0
 margin_bottom = 143.0
 custom_fonts/normal_font = SubResource( 1 )
 custom_constants/line_separation = -4

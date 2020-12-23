@@ -1,0 +1,17 @@
+{
+    "scene": "turorial de clones",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":0, "D":"(¡¡¡Mierda!!!, debo alejarme lo más pronto posible esas cosas…)"},
+        "1": {"P":0, "D":"(A paso me quedaré exhausto…)"},
+        "2": {"P":0, "D":"(Joder, ¿Qué hago?)"},
+        "3": {"P":0, "D":"(¿QUE HAGO?)"},
+        "4": {"P":0, "D":"[stop]“En la desesperación… [player] apretó su musculo ESPACIO mientras corría”"}
+    }
+}
