@@ -1,0 +1,18 @@
+{
+    "choise": "vortex 1 NINO",
+    "save": "B1NINO",
+    "opts": 2,
+    "text": 
+    {
+        "0": "“Aprendí todo en calle”",
+        "1": "“Pero conocí a un amigo…”"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“Por mi pueblo no había suficientes niños para disfrutar de una buena infancia… y los adultos solo prestaban una mirada de repente, no nos querían en sus asuntos…”"}
+        }
+    }
+}

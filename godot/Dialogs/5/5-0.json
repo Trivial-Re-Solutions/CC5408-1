@@ -1,0 +1,45 @@
+{
+    "scene": "sala del tiempo 3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"Paradox",
+        "1":"[player]"
+    },
+    "dials": 29,
+    "texts":
+    {
+        "0": {"P":0, "D":"Hmm… "},
+        "1": {"P":0, "D":"Volviste."},
+        "2": {"P":0, "D":"Veo que ahora tienes otro fragmento de memoria… "},
+        "3": {"P":0, "D":"¿Máquina del tiempo eh? Interesante…"},
+        "4": {"P":1, "D":"¿Qué fue todo eso?"},
+        "5": {"P":0, "D":"Los VORTEX suelen estar en momentos que marcaron tu vida… como la infancia, por ejemplo"},
+        "6": {"P":0, "D":"Que curioso debe ser revivir traumas de niñez… digo, que difícil… ¿no?"},
+        "7": {"P":1, "D":"Se sintió… extraño… por un momento sentir recordarlo todo"},
+        "8": {"P":1, "D":"Por un instante yo… ahora… sigo algo perdido."},
+        "9": {"P":1, "D":"PARADOX, ¿Qué son los entes que me hablaban ahí dentro… pareciera como si me conocieran de verdad…"},
+        "10": {"P":0, "D":"Son parte del mismo VORTEX…"},
+        "11": {"P":1, "D":"¿Eh?"},
+        "12": {"P":0, "D":"Como te dije, en el VORTEX tomas el rumbo de tu destino, es donde escoges si sigues una línea o la otra… probablemente son personas que marcaron tu vida y revives esos momentos… son ilusiones…"},
+        "13": {"P":1, "D":"¿Entonces que debería hacer? Cada vez que les hablo siento que todo mi alrededor desaparece…"},
+        "14": {"P":0, "D":"Te estas perdiendo en el tiempo…"},
+        "15": {"P":1, "D":"¿Eso es peligroso?"},
+        "16": {"P":0, "D":"Cada interacción nos hace percibir el tiempo distinto… creo que te ha pasado de conversar durante horas como si fueran minutos… o que un momento es más efímero de lo que deseabas…"},
+        "17": {"P":0, "D":"Todo es una ilusión, el tiempo se transforma para cada ente de manera diferente…"},
+        "18": {"P":1, "D":"¿Entonces solo debería ignorarlo?"},
+        "19": {"P":0, "D":"Te lo dejo así… ¿Qué hubiera pasado si conocieras a la persona que se acaba de sentar junto a ti? ¿Serian felices juntos? ¿Se odiarían? "},
+        "20": {"P":0, "D":"¿Sera acaso un error preguntarle por sus zapatos o comentarle lo lindo que te parece su cabello? ¿te arrepentirías? y si en vez conoces a otra ¿qué sería mejor? "},
+        "21": {"P":0, "D":"Qué habría pasado si…"},
+        "22": {"P":1, "D":"¿Por qué eres tan vago con tus respuestas?"},
+        "23": {"P":0, "D":"Como te dije, solo me limito a observar… no eres mi juguete para indicarte el destino que debas escoger…"},
+        "24": {"P":1, "D":"Hmm… está bien"},
+        "25": {"P":-1, "D":"“La espada de PARADOX llama a tus memorias… que estas luchen por ti para trascender el tiempo”"},
+        "26": {"P":-1, "D":"[stop]“Presiona MENU para intercambiar tus memorias con PARADOX”"},
+        "27": {"P":0, "D":"Solo te quedan 3 VORTEX, la verdad…no creí que pudieras obtener uno"},
+        "28": {"P":0, "D":"pero ¡Ey!, tú puedes jejeje…"}
+    }
+}
+
+
+

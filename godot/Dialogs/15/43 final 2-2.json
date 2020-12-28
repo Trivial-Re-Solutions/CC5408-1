@@ -1,0 +1,21 @@
+{
+    "scene": "Final 2",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“De repente, el caos y la destrucción cesaron… los sobrevivientes, aterrados, salieron a las callen en medio de muerte y escombros…”"},
+        "1": {"P":-1, "D":"“Todo se sumió en un profundo silencio, el Señor Oscuro había sido derrotado…”"},
+        "2": {"P":-1, "D":"“[player] salió del palacio de la Republica, victorioso, frente a una multitud que lo ovacionaba”"},
+        "3": {"P":-1, "D":"“Finalmente acabo todo… ”"},
+        "4": {"P":-1, "D":"“Muchas naciones perecieron, pero la unión frente a lo sucedido fue el pilar que permitió reconstruir la sociedad desde cero…”"},
+        "5": {"P":-1, "D":"“La humanidad había aprendido una terrible lección…”"},
+        "6": {"P":-1, "D":"“Las guerras habían cesado y la alegría volvió a las calles después de mucho tiempo… todo gracias a [player]…”"},
+        "7": {"P":-1, "D":"“El mundo se movía en una brillante dirección, y [player] la veía desde la ventana de su habitación…”"},
+        "8": {"P":-1, "D":"“Su corazón al fin estaba en paz, se había encontrado a si mismo y había cumplido con lo que toda su vida quiso”"},
+        "9": {"P":-1, "D":"“Que la bondad sea quien moviera al mundo…”"}
+    }
+}

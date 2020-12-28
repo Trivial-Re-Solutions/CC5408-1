@@ -1,0 +1,33 @@
+{
+    "scene": " tutorial de combate",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 20,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Qué es eso? ..."},
+        "1": {"P":0, "D":"!!!"},
+        "2": {"P":0, "D":"¡¡¡UN MONSTRUO!!!, ¡¡¡ALEJATE!!!... "},
+        "3": {"P":0, "D":"(diablos… ¿Cómo me enfrento a esta cosa?...)"},
+        "4": {"P":0, "D":"(¡¡¡Tengo que Huir!!!)"},
+        "5": {"P":1, "D":" [stop]Imagina algo llamado TECLA P, debes presionarla para atacar…"},
+        "6": {"P":0, "D":"¿Qué?... ¿una espada?"},
+        "7": {"P":0, "D":"Uff… eso estuvo cerca…"},
+        "8": {"P":0, "D":"¿Cómo pude hacer eso? no estoy entendiendo nada…"},
+        "9": {"P":0, "D":"¡¡¡Agh!!!"},
+        "10": {"P":1, "D":"Chico…"},
+        "11": {"P":1, "D":"No deberías estar aquí…"},
+        "12": {"P":0, "D":"¿Quién eres?"},
+        "13": {"P":0, "D":"¡¡¡DIME PORQUE ME TRAJISTE AQUÍ!!!..."},
+        "14": {"P":0, "D":"¿Eh?..."},
+        "15": {"P":0, "D":"!!!"},
+        "16": {"P":0, "D":"¡¡¡Joder!!!"},
+        "17": {"P":1, "D":"Tal vez no seas de mi incumbencia…"},
+        "18": {"P":0, "D":"¡¡¡mierda!!!"},
+        "19": {"P":1, "D":"Por ahora solo sigue avanzando y no mires atras"}
+    }
+}

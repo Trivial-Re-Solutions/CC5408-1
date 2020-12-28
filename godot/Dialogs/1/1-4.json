@@ -1,0 +1,20 @@
+{
+    "scene": "turorial de clones 3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":1, "D":"Un Remanente… ocupa un Remanente, dijo… puede ser útil…"},
+        "1": {"P":1, "D":"Pero prueba canalizarlo más tiempo…"},
+        "2": {"P":-1, "D":"[stop]“[player] intentó mantener la canalización anterior pulsando ESPACIO”"},
+        "3": {"P":0, "D":"¿Acaba de hacer lo mismo que yo hace un momento?"},
+        "4": {"P":1, "D":"La Remanencia es la marca que dejas en el tiempo… es un poco complicado ahora de explicar…"},
+        "5": {"P":0, "D":"Hmm…"},
+        "6": {"P":-1, "D":"Podras pulsar ESPACIO para iniciar una grabación y luego volver a pulsarlo para que tu clon repita tus pasos"}
+    }
+}

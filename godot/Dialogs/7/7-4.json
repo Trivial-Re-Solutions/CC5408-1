@@ -1,0 +1,17 @@
+{
+    "scene": "VORTEX 2 B2E1",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 1,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡Agh!... otra… vez…"}
+    }
+}
+
+
+
+

@@ -1,0 +1,16 @@
+{
+    "scene": "post boss 1",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡Agh!... de… nuevo…"},
+        "1": {"P":-1, "D":"Viajero, reconstruye tu historia siguiendo tu interior"}
+    }
+}
+
+

@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/TimeHall.tmx-47cdb0a9bd04991835a7567f58e85eb2.scn"
+
+[deps]
+
+source_file="res://tiled/TimeHall/TimeHall.tmx"
+dest_files=[ "res://.import/TimeHall.tmx-47cdb0a9bd04991835a7567f58e85eb2.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

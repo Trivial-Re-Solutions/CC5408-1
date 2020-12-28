@@ -1,13 +1,14 @@
 extends Node2D
 
 var rand = RandomNumberGenerator.new()
+var main_color = Color(0, 0, 0, 0.5)
 
 func _ready():
 	$Explotion.connect("timeout",self,"_on_Explotion_timeout")
 	rand.randomize()
 
 func _process(delta):
-	$ParallaxBackground/ColorRect.color = lerp($ParallaxBackground/ColorRect.color, Color(0, 0, 0, 0.5), 0.025)
+	$ParallaxBackground/ColorRect.color = lerp($ParallaxBackground/ColorRect.color, main_color, 0.025)
 	
 func _on_Explotion_timeout():
 	$ParallaxBackground/ColorRect.color = Color(0.8, 0, 0, 0.5)

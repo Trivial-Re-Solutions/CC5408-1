@@ -1,0 +1,19 @@
+{
+    "choise": "pre vortex 1 MAMA",
+    "save": "PB1MAMA",
+    "opts": 3,
+    "text": 
+    {
+        "0": "Tranquila…",
+        "1": "¡¡¡Tú!!!",
+        "2": "Lo siento… no comprendo"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], uno no elige junto a quienes nacerás… Las personas cometen errores y se arrepientes que ellos constantemente, ¿Qué le dirías a esa persona?”"}
+        }
+    }
+}

@@ -696,9 +696,10 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
 } ]
 0/z_index = 0
 
-[sub_resource type="StyleBoxFlat" id=60]
+[sub_resource type="StyleBoxFlat" id=59]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
 
-[sub_resource type="TileSet" id=59]
+[sub_resource type="TileSet" id=60]
 0/name = "AllAssetsPreview.png 0"
 0/texture = ExtResource( 6 )
 0/tex_offset = Vector2( 0, 0 )
@@ -817,7 +818,7 @@ margin_left = 725.059
 margin_top = 400.0
 margin_right = 1025.06
 margin_bottom = 600.0
-custom_styles/panel = SubResource( 60 )
+custom_styles/panel = SubResource( 59 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -828,7 +829,7 @@ scale = Vector2( 0.4, 0.4 )
 
 [node name="Terrain_dirt" type="TileMap" parent="CanvasLayer/CenterContainer/Node2D"]
 scale = Vector2( 0.5, 0.5 )
-tile_set = SubResource( 59 )
+tile_set = SubResource( 60 )
 cell_size = Vector2( 16, 16 )
 cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
 format = 1
@@ -836,7 +837,7 @@ tile_data = PoolIntArray( 2424969, 3, 0, 3211322, 0, 0 )
 
 [node name="Terrain_tree" type="TileMap" parent="CanvasLayer/CenterContainer/Node2D"]
 scale = Vector2( 2, 2 )
-tile_set = SubResource( 59 )
+tile_set = SubResource( 60 )
 cell_size = Vector2( 16, 16 )
 cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
 format = 1

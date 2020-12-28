@@ -1,0 +1,37 @@
+{
+    "scene": "intentar mazmorra compeltada",
+    "chars": 2, 
+    "names":
+    {
+        "0":"Paradox",
+        "1":"[player]"
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":1, "D":"El sol… se está poniendo"},
+        "1": {"P":1, "D":"Wow… el cielo anaranjado, no recordaba que podía verse así naturalmente…"},
+        "2": {"P":1, "D":"Es tan… inquietante."},
+        "3": {"P":0, "D":"Ten cuidado [player], tus pesadillas están peor que antes… están causando muchos problemas en mi reino."},
+        "4": {"P":1, "D":"¿Yo he causado problemas?"},
+        "5": {"P":0, "D":"Lo que quiero decir es que deberías apresurarte."},
+        "6": {"P":0, "D":"Aunque bueno… no es como que mi reino perciba algún tiempo en específico…"},
+        "7": {"P":0, "D":"Tu presencia hace que eso ocurra… ¡sí, eso es!"},
+        "8": {"P":1, "D":"¿Te molesta que este aquí?"},
+        "9": {"P":0, "D":"No, mis tierras en si no tienen lugar ni comienzo… pero que tu te muevas por aquí, lo que sea que hagas, el tiempo que decides dedicarle… eso si le afecta."},
+        "10": {"P":1, "D":"¿Me estás diciendo que pare?"},
+        "11": {"P":0, "D":" Tranquilo… has lo que estimes conveniente"},
+        "12": {"P":0, "D":"Repito, soy un mero espectador…"},
+        "13": {"P":0, "D":"Pero…"},
+        "14": {"P":0, "D":"Mis plantitas :("}
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+{
+    "choise": "vortex 2 Asesino",
+    "save": "B2ASESINO",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Me tope con un criminal…",
+        "1": "Vi a Mac mal Herido"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“Pero un día…”"}
+        }
+    }
+}

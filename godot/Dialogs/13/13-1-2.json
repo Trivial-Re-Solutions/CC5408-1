@@ -1,0 +1,25 @@
+{
+    "scene": "Pre vortex 4 GGE2",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"[player] vendado",
+        "2":"Señor Oscuro"
+    },
+    "dials": 11,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡BASTA!!! ¡¡¡BASTA!!!¡¡¡BASTA!!!"},
+        "1": {"P":1, "D":"Que patético, [player]… huir de tus propios demonios… "},
+        "2": {"P":1, "D":"¿Cómo quieres recuperar tu vida si la rechazas en cada momento?"},
+        "3": {"P":0, "D":"¡¡¡CALLATE!!!, Alucinación… agh…"},
+        "4": {"P":1, "D":"JAJAJA… estas delirando…"},
+        "5": {"P":0, "D":"!!!..."},
+        "6": {"P":0, "D":"Eres tú…"},
+        "7": {"P":0, "D":"¡¡¡SEÑOR OSCURO!!!"},
+        "8": {"P":2, "D":"JAJAJA… a este paso [player], no podrás ni tocarme el pelo…"},
+        "9": {"P":0, "D":"Bastardo, donde sea que estés…"},
+        "10": {"P":0, "D":"¡¡¡TE DETENDRE, SEÑOR OSCURO!!!"}
+    }
+}

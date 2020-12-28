@@ -1,0 +1,27 @@
+{
+    "scene": "Pre vortex 4 G2E2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General"
+    },
+    "dials": 14,
+    "texts":
+    {
+        "0": {"P":0, "D":"Por favor General, lo necesitamos"},
+        "1": {"P":1, "D":"No hay nadie más capacitado que usted, la central…"},
+        "2": {"P":1, "D":"¡¡¡QUE ME IMPORTA LA CENTRAL O LOS SUPERIORES!!!"},
+        "3": {"P":1, "D":"¡¡¡NADA!!!..."},
+        "4": {"P":1, "D":"He perdido todo gracias a la maldita guerra, el tiempo fuera me ayudo a darme cuenta de esto…"},
+        "5": {"P":1, "D":"¿Cuánto tiempo pase con los ojos vendados?"},
+        "6": {"P":0, "D":"¡¡¡JODER!!!"},
+        "7": {"P":1, "D":"… No creí verlo caer así de bajo General "},
+        "8": {"P":0, "D":"Aquí me llamas BUCC, y así que vete [player]…"},
+        "9": {"P":0, "D":"¿Eh?, ¡Espere!"},
+        "10": {"P":0, "D":"Pero, General… yo…"},
+        "11": {"P":1, "D":"¡¡¡VETE!!!"},
+        "12": {"P":0, "D":"… bien"},
+        "13": {"P":0, "D":"Adiós"}
+    }
+}

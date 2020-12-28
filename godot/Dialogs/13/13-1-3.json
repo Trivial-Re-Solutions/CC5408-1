@@ -1,0 +1,23 @@
+{
+    "scene": "Pre vortex 4 GGE3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"[player] vendado"
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Sin la guerra seria quien soy ahora?"},
+        "1": {"P":1, "D":"No…"},
+        "2": {"P":0, "D":"Estoy harto de buscarme a mí mismo, ¡de no saber quién mierda soy!…"},
+        "3": {"P":0, "D":"La guerra fue quien me forjo a mí, yo soy gracias a la guerra…"},
+        "4": {"P":0, "D":"Mi yo ahora es gracias a esta y este soy yo, nadie más… "},
+        "5": {"P":1, "D":"Es difícil decirlo ¿no?"},
+        "6": {"P":0, "D":"La guerra… la guerra lo que todo para mí, suene lo cruel que suene"},
+        "7": {"P":0, "D":"…"},
+        "8": {"P":1, "D":"Gracias por la sinceridad"},
+        "9": {"P":-1, "D":"“Una intervención fuera de este mundo acoge a un confundido [player]… Recupera 3 minutos de su tiempo”"}
+    }
+}

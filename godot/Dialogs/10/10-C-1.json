@@ -1,0 +1,19 @@
+{
+    "choise": "pre vortex 3 Mary",
+    "save": "PB3MARY",
+    "opts": 3,
+    "text": 
+    {
+        "0": "Vamos, yo te llevaré",
+        "1": "No me iré sin ti",
+        "2": "Esas cosas no pasan"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], si tu vida y la de alguien muy importante para ti corrieran peligro, ¿Qué crees que harias?”"}
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "scene": "flashback 3",
+    "chars": 3,
+    "names":
+    {
+        "0":"[player]",
+        "1":"Soldados",
+        "2":"Señor Oscuro"
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":-1, "D":"[player] completaste el primer desafio"},
+        "1": {"P":-1, "D":"Un fragmento de tu historia acaba de encontrarte"},
+        "2": {"P":1, "D":"¡¡¡RAPIDO [player], ESTA ES LA ULTIMA ESPERANZA DE LA HUMANIDAD!!!"},
+        "3": {"P":0, "D":"!!!"},
+        "4": {"P":0, "D":"¡¿Que debo hacer?!(tiembla)"},
+    
+        "5": {"P":1, "D":"debes…"},
+        "6": {"P":1, "D":"¡¡¡ENTRAR EN LA MÁ QUINA DEL TIEMPO!!!"},
+        "7": {"P":0, "D":"¡¿Máquina del tiempo?!"},
+        "8": {"P":1, "D":"¡Debes evitar que esto ocurra!¡¡¡TU MISIÓN ES VIAJAR AL PASADO Y DETENER AL SEÑOR OSCURO… ANTES DE QUE OCURRA TODO ESTO!!!"},
+        "9": {"P":0, "D":"¡¡¡De inmediato!!!..."},
+    
+        "10": {"P":2, "D":"¡¡¡NADIE PODRA DETENER MI AVANCE!!!"},
+        "11": {"P":0, "D":"!!!"},
+        "12": {"P":1, "D":"mierda… ¡¡¡ESTA AQUÍ!!!"},
+        "13": {"P":2, "D":"JEJEJE, chico… ¡¡¡LOS SUBYUGARE A TODOS, JAJAJA!!!"},
+        "14": {"P":0, "D":"¡¡¡ESO ESTA POR VERSE, SEÑOR OSCURO!!! "}
+    }
+}
+
+
+
+
+

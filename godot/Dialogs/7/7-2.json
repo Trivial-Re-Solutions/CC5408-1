@@ -1,0 +1,26 @@
+{
+    "scene": "vortex 2 asesino",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 5,
+    "texts":
+    {
+
+        "0": {"P":1, "D":"Por favor, yo no hice nada… ¡¡¡ten piedad por Dios!!!"},
+        "1": {"P":0, "D":"¿Eh?"},
+        "2": {"P":1, "D":"¡¡¡TE JURO QUE YO NO FUI!!!"},
+        "3": {"P":1, "D":"No quería… Dios, por favor no lo hagas… perdóname…"},
+        "4": {"P":0, "D":"!!!"}
+    }
+}
+
+
+
+
+
+
+

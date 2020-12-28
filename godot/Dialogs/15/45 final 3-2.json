@@ -1,0 +1,26 @@
+{
+    "scene": "Final 3",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“De repente, el caos y la destrucción cesaron… los sobrevivientes, aterrados, salieron a las callen en medio de muerte y escombros…”"},
+        "1": {"P":-1, "D":"“Todo se sumió en un profundo silencio, el Señor Oscuro había sido derrotado…”"},
+        "2": {"P":-1, "D":"“[player] salió del palacio de la Republica, victorioso, frente a una multitud que lo ovacionaba”"},
+        "3": {"P":-1, "D":"“Finalmente acabo todo… ”"},
+        "4": {"P":-1, "D":"“Muchas naciones perecieron, pero la unión frente a lo sucedido fue el pilar que permitió reconstruir la sociedad desde cero…”"},
+        "5": {"P":-1, "D":"“La humanidad había aprendido una terrible lección…”"},
+        "6": {"P":-1, "D":"“Las guerras habían cesado y la alegría volvió a las calles después de mucho tiempo… todo gracias a [player]…”"},
+        "7": {"P":-1, "D":"“El mundo se movía en una brillante dirección, y [player] la veía desde la ventana de su habitación…”"},
+        "8": {"P":-1, "D":"“pero su corazón no estaba en paz…” "},
+        "9": {"P":-1, "D":"“ver su objetivo no lo llenaba del todo, sentía que algo le faltaba…”"},
+        "10": {"P":-1, "D":"“Su viaje no había terminado, [player] perdía la claridad de su sentido en la vida…”"},
+        "11": {"P":-1, "D":"“¿Lo que hice estuvo bien?, ¿Qué hubiera pasado si..?, ¿Qué es lo que me falta?...”"},
+        "12": {"P":-1, "D":"“[player] dudaba hasta de si mismo…”"},
+        "13": {"P":-1, "D":"“Así que un día, sin avisar a nadie, se embarcó en una nueva aventura en busca de calmar su corazón…”"},
+        "14": {"P":-1, "D":"“Y así poder encontrarse en el camino”"}
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "scene": "flashback 4",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Soldados",
+        "2":"Señor Oscuro"
+    },
+    "dials": 14,
+    "texts":
+    {
+        "0": {"P":-1, "D":"[player] completaste el segundo desafio"},
+        "1": {"P":-1, "D":"Otro fragmento de tu historia acaba de encontrarte"},
+        "2": {"P":1, "D":"“Agh… [player]…"},
+        "3": {"P":2, "D":"Te dije que nada puede detenerme, ¡¡¡JAJAJA!!!"},
+        "4": {"P":0, "D":"General…(tiembla)"},
+        "5": {"P":0, "D":"Lo… sien… (tiembla)"},
+        "6": {"P":0, "D":"¡¡¡NO!!!"},
+        "7": {"P":2, "D":"¿Eh?"},
+        "8": {"P":0, "D":"Aun queda esperanza… ¡¡¡TOMA!!![flash]"},
+        "9": {"P":2, "D":"Que ataque tan débil, JAJAJA…"},
+        "10": {"P":0, "D":"Jejeje…"},
+        "11": {"P":0, "D":"No buscaba matarte"},
+        "12": {"P":2, "D":"¡¿EH?!"},
+        "13": {"P":2, "D":"¡¡¡NOOOOO!!!"}
+    
+    }
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

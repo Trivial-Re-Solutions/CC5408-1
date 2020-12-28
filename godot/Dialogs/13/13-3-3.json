@@ -1,0 +1,17 @@
+{
+    "scene": "Pre vortex 4 G2E3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":0, "D":"(Mierda… aunque es una alucinación)"},
+        "1": {"P":0, "D":"(No soy capaz de enfrentar al General…)"},
+        "2": {"P":0, "D":"perdón… lo siento mucho."},
+        "3": {"P":1, "D":"Esta bien… solo cierra la maldita puerta y vete."}
+    }
+}

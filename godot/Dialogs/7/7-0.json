@@ -1,0 +1,20 @@
+{
+    "scene": "vortex 2 max",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":1, "D":"Por favor… alguien…"},
+        "1": {"P":0, "D":"¿?"},
+        "2": {"P":1, "D":"Necesito… ayuda… "},
+        "3": {"P":1, "D":"Un… medico… por favor…"}
+    }
+}
+
+
+

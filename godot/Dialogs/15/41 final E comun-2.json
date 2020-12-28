@@ -1,0 +1,32 @@
+{
+    "scene": "final E comun",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro"
+
+    },
+    "dials": 18,
+    "texts":
+    {
+        "0": {"P":0, "D":"Señor Oscuro…"},
+        "1": {"P":1, "D":"…"},
+        "2": {"P":1, "D":"¿Sabe cómo llego esto aquí?..."},
+        "3": {"P":0, "D":"¿Qué cosa?"},
+        "4": {"P":1, "D":"La máquina… yo la traje a este lugar"},
+        "5": {"P":0, "D":"Querías crear la maquina para obtener el poder fuera del tiempo…"},
+        "6": {"P":1, "D":"¿Como crees que existe sin mí?, sin la Paradoja temporal no existe la máquina del tiempo…"},
+        "7": {"P":1, "D":"Son la misma cosa, sin una no habría existido la otra…"},
+        "8": {"P":0, "D":"¿Por qué estás aquí? ¿Cómo llegaste a este mundo?"},
+        "9": {"P":1, "D":"Ohh [player]… yo nací contigo, con tu viaje…"},
+        "10": {"P":1, "D":"¡¡¡SIN TI MI CAOS NO REINARÍA EN ESTE MUNDO!!!"},
+        "11": {"P":1, "D":"¡¡¡TU DISTE EL INICIO PARA TODO ESTO… PARA ESTE MOMENTO!!!"},
+        "12": {"P":0, "D":"¡¿Dónde… ¡¿en qué momento estamos?!"},
+        "13": {"P":1, "D":"Tu y yo acabamos de viajar al pasado, estamos destruyendo este universo, ¡¡¡JAJAJA!!!"},
+        "14": {"P":0, "D":"Llegue tarde…"},
+        "15": {"P":1, "D":"¡¡¡LLEGASTE EN EL MEJOR MOMENTO [player]!!!"},
+        "16": {"P":1, "D":"¡¡¡PREPARATE PARA ESTE, TU FINAL!!! … ¡¡¡Y EL FINAL DE TU MUNDO!!!"},
+        "17": {"P":0, "D":"¡¡¡TE DETENDRE… SEÑOR OSCURO!!!"}
+    }
+}

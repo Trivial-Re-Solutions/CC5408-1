@@ -1,0 +1,33 @@
+{
+    "scene": "vortex 2 asesino AE1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Asesino"
+    },
+    "dials": 12,
+    "texts":
+    {
+        "0": {"P":0, "D":"… "},
+        "1": {"P":0, "D":"Tranquilo… no te matare, maldito bastardo… "},
+        "2": {"P":0, "D":"Ojo por ojo y el mundo se queda ciego"},
+        "3": {"P":0, "D":"Pagaras por tus crímenes como es debido…"},
+        "4": {"P":1, "D":"¡¡¡NO POR FAVOR, FUE UN ERROR!!!"},
+        "5": {"P":1, "D":"No quería… "},
+        "6": {"P":1, "D":"¡Lo siento!"},
+        "7": {"P":0, "D":"¡¡¡CALLATE!!!"},
+        "8": {"P":0, "D":"Si fuera por mi… Solo tu sangre pagaría los pecados que cometiste…"},
+        "9": {"P":0, "D":"Max… él merece justicia, pero no por mis manos… el no querría eso."},
+        "10": {"P":0, "D":"Pero ¡pagaras con cada segundo tras las rejas mal nacido!… y voy a asegurarme de eso."},
+        "11": {"P":-1, "D":"“Una fuerte determinación pierde a [player] en el tiempo durante 3 minutos”"}
+    }
+}
+
+
+
+
+
+
+
+

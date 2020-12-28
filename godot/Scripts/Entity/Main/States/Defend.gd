@@ -22,17 +22,20 @@ func exit(next_state):
 
 # ------------------------------------------------------------------------------
 # Procesamiento
-
+	
 func process(delta):
-	if (!Entity.done_move):
-		a_move()
+	a_move()
 
 # ------------------------------------------------------------------------------
 # Control de movimiento
 
 func a_move():
-	var target_vel = Vector2(Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
+	var target_vel
+	if (!Entity.done_move):
+		target_vel = Vector2(Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 			Input.get_action_strength("move_down") - Input.get_action_strength("move_up"))
+	else:
+		target_vel = Vector2(0.0, 0.0)
 	Entity.a_record(target_vel)
 	Entity.animation_vector(target_vel)
 	linear_vel = lerp(linear_vel, target_vel * 200, 0.5)

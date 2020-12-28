@@ -1,0 +1,19 @@
+{
+    "choise": "vortex 3 Mary",
+    "save": "B3MARY",
+    "opts": 3,
+    "text": 
+    {
+        "0": "Hui con Mary",
+        "1": "Defendí a Mary",
+        "2": "Yo sólo los enfrenté"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“Un día, en nuestro cuartel, cuando nos tocó juntos el turno de la noche… ocurrió una emboscada”"}
+        }
+    }
+}

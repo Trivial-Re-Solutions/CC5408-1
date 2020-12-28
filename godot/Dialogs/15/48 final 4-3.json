@@ -1,0 +1,17 @@
+{
+    "scene": "Final 4",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“La Humanidad estuvo al borde de desaparecer esa noche… los cadáveres eran incontables y los edificios daban una postal desolaste a la salida del sol…”"},
+        "1": {"P":-1, "D":"“Pero la mañana solo escucho silencio…”"},
+        "2": {"P":-1, "D":"“El señor Oscuro fue derrotado milagrosamente en la destrozada Republica… tomaría años sanar todo el dolor y sufrimiento que causo su paso por este mundo…”"},
+        "3": {"P":-1, "D":"“Algo cambio entre las personas…”"},
+        "4": {"P":-1, "D":"“Los sobrevivientes no tenían nada, solo los unos a los otros… la unión fue el único pilar que tendrían para forjar una nueva sociedad, donde no se permitiría que algo así vuelva a ocurrir…”"},
+        "5": {"P":-1, "D":"“Así la bondad y la esperanza llenaron los corazones de la gente, quienes miraban a un nuevo y brillante futuro…”"}
+    }
+}

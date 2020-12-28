@@ -1,0 +1,19 @@
+{
+    "scene": "final E comun",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡DETENDRE EL APOCALIPSIS!!!"},
+        "1": {"P":0, "D":"Sacaré a las criaturas de mi mundo…"},
+        "2": {"P":0, "D":"¡¡¡Y NO DEJARE QUE EL SEÑOR OSCURO SE SALGA CON LA SUYA!!!"},
+        "3": {"P":0, "D":"¡¡¡NO PERMITIRÉ QUE OCURRA LA PARADOJA!!! "},
+        "4": {"P":1, "D":"Esta bien [player], ve a forjar tu destino…"}
+    }
+}

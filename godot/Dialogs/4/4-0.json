@@ -1,0 +1,22 @@
+{
+    "scene": "vortex 1 madre",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":1, "D":"[player]… tanto tiempo"},
+        "1": {"P":0, "D":"¿Quién… quién eres?"},
+        "2": {"P":1, "D":"Soy #$%@, [player]…¿no me recuerdas?…"},
+        "3": {"P":0, "D":"¿Quién?... no entiendo."},
+        "4": {"P":1, "D":"Perdóname… yo… lo siento mucho"},
+        "5": {"P":0, "D":"!!!"},
+        "6": {"P":1, "D":"No fue tu culpa… nunca lo fue"},
+        "7": {"P":1, "D":"Lo que dije… lo que hice, fue un error… todo fue mi culpa, lamento… todo [player], todo lo que pasaste…"}
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+    "scene": "Final 1 gana [player] texto",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“[player] arrasó con todo…”"},
+        "1": {"P":-1, "D":"“El caos domino por años una tierra inerte, sin que nadie pudiera detenerlo… Las pesadillas destruían todo a su paso hasta dejar un desierto de escombros, donde las grandes ciudades ya eran indistinguibles”"},
+        "2": {"P":-1, "D":"“Cada ser vivo en la tierra pereció”"},
+        "3": {"P":-1, "D":"“Pero luego de eso…"},
+        "4": {"P":-1, "D":"“Solo hubo silencio…”"},
+        "5": {"P":-1, "D":"“Una macabra paz reinaba cada lugar de la tierra”"},
+        "6": {"P":-1, "D":"“Y [player] descansaba en su solitario trono de barro… en medio de la nada”"},
+        "7": {"P":-1, "D":"“Feliz…”"}
+    }
+}

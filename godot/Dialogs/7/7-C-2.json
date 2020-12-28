@@ -1,0 +1,19 @@
+{
+    "choise": "pre vortex 2 Asesino",
+    "save": "PB2ASESINO",
+    "opts": 3,
+    "text": 
+    {
+        "0": "La verdad saldrá…",
+        "1": "Sufriras por esto…",
+        "2": "No es mi problema"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], en tu vida has presenciado injusticias, ¿Harías algo si puediras evitarlas?”"}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "scene": "vortex 1 madre MAE1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Madre"
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":0, "D":"Esta bien "},
+        "1": {"P":0, "D":"Madre…"},
+        "2": {"P":0, "D":"No te preocupes, no siento rencor alguno… tranquila, no llores."},
+        "3": {"P":1, "D":"[player]…"},
+        "4": {"P":0, "D":"Vamos a casa, juntos… alguna vez al menos…"},
+        "5": {"P":-1, "D":"“[player] se pierde en el tiempo por 3 minutos…”"}
+    }
+}
+
+
+

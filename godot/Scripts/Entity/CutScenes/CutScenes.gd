@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 # States
 onready var state = $StateMachine
-var Move = preload("res://scenes/entity/Cutscenes/States/Auto.tscn").instance()
+var Move = preload("res://Scenes/Entity/Cutscenes/States/Auto.tscn").instance()
 
 # Controles
 var done_move = false

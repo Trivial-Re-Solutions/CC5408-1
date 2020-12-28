@@ -1,7 +1,22 @@
 extends Node
 
+var edit_save = true
+
 var main_data
-var save_data
+var save_data = {
+		"slot": "-1",
+		"name": "LtFabin",
+		"tuto": true,
+		"mazm": {"A": false, "B": false, "C": false, "D": false},
+		"levl": {"A": 0, "B": 0, "C": 0, "D": 0, "E": 0, "F":0, "G":0, "H":0},
+		"elec": {"F1INICIO": 0, "FDIM1":0, "FDIM2":0,
+				"PB1MAMA": 0, "PB1NINO": 0, "B1MAMA": 0, "B1NINO":0,
+				"PB2MAX":0, "PB2ASESINO":0, "B2MAX":0, "B2ASESINO":0,
+				"PB3MARY":0, "PB3GENERAL":0, "B3MARY":0, "B3GENERAL":0,
+				"PB4GIORNO":0, "PB4GENERAL":0, "PB4OSCURO":0, "B4OSCURO":0, "B4GENERAL":0 },
+		"item": {"A": true, "B": false, "C": false, "D": false, "E": false },
+		"integrity": true
+	}
 
 func _ready():
 	var main_save = File.new()
@@ -43,13 +58,15 @@ func load_game(num:int):
 	
 	if (typeof(save_data) != TYPE_DICTIONARY):
 		pass
-	elif(save_text.sha256_text() != save_dict["hash"]):
+	elif(save_text.sha256_text() != save_dict["hash"] and not edit_save):
 		save_data = get_default_game_save(num)
 		main_data[String(num)]["name"] = "Tramposo"
 		save_data["name"] = "Tramposo"
 		save_game(save_data)
 
 func save_game(data):
+	if (save_data["slot"] == "-1"):
+		return
 	var num = save_data["slot"]
 	var save = File.new()
 	#save.open_encrypted_with_pass("user://save_slot_"+String(num)+"/main_save.bin", File.WRITE, main_data["pass"])
@@ -64,7 +81,9 @@ func save_game(data):
 	main_data[String(num)]["last"] = OS.get_datetime()
 	main_save.store_string(to_json(main_data))
 	main_save.close()
-	
+
+func quick_save_game():
+	save_game(save_data)
 
 func get_default_main_save():
 	randomize()
@@ -78,6 +97,7 @@ func get_default_main_save():
 
 func get_default_game_save(num:int):
 	var save_dict = {
+		"ver": "1.0",
 		"slot": String(num),
 		"name": null,
 		"tuto": false,

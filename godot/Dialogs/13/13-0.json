@@ -1,0 +1,27 @@
+{
+    "scene": "pre vortex 4 GG",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"[player] vendado"
+    },
+    "dials": 14,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Eh?"},
+        "1": {"P":1, "D":"Tú, eres…"},
+        "2": {"P":1, "D":"Yo soy…"},
+        "3": {"P":0, "D":"¿Por qué estás aquí?"},
+        "4": {"P":1, "D":"La guerra…"},
+        "5": {"P":1, "D":"Estoy aquí por la guerra…"},
+        "6": {"P":1, "D":"Tú también estas aquí por la guerra…"},
+        "7": {"P":0, "D":"La guerra… la maldita guerra… "},
+        "8": {"P":0, "D":"Me quito… tanto"},
+        "9": {"P":1, "D":"Pero fue la guerra la que nos dio un sentido…"},
+        "10": {"P":1, "D":"Dime [player], ¿Qué conoces de ti sin la guerra?"},
+        "11": {"P":0, "D":"…"},
+        "12": {"P":1, "D":"Dime la verdad, tu…"},
+        "13": {"P":1, "D":"¿Odias la guerra?"}
+    }
+}

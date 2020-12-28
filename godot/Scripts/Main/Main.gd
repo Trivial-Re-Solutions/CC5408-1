@@ -1,10 +1,12 @@
 extends Node2D
 
 # Diccionarios
-var Levels = [preload("res://scenes/Main/TitleScreen.tscn"),
-			preload("res://scenes/Main/Intro.tscn"),
-			preload("res://scenes/Main/Tutorial.tscn"),
-			preload("res://scenes/Main/Demo.tscn")]
+var Levels = [preload("res://Scenes/Main/TitleScreen.tscn"),
+			preload("res://Scenes/Main/Intro.tscn"),
+			preload("res://Scenes/Main/Tutorial.tscn"),
+			preload("res://Scenes/Main/TimeHall.tscn"),
+			preload("res://Scenes/Main/Demo.tscn"),
+			preload("res://Scenes/Vortex/VortexHub.tscn")]
 
 # Niveles
 var current_level = 0
@@ -34,8 +36,27 @@ func change_scene(scene):
 	$World.add_child(current_world)
 
 func next():
-	if current_level + 1 >= Levels.size():
-		return
+	current_level += 1
+	loading = true
+	fade.fade_in()
+
+func back():
+	current_level -= 1
+	loading = true
+	fade.fade_in()
+
+func toGame():
+	current_level = 3
+	loading = true
+	fade.fade_in()
+
+func toDemo():
+	current_level = 4
+	loading = true
+	fade.fade_in()
+
+func toVortex():
+	current_level = 5
 	loading = true
 	fade.fade_in()
 
@@ -44,13 +65,12 @@ func on_faded():
 		return
 	$World.remove_child(current_world)
 	current_world.queue_free()
-	current_level += 1
 	current_world = Levels[current_level].instance()
 	$World.add_child(current_world)
 	loading = false
 	fade.fade_out()
 		
 func reset():
-	current_level = -1
+	current_level = 0
 	loading = true
 	fade.fade_in()

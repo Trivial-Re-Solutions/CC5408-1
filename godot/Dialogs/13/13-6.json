@@ -1,0 +1,14 @@
+{
+    "scene": "obtiene gema 4",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡AAAAH!!!"},
+        "1": {"P":0, "D":"¡Agh!... siento un gran poder proveniente de las gemas"}
+    }
+}

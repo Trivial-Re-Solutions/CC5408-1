@@ -1,0 +1,24 @@
+{
+    "scene": "final 4",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro"
+
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡AGH!!!..."},
+        "1": {"P":1, "D":"¡¡¡¿QUÉ?!!!, ¡¡¡¿CÓMO?!!!"},
+        "2": {"P":1, "D":"¡¡¡ES IMPOSIBLE, NO PUEDES DERROTARME!!!"},
+        "3": {"P":1, "D":"¡¡¡YO SOY!!!… ¡¡¡AGH!!!"},
+        "4": {"P":0, "D":"Es tu fin… Señor Oscuro."},
+        "5": {"P":1, "D":"¡¡¡NO, IMPOSIBLE!!!"},
+        "6": {"P":1, "D":"JEJEJE…"},
+        "7": {"P":0, "D":"De que te ries…"},
+        "8": {"P":1, "D":"¡¡¡JAJAJAJAJA!!!.. ¡¡¡AGH!!!"},
+        "9": {"P":1, "D":"Tu poder sigue siendo inferior para retenerme… ¡¡¡AUN ME QUEDAN FUERZAS, ESTE NO ES EL FIN!!!"}
+    }
+}

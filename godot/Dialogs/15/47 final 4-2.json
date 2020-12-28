@@ -1,0 +1,47 @@
+{
+    "scene": "final 4",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro",
+        "2":"Paradox"
+
+    },
+    "dials": 32,
+    "texts":
+    {
+        "0": {"P":1, "D":"Si no puedo crear un nuevo mundo… ¡¡¡LO DESTRUIRÉ TODO!!!"},
+        "1": {"P":1, "D":"¡¡¡JAJAJAJAJAJAJAJAJAJAJA!!!... ¡¡¡AGH!!!"},
+        "2": {"P":1, "D":"…"},
+        "3": {"P":0, "D":"¡¡¡MIERDA!!!..."},
+        "4": {"P":2, "D":"Chico…"},
+        "5": {"P":0, "D":"PARADOX, ¿Qué puedo hacer?... ¿Este es el fin?..."},
+        "6": {"P":2, "D":"Destruyo la maquina del tiempo y esta convergiendo todos los tiempos en línea temporal… Es el fin…"},
+        "7": {"P":0, "D":"Joder…"},
+        "8": {"P":2, "D":"Hmm… aun hay algo…"},
+        "9": {"P":0, "D":"¡¿Qué?!, ¡¿Qué cosa?!"},
+        "10": {"P":2, "D":"Puedes volver a reestablecer el tiempo en tu mundo, pero tendrías que destruir este punto de convergencia…"},
+        "11": {"P":0, "D":"¡¡¡¿CÓMO?!!!, PARADOX, NO QUEDA MUCHO TIEMPO, BASTA DE RODEOS."},
+        "12": {"P":2, "D":"Tu existencia, si te unes a la convergencia podrás destruirla, junto con ella…"},
+        "13": {"P":0, "D":"¿Perderé mis recuerdos otra vez?"},
+        "14": {"P":2, "D":"Toda tu vida desaparecerá… será imposible reconstruirla de nuevo"},
+        "15": {"P":0, "D":"…"},
+        "16": {"P":0, "D":"Bien…"},
+        "17": {"P":2, "D":"¿Estás seguro?"},
+        "18": {"P":0, "D":"¿Tienes alguna otra opción?"},
+        "19": {"P":2, "D":"…"},
+        "20": {"P":0, "D":"Esta bien… mi vida por la de todo el mundo"},
+        "21": {"P":0, "D":"La balanza está completamente inclinada…"},
+        "22": {"P":2, "D":"Interesante… esto es lo que llaman… "},
+        "23": {"P":2, "D":"¿Tristeza?..."},
+        "24": {"P":0, "D":"Jajaja, ¿tienes pena PARADOX?"},
+        "25": {"P":2, "D":"Solo bromeo chico, pero es frustrante ver que todo tu viaje no sirvió para nada…"},
+        "26": {"P":0, "D":"Tranquilo, esta bien… este es mi destino…"},
+        "27": {"P":0, "D":"Adiós PARADOX…"},
+        "28": {"P":2, "D":"Adios, [player]…"},
+        "29": {"P":0, "D":"¡¡¡AGH!!!"},
+        "30": {"P":-1, "D":"[flash]"},
+        "31": {"P":-1, "D":"[black]"}
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "scene": "Pre vortex 4 GGE1",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"[player] vendado",
+        "2":"Señor Oscuro"
+    },
+    "dials": 13,
+    "texts":
+    {
+        "0": {"P":0, "D":"…Es la peor desgracia que he tenido"},
+        "1": {"P":1, "D":"La guerra es lo único que conoces [player]"},
+        "2": {"P":0, "D":"¿Y que con eso? ¿Debo estar agradecido acaso?"},
+        "3": {"P":1, "D":"¿y quién serias sin ella?, ¡¿EH?!"},
+        "4": {"P":1, "D":"¿Quién eres sin la guerra, [player]?"},
+        "5": {"P":0, "D":"Y que importa si la guerra es todo lo que soy ahora"},
+        "6": {"P":0, "D":"La guerra solo me ha dado desgracias… "},
+        "7": {"P":0, "D":"No solo a mí, a mi pueblo, a mis amigos, a mis cercanos…"},
+        "8": {"P":0, "D":"¡¡¡JAMAS ESTARE AGRADECIDO DE ESTA MALDICIÓN!!!"},
+        "9": {"P":1, "D":"JAJAJA… respuesta errónea… [player] [player]…"},
+        "10": {"P":0, "D":"… Bastardo, donde sea que estés te detendré…"},
+        "11": {"P":0, "D":"Señor Oscuro…"},
+        "12": {"P":2, "D":"JAJAJAJA"}
+    }
+}

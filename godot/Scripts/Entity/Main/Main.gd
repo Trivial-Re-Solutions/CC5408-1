@@ -6,7 +6,7 @@ var Defend = preload("res://Scenes/Entity/Main/States/Defend.tscn").instance()
 var Damage = preload("res://Scenes/Entity/Main/States/Damage.tscn").instance()
 var Death = preload("res://Scenes/Entity/Main/States/Death.tscn").instance()
 
-var CClone = preload("res://scenes/Entity/Clone/Clone.tscn")
+var CClone = preload("res://Scenes/Entity/Clone/Clone.tscn")
 
 # Clones
 var CloneStorage = []
@@ -15,6 +15,7 @@ var CloneNum = 0
 # Control de Clones
 var recording = false
 var saving_clone = false
+var clone_active = true
 
 # Diccionarios
 var save_dict = {Vector2(-1,-1):"a", Vector2(0,-1):"b", Vector2(1,-1):"c",
@@ -40,8 +41,8 @@ var is_attacking = false
 var invulnerable = false
 
 # Ataque
-var Attack = preload("res://scenes/Entity/Main/Attack.tscn")
-var Sword = preload("res://scenes/Entity/Main/Sword.tscn")
+var Attack = preload("res://Scenes/Entity/Main/Attack.tscn")
+var Sword = preload("res://Scenes/Entity/Main/Sword.tscn")
 
 # Archivo
 var file = File.new()
@@ -157,11 +158,11 @@ func zoom_camera(scale:Vector2):
 	$Camera2D.zoom = scale
 
 func _input(event) -> void:
-	if (Input.is_action_just_pressed("action_menu") and not is_attacking):
+	if (Input.is_action_just_pressed("action_attack") and not is_attacking):
 		is_attacking = true
 		attack()
 	
-	if (Input.is_action_just_pressed("action_record")):
+	if (Input.is_action_just_pressed("action_record") and clone_active):
 		record()
 
 func get_damage():

@@ -1,0 +1,30 @@
+{
+    "scene": "final 1",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General",
+        "2":"Paradox"
+
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡TOMA!!!"},
+        "1": {"P":0, "D":"¡¡¡NOOOO!!!"},
+        "2": {"P":0, "D":"¡¡¡IMPOSIBLE!!!, ¡¡¡¿POR QUÉ?!!!"},
+        "3": {"P":0, "D":"¡¡¡AAAAAAH!!!"},
+        "4": {"P":0, "D":"…"},
+        "5": {"P":-1, "D":"[flash]"},
+        "6": {"P":1, "D":"[player]…"},
+        "7": {"P":1, "D":"El camino que escogiste"},
+        "8": {"P":1, "D":"Lo lamento por ti… y por este mundo"},
+        "9": {"P":2, "D":"Este era el destino que buscaba…"},
+        "10": {"P":1, "D":"Gracias PARADOX… "},
+        "11": {"P":2, "D":"Solo te cedi el poder que adquiriste al caer en mi mundo, no hice nada más…"},
+        "12": {"P":1, "D":"Bien, ¡vámonos!"},
+        "13": {"P":1, "D":"Aun hay que detener a las pesadillas de este mundo"},
+        "14": {"P":-1, "D":"[black]"}
+    }
+}

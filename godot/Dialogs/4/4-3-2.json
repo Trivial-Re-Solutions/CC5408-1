@@ -1,0 +1,17 @@
+{
+    "scene": "vortex 1 niño NE2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Niño"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":0, "D":"(Se ve tan triste… pero)"},
+        "1": {"P":0, "D":"Perdón Niño, estoy ocupado…"},
+        "2": {"P":1, "D":"Está bien, siempre me dicen eso…  "},
+        "3": {"P":1, "D":"Así que no importa…"}
+    }
+}

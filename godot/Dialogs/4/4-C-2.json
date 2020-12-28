@@ -1,0 +1,18 @@
+{
+    "choise": "pre vortex 1 NINO",
+    "save": "PB1NINO",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Jugaré un momento",
+        "1": "No tengo tiempo"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], debe haber sido hace mucho la última vez que jugaste como un niño… ¿Quieres recordar esos tiempos?”"}
+        }
+    }
+}

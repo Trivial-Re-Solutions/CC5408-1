@@ -1,0 +1,23 @@
+{
+    "scene": "Final 5",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 11,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“El Señor Oscuro sumió al mundo en un completo caos…”"},
+        "1": {"P":-1, "D":"“Las pesadillas atormentaban constantemente a los habitantes de la tierra…”"},
+        "2": {"P":-1, "D":"“Pero no todo estaba perdido…”"},
+        "3": {"P":-1, "D":"“[player] y más sobrevivientes siguieron luchando incansablemente contra estas criaturas”"},
+        "4": {"P":-1, "D":"“Todo por el futuro de la Humanidad”"},
+        "5": {"P":-1, "D":"“[player] sabía esta batalla duraría años, siglos tal vez…”"},
+        "6": {"P":-1, "D":"“Pero ninguna persona descansaría hasta ver el sol brillar en silencia y armonía…”"},
+        "7": {"P":-1, "D":"“Los conflictos cesaron, las naciones tenían un enemigo en común, las pesadillas…”"},
+        "8": {"P":-1, "D":"“Todos estaban unidos y luchando codo a codo…”"},
+        "9": {"P":-1, "D":"“Y [player] encabezaba esta batalla…”"},
+        "10": {"P":-1, "D":"“Todo por un futuro mejor… libre de guerras y conflictos”"}
+    }
+
+}

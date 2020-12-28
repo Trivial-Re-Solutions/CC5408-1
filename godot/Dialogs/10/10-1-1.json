@@ -1,0 +1,23 @@
+{
+    "scene": "vortex 3 mary MRE1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Mary"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"Calma, vamos juntos… Mary"},
+        "1": {"P":1, "D":"¡No [player]!, debemos separarnos, si nos atrapan a los dos tu… yo…"},
+        "2": {"P":0, "D":"Saldremos de esta, te lo juro"},
+        "3": {"P":0, "D":"Pero no me dejes… esta vez no por favor…"},
+        "4": {"P":1, "D":"[player]…"},
+        "5": {"P":1, "D":"¿Estás seguro?"},
+        "6": {"P":0, "D":"Si Mary, ven… vámonos"},
+        "7": {"P":-1, "D":"“[player] se aferra fuera del tiempo a algo… reduce su tiempo restante en 3/4”"}
+    }
+}
+
+

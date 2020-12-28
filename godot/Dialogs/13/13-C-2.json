@@ -1,0 +1,19 @@
+{
+    "choise": "pre vortex 4 general",
+    "save": "PB4GENERAL",
+    "opts": 3,
+    "text": 
+    {
+        "0": "Lo lamento…",
+        "1": "Lo necesitamos…",
+        "2": "Disculpe, no molesto más"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"[player] piensa en el personaje que has controlado, puede que el General, su lider y compañero fuera lo más cercano que tuvo a una familia. Si el mundo se acabara, ¿que dirias en ese último momento? "}
+        }
+    }
+}

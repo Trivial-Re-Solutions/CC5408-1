@@ -1,0 +1,21 @@
+{
+    "scene": "vortex 3 general GE2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿General?"
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":0, "D":"General, yo… "},
+        "1": {"P":0, "D":"Tranquilo… es una alucinación… no es real"},
+        "2": {"P":0, "D":"Lo siento general."},
+        "3": {"P":1, "D":"Está bien cadete… ve al frente"},
+        "4": {"P":1, "D":"Yo puedo… agh…"},
+        "5": {"P":0, "D":"…"},
+    }
+}
+
+

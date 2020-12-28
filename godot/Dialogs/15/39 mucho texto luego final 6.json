@@ -1,0 +1,36 @@
+{
+    "scene": "final 6",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro",
+        "2":"Paradox"
+
+    },
+    "dials": 21,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Volvió a colapsar el espacio tiempo…”"},
+        "1": {"P":-1, "D":"“[player] se perdió nuevamente entre realidades…”"},
+        "2": {"P":-1, "D":"“La paradoja se repitió, se cerró el ciclo”"},
+        "3": {"P":-1, "D":"“Ese momento ahora existía fuera de cualquier tiempo”"},
+        "4": {"P":-1, "D":"“Para ellos, no existe un mañana, en ese mundo, ese es el punto es el punto donde comienza y termina la línea”"},
+        "5": {"P":-1, "D":"“[player] no pudo comprender las memorias que había escogido como suyas…"},
+        "6": {"P":-1, "D":"“No sabía quién era …"},
+        "7": {"P":-1, "D":"“Y contradijo lo que sería su destino…”"},
+        "8": {"P":0, "D":"J.. jaja…"},
+        "9": {"P":-1, "D":"“Su mente estaba colapsada y no comprendía que memorias eran suyas y que memorias no”"},
+        "10": {"P":1, "D":"No…agh…"},
+        "11": {"P":-1, "D":"“El señor oscuro también desapareció de la existencia junto a [player]”"},
+        "12": {"P":2, "D":"[player]… de los caminos que pudiste tomar…"},
+        "13": {"P":2, "D":"Este era en el que menos te quería ver…"},
+        "14": {"P":-1, "D":"“[player] enloqueció fuera del espacio tiempo, y su energía se hizo una con este…”"},
+        "15": {"P":-1, "D":"“perdiéndose para siempre …”"},
+        "16": {"P":-1, "D":"“Las pesadillas consumieron la línea que contradecía al tiempo…”"},
+        "17": {"P":-1, "D":"“Y el mundo entonces siguió su camino”"},
+        "18": {"P":-1, "D":"“Sin [player] o el Señor Oscuro…”"},
+        "19": {"P":-1, "D":"“Como si nada hubiera pasado“"},
+        "20": {"P":-1, "D":"“Como si nada hubiera cambiado”"}
+    }
+}

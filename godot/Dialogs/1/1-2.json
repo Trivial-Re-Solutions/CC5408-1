@@ -1,0 +1,34 @@
+{
+    "scene": "turorial de clones",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 21,
+    "texts":
+    {
+        "0": {"P":0, "D":"(¡¡¡Mierda!!!, debo alejarme lo más pronto posible esas cosas…)"},
+        "1": {"P":0, "D":"(A este paso me quedaré exhausto…)"},
+        "2": {"P":0, "D":"(Joder, ¿Qué hago?)"},
+        "3": {"P":0, "D":"(¿QUE HAGO?)"},
+        "4": {"P":0, "D":"[stop]“En la desesperación… [player] apretó su musculo ESPACIO mientras corría”"},
+        "5": {"P":0, "D":"(¡¡¡¿Qué fue eso?!!!"},
+        "6": {"P":1, "D":"Interesante…"},
+        "7": {"P":0, "D":"¿Eh?"},
+        "8": {"P":1, "D":"Nunca ví a un humano generar Remanentes Temporales… "},
+        "9": {"P":1, "D":"Es… ¿Cómo decirlo?, curioso…"},
+        "10": {"P":0, "D":"¡¡¡Suficiente!!!"},
+        "11": {"P":0, "D":"¿Quién eres?, ¿Por qué me trajiste a este lugar?"},
+        "12": {"P":1, "D":"Calma humano… nunca dije que yo te traje a este lugar… no te sientas especial por pisar mis tierras…"},
+        "13": {"P":0, "D":"¿así que tu enviaste esas cosas?... ¡¡¡DIME!!!, no tengo tiempo para esto, tengo que…"},
+        "14": {"P":0, "D":"Que… tenía… que… "},
+        "15": {"P":0, "D":"No lo recuerdo..."},
+        "16": {"P":1, "D":"Interesante, interesante… "},
+        "17": {"P":1, "D":"Necesito que vengas conmigo, creo que se lo que está pasando aquí…"},
+        "18": {"P":1, "D":"Tal vez los dos podamos resolvamos esta situación… entra."},
+        "19": {"P":0, "D":"¿Pero?..."},
+        "20": {"P":1, "D":"¿No deseas saber qué es lo que te está sucediendo?"}
+    }
+}

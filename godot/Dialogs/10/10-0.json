@@ -1,0 +1,22 @@
+{
+    "scene": "vortex 3 mary",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡[player]!!!"},
+        "1": {"P":0, "D":"¿Eh?"},
+        "2": {"P":0, "D":"¿Quien…"},
+        "3": {"P":1, "D":"¡Que hacemos [player]!, debes huir, son demasiados…"},
+        "4": {"P":0, "D":"¡Wow, tranquila!"},
+        "5": {"P":1, "D":"¿Me escuchas? [player], tenemos que hacer algo… ¡Pero rápido!"},
+        "6": {"P":1, "D":"Debemos…"}
+    }
+}
+
+

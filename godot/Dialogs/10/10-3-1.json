@@ -1,0 +1,25 @@
+{
+    "scene": "vortex 3 general GE1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿General?"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡NO GENERAL!!!"},
+        "1": {"P":0, "D":"Jamás dejaría a un soldado herido en el campo de batalla."},
+        "2": {"P":1, "D":"Cadete, ¡es una ord…"},
+        "3": {"P":0, "D":"¡¡¡ME CANSE DE LAS ORDENES!!!"},
+        "4": {"P":0, "D":"En las trincheras no valen nada, venga…"},
+        "5": {"P":0, "D":"No volveré a dejarlo atrás…"},
+        "6": {"P":1, "D":"… agh… imbécil"},
+        "7": {"P":-1, "D":"“[player] cargo un peso fuera de este tiempo… pierde 5 minutos de este”"}
+    }
+}
+
+
+
+

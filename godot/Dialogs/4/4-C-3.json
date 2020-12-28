@@ -1,0 +1,18 @@
+{
+    "choise": "vortex 1 MAMA",
+    "save": "B1MAMA",
+    "opts": 2,
+    "text": 
+    {
+        "0": "“Solo”",
+        "1": "“Con mi madre”"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“De pequeño me crie…”"}
+        }
+    }
+}

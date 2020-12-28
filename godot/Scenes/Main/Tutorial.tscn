@@ -1,14 +1,71 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/Entity/Main/Main.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Maps/CTutorial0.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/Main/Tutorial.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/Entity/Enemies/Skull/Skull.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/Cutscene/Dialogs.tscn" type="PackedScene" id=5]
+[ext_resource path="res://sprites/enemies/Soldier/Red/Gunner_Red_Idle.png" type="Texture" id=6]
+[ext_resource path="res://sprites/main/Tileset.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/Cutscene/Choice.tscn" type="PackedScene" id=8]
+[ext_resource path="res://sprites/enemies/Wizard/Idle.png" type="Texture" id=9]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Idle"
+length = 0.8
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+}
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 30.0
+height = 600.0
+
+[sub_resource type="Animation" id=3]
+length = 0.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4 ]
+}
+
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 30.0
+height = 250.0
 
 [node name="Tutorial" type="Node2D"]
-modulate = Color( 0.313726, 0.392157, 0.54902, 1 )
+modulate = Color( 0.470588, 0.54902, 0.705882, 1 )
 script = ExtResource( 3 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+visible = false
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CTutorial0" parent="." instance=ExtResource( 2 )]
 
@@ -17,13 +74,133 @@ position = Vector2( 464, 600 )
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="Skull" parent="Enemies" instance=ExtResource( 4 )]
-position = Vector2( 464, -360 )
-
 [node name="Skull2" parent="Enemies" instance=ExtResource( 4 )]
 position = Vector2( 280, -1000 )
 
 [node name="Skull3" parent="Enemies" instance=ExtResource( 4 )]
 position = Vector2( 620, -1000 )
 
+[node name="CloneWall" type="Node2D" parent="."]
+visible = false
+position = Vector2( 464, -1500 )
+
+[node name="Sprite" type="Sprite" parent="CloneWall"]
+position = Vector2( -70, 0 )
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite2" type="Sprite" parent="CloneWall"]
+position = Vector2( -35, 0 )
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite3" type="Sprite" parent="CloneWall"]
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite4" type="Sprite" parent="CloneWall"]
+position = Vector2( 35, 0 )
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite5" type="Sprite" parent="CloneWall"]
+position = Vector2( 70, 0 )
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite6" type="Sprite" parent="CloneWall"]
+visible = false
+position = Vector2( 115, -100 )
+scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 7 )
+vframes = 9
+hframes = 4
+frame = 32
+
+[node name="Sprite7" type="Sprite" parent="CloneWall"]
+visible = false
+position = Vector2( -1000, -1500 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 9 )
+hframes = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CloneWall/Sprite7"]
+anims/Idle = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CloneWall"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CloneWall/StaticBody2D"]
+rotation = 1.5708
+shape = SubResource( 2 )
+disabled = true
+
+[node name="Soldier" type="Node2D" parent="."]
+position = Vector2( 464, -50 )
+
+[node name="Sprite" type="Sprite" parent="Soldier"]
+scale = Vector2( 1.5, 2 )
+texture = ExtResource( 6 )
+hframes = 5
+frame = 4
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Soldier"]
+anims/Idle = SubResource( 3 )
+
+[node name="Area0" type="Area2D" parent="."]
+position = Vector2( 464, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area0"]
+rotation = 1.5708
+shape = SubResource( 4 )
+
+[node name="Area1" type="Area2D" parent="."]
+position = Vector2( 464, -1600 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area1"]
+rotation = 1.5708
+shape = SubResource( 4 )
+
+[node name="Area2" type="Area2D" parent="."]
+position = Vector2( 900, -3100 )
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2"]
+rotation = 1.5708
+shape = SubResource( 4 )
+
+[node name="Area3" type="Area2D" parent="."]
+position = Vector2( 500, -2800 )
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area3"]
+rotation = 1.5708
+shape = SubResource( 4 )
+
+[node name="Area4" type="Area2D" parent="."]
+position = Vector2( -380, -3016 )
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area4"]
+rotation = 1.5708
+shape = SubResource( 4 )
+
+[node name="Choice" parent="." instance=ExtResource( 8 )]
+z_index = 1
+
 [node name="Dialogs" parent="." instance=ExtResource( 5 )]
+z_index = 1

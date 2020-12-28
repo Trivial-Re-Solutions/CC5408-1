@@ -1,0 +1,19 @@
+{
+    "scene": "VORTEX 3 B3E2",
+    "chars": 0, 
+    "names":
+    {
+
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Me lancé contra 15 soldados enemigos, fue una batalla muy dura y por mera suerte sobreviví… pero a cambio de Mary”"},
+        "1": {"P":-1, "D":"“Ella recibió una bala en mi lugar de un soldado enemigo que se había escabullido, se sacrificó… por mi”"},
+        "2": {"P":-1, "D":"“Sostuve a Mary en mis brazos en sus últimos alientos… lo último que la escuche decir fue: Te amo… antes de despedirse para siempre…”"},
+        "3": {"P":-1, "D":"“Creo que fue la única vez en mi vida que llore por alguien más…”"},
+        "4": {"P":-1, "D":"“Tras meses llego el General BUCC con una carta de recomendación, me dijo que mis habilidades eran increíbles, que ni él podría haber frenado el avance del enemigo y que me quería dentro de su escuadrón…”"},
+        "5": {"P":-1, "D":"“La ganas de seguir en el ejército ya se habían ido… pero el General me convenció de seguir adelante”"}
+    }
+}
+

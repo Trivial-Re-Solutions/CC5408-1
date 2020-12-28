@@ -1,0 +1,22 @@
+{
+    "scene": "vortex 3 general",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿General?"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿General?, usted que hace aquí…"},
+        "1": {"P":1, "D":"Cadete… esto"},
+        "2": {"P":1, "D":"No se preocupe…"},
+        "3": {"P":0, "D":"Pero…"},
+        "4": {"P":0, "D":"General…"},
+        "5": {"P":1, "D":"Tranquilo, es solo una pequeña herida… agh, no necesito su ayuda, vaya al frente…"},
+        "6": {"P":0, "D":"Pero, General…"},
+        "7": {"P":1, "D":"¡¡¡HE DICHO CADETE!!!... ¡agh!…"}
+    }
+}
+

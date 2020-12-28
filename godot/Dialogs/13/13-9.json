@@ -1,0 +1,29 @@
+{
+    "scene": "flashback 4",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 14,
+    "texts":
+    {
+        "0": {"P":-1, "D":"[player] completaste el último desafio"},
+        "1": {"P":-1, "D":"Ya esta por concluir la aventura, ahora se aproxima una batalla implacable y el resultado dependerá de las decisiones que hayas tomado..."}
+    
+    }
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

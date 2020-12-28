@@ -1,0 +1,49 @@
+{
+    "scene": "final 7",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Ingeniero 1",
+        "2":"Ingeniero 2"
+
+    },
+    "dials": 34,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Dónde… Dónde estoy?"},
+        "1": {"P":2, "D":"¿Cómo va tu programa?"},
+        "2": {"P":1, "D":"¡Mierda!, el programa se fue al carajo…"},
+        "3": {"P":2, "D":"Te dije que algo andaba mal…"},
+        "4": {"P":2, "D":"Debimos pedir asistencia al departamento de informática…"},
+        "5": {"P":1, "D":"Cállate, podemos solucionar esto solos…"},
+        "6": {"P":1, "D":"El programa esta corrupto, algún hacker debió meterse dentro de la simulación…"},
+        "7": {"P":2, "D":"JAJAJA, ¿no que tu programa era perfecto?"},
+        "8": {"P":1, "D":"¡¡¡SILENCIO!!!, los cálculos están perfectos, solo fue un problema de seguridad…"},
+        "9": {"P":0, "D":"Departamento de ingeniería… ¿DIM?"},
+        "10": {"P":1, "D":"¡¿Eh?!"},
+        "11": {"P":2, "D":"¡¿Cómo?!"},
+        "12": {"P":0, "D":"¿Quiénes son ustedes?, ¡¡¡¿Dónde ESTA EL SEÑOR OSCURO?!!!"},
+        "13": {"P":2, "D":"Él… está aquí…"},
+        "14": {"P":2, "D":"¡¿Cómo escapo?!"},
+        "15": {"P":1, "D":"Ven aquí …"},
+        "16": {"P":1, "D":"“bsbsbsbsbsbsbbs”"},
+        "17": {"P":0, "D":"Ey… ¡EY!"},
+        "18": {"P":0, "D":"Ustedes, ¿Dónde estoy?, ¡díganme algo!"},
+        "19": {"P":2, "D":"Ejem…"},
+        "20": {"P":1, "D":"Lo lamento simulación C-137, aquí no está el Señor Oscuro…"},
+        "21": {"P":1, "D":"Esto es…"},
+        "22": {"P":1, "D":"Esta no es tu realidad… no deberías estar aquí"},
+        "23": {"P":0, "D":"!!!"},
+        "24": {"P":0, "D":"Estoy…"},
+        "25": {"P":0, "D":"¡¡¡HARTO DE QUE ME DIGAN ESAS PALABRAS!!!"},
+        "26": {"P":0, "D":"¡¡¡ME DIRAN COMO SALIR DE AQUÍ Y DONDE ESTA EL SEÑOR OSCURO!!!"},
+        "27": {"P":0, "D":"¡¡¡AUNQUE SEA POR LA FUERZA!!!"},
+        "28": {"P":2, "D":"¡Rápido, desconecta el programa!"},
+        "29": {"P":-1, "D":"[flash]"},
+        "30": {"P":0, "D":"¡¡¡AGH!!!"},
+        "31": {"P":0, "D":"YO… DEBO…"},
+        "32": {"P":0, "D":"¡Agh!..."},
+        "33": {"P":0, "D":"…"}
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "scene": "final extra",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 13,
+    "texts":
+    {
+        "0": {"P":1, "D":"Es una pena…"},
+        "1": {"P":0, "D":"¿Qué hiciste?..."},
+        "2": {"P":1, "D":"Tampoco insistiré… no un tema que me incumba…"},
+        "3": {"P":0, "D":"Bien, gracias… "},
+        "4": {"P":0, "D":"Adiós…"},
+        "5": {"P":1, "D":"[stop]…"},
+        "6": {"P":0, "D":"No veo nada… ¡mierda!"},
+        "7": {"P":0, "D":"Debo salir de aquí… ¿dónde es…"},
+        "8": {"P":0, "D":"Debo…"},
+        "9": {"P":1, "D":"…"},
+        "10": {"P":-1, "D":"“[player] se perdió en el tiempo…”"},
+        "11": {"P":-1, "D":"“Hasta que su existencia termino por desaparecer”"},
+        "12": {"P":-1, "D":"“…”"}
+    }
+}
+
+
+
+
+

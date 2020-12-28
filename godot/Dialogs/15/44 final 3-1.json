@@ -1,0 +1,39 @@
+{
+    "scene": "final 3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro"
+
+    },
+    "dials": 25,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡AGH!!!..."},
+        "1": {"P":1, "D":"¡¡¡¿QUÉ?!!!, ¡¡¡¿CÓMO?!!!"},
+        "2": {"P":1, "D":"¡¡¡ES IMPOSIBLE, NO PUEDES DERROTARME!!!"},
+        "3": {"P":1, "D":"¡¡¡YO SOY!!!… ¡¡¡AGH!!!"},
+        "4": {"P":0, "D":"Es tu fin… Señor Oscuro."},
+        "5": {"P":1, "D":"¡¡¡NO, IMPOSIBLE!!!"},
+        "6": {"P":1, "D":"¡¡¡¿COMPRENDES LO QUE ESTAS HACIENDO?!!!, ¡¡¡ESTAS CONDENANDO A TU MUNDO A UN ETERNO SUFRIMIENTO!!!"},
+        "7": {"P":1, "D":"¡¡¡AGH!!!"},
+        "8": {"P":0, "D":"La naturaleza es cruel… lo se"},
+        "9": {"P":0, "D":"Al lobo no le importa ver como sufre su comida… solo busca satisfacerse a si mismo."},
+        "10": {"P":0, "D":"¡¡¡PERO LOS HUMANOS PODEMOS HACER ALGO!!!"},
+        "11": {"P":0, "D":"¡¡¡NO IMPORTA CUANTO LO INTENTEMOS, SALDREMOS ADELANTE!!!"},
+        "12": {"P":0, "D":"Aun si es a pasos pequeños, tengo fe de que mañana poder ver un mundo feliz para todos…"},
+        "13": {"P":1, "D":"¿Y qué te dice que vamos mejorando?... Solo hay guerras y guerras [player]… ¡agh!..."},
+        "14": {"P":1, "D":"¡¡¡NO CAMBIA NADA!!! ..."},
+        "15": {"P":0, "D":"Tal vez… el poder corrompe cualquier pensamiento por el prójimo, ¡¡¡PERO CADA DIA SOMOS MÁS LOS QUE LUCHAMOS POR ROMPER ESE CICLO DE CORRUPICÍON!!!"},
+        "16": {"P":1, "D":"Tu fe es la que mantiene el sufrimiento en este mundo…agh…"},
+        "17": {"P":0, "D":"Tu no entiendes nada, Señor Oscuro… el odio te consumió tanto que solo vez un futuro oscuro"},
+        "18": {"P":1, "D":"¡¡¡NO SEAS INGENUO!!!, ¡¡¡TU MISMO HAS VISTO TODO LO QUE PUEDE CAUSAR EL SER HUMANO, ¿Y AUN ASI QUIERES LUCHAR POR ELLOS?!!!"},
+        "19": {"P":0, "D":"Pelearé por cambiar las cosas, ¡aunque mañana caiga!... "},
+        "20": {"P":0, "D":"¡¡¡ESE ES MI SUEÑO, QUE EL MUNDO SEA UN LUGAR MEJOR PARA TODOS!!! -[player]:Y NO DESCANSARÉ, NI YO, NI NADIE, ¡¡¡POR LOGRAR HACERLO REALIDAD!!!"},
+        "21": {"P":1, "D":"¡¡¡AGH!!!... ¡¡¡NO!!!"},
+        "22": {"P":1, "D":"¡¡¡AAAAH!!!"},
+        "23": {"P":1, "D":"…"},
+        "24": {"P":0, "D":"Hasta nunca... Señor oscuro"}
+    }
+}

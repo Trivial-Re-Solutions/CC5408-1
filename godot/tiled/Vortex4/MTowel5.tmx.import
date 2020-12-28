@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/MTowel5.tmx-5c60e34284ccd4be3aed2777db868f4c.scn"
+
+[deps]
+
+source_file="res://tiled/Vortex4/MTowel5.tmx"
+dest_files=[ "res://.import/MTowel5.tmx-5c60e34284ccd4be3aed2777db868f4c.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

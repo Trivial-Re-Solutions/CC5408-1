@@ -1,0 +1,32 @@
+{
+    "scene": "extempore 4",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 13,
+    "texts":
+    {
+        "0": {"P":0, "D":"El cielo… esta… rojo… parece que estuviera bañado en sangre…"},
+        "1": {"P":0, "D":"!!!(tiembla)"},
+        "2": {"P":-1, "D":"“[player], ESTO ES IMPARABLE… EL TIEMPO NO PUEDE RETROCEDER, TODO LO PASO, VOLVERÁ A PASAR… SOLO TE MUVES EN CIRCULOS [player], JAJAJAJA”"},
+        "3": {"P":0, "D":"¡¡¡SEÑOR OSCURO!!!"},
+        "4": {"P":0, "D":"…"},
+        "5": {"P":0, "D":"Donde quiera que estés… ¡¡¡TE DERROTARÉ!!!"},
+        "6": {"P":-1, "D":"“JAJAJA, NO PUEDES DETENER EL DESTINO [player]…(tiembla)”"},
+        "7": {"P":1, "D":"[player], algo está pasando… mi reino…"},
+        "8": {"P":0, "D":"¿Qué sucede PARADOX?"},
+        "9": {"P":1, "D":"El reino esta colisionando con las líneas temporales, un CLIMAX TEMPORAL… "},
+        "10": {"P":1, "D":"[player]… no se quien eras… pero quien seas ahora está creando un nuevo destino, un punto de partida donde termina el tiempo… y nace uno nuevo."},
+        "11": {"P":1, "D":"La máquina del tiempo debió haber creado un CLIMAX TEMPORAL cuando la usaron… no estamos dirigiendo a ese punto"},
+        "12": {"P":1, "D":"Así que no escuches a ese payaso, ¡¡¡ve y forja tu futuro!!!"}
+    }
+}
+
+
+
+
+
+

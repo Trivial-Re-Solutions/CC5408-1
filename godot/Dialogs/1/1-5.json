@@ -1,0 +1,28 @@
+{
+    "scene": "pre boss tutorial",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":1, "D":"[stop]¡¡¡ES UN!!!… interesante… chico, deberías recogerla con ENTER"},
+        "1": {"P":1, "D":"Era de esperarse que apareciera un guardián… "},
+        "2": {"P":1, "D":"Chico, más tarde te explico… pero tendrás que vencer a esa cosa con el fragmento que tienes en la mano… "},
+        "3": {"P":1, "D":"¿Sientes cómo se comunica con la espada?... únelos, y derrota a esa cosa."},
+        "4": {"P":0, "D":"!!!"},
+        "5": {"P":-1, "D":"“[stop][player] siente el deseo de activar EL BOTON P”"},
+        "6": {"P":0, "D":"¡¡¡increíble!!!, eso fue…"},
+        "7": {"P":0, "D":"¡¡¡Agh!!!..."},
+        "8": {"P":1, "D":"Chico… estas…"},
+        "9": {"P":0, "D":"!!!"}
+
+    }
+}
+
+
+
+

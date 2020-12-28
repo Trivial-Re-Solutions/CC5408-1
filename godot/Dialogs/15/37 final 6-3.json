@@ -1,0 +1,22 @@
+{
+    "scene": "final 6",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro"
+
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡JAJAJA!!!, ¡¡¡QUE DIVERTIDO!!!"},
+        "1": {"P":1, "D":"¡¡¡ROMPISTE LA LINEA!!!"},
+        "2": {"P":0, "D":"¡¿Qué?!"},
+        "3": {"P":1, "D":"Ocurrió algo que no debía ser, ¡¡¡LA LINEA TEMPORAL A CAIDO EN UN BUCLE!!! "},
+        "4": {"P":1, "D":"Ya no podemos escapar de este ciclo sin fin, si se recrea la paradoja…"},
+        "5": {"P":1, "D":"¡¡¡[player]… DEBO MATARTE!!!"},
+        "6": {"P":0, "D":"¡¡¡TU!!!"},
+        "7": {"P":0, "D":"¡¡¡AHORA VEREMOS!!!"}
+    }
+}

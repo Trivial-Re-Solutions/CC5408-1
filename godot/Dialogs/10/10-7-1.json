@@ -1,0 +1,19 @@
+{
+    "scene": "VORTEX 3 con GE1",
+    "chars": 0, 
+    "names":
+    {
+
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Decidí ayudarlo pese a que sus órdenes eran todo lo contrario… y gracias a mi sobrevivió, pero el resto del escuadrón no…” "},
+        "1": {"P":-1, "D":"“Fueron sobrepasados por el enemigo y eliminados uno por uno… pude haber muerto ahí también, o quizás haber salvado al escuadrón… como piensa el General”"},
+        "2": {"P":-1, "D":"“Desde ese momento el General dejo de dirigirme la palabra, solo lo veía por las noches en bares emborrachándose… estaba perdido…”"}
+    }
+}
+
+
+
+

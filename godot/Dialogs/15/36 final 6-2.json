@@ -1,0 +1,16 @@
+{
+    "scene": "final 6",
+    "chars": 1, 
+    "names":
+    {
+        "0":"Señor Oscuro"
+
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":0, "D":"¿Eh?... no comprendo"},
+        "1": {"P":0, "D":"¿Por qué?... ¿Por qué estás aquí?"},
+        "2": {"P":0, "D":": Esto no debía suceder…"}
+    }
+}

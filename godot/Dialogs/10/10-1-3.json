@@ -1,0 +1,24 @@
+{
+    "scene": "vortex 3 mary MRE3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Mary"
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":0, "D":"Estas alucinaciones, debo ignorarlas…"},
+        "1": {"P":1, "D":"¡¡¡EY!!!, ¿Me escuchas?"},
+        "2": {"P":0, "D":"Disculpa, debo irme"},
+        "3": {"P":1, "D":"¡¡¡[player]!!!"},
+        "4": {"P":0, "D":"…"}
+    }
+}
+
+
+
+
+
+

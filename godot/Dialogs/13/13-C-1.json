@@ -1,0 +1,19 @@
+{
+    "choise": "pre vortex 4 GG",
+    "save": "PB4GIORNO",
+    "opts": 3,
+    "text": 
+    {
+        "0": "La guerra… nunca más",
+        "1": "¡¡¡CALLATE!!!",
+        "2": "La guerra… me enseño tanto…"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"[player] piensa en el personaje que has controlado, puede que la guerra fuera lo que más marco su vida ¿crees que le quede algo más allá por lo que luchar?"}
+        }
+    }
+}

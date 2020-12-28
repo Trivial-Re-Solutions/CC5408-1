@@ -1,0 +1,18 @@
+{
+    "choise": "vortex 3 General",
+    "save": "B3GENERAL",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Lo ayudé",
+        "1": "Seguí sus ordenes"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“No creia que el general pudiera sobrevivir por su cuenta, pero este me pidio que lo ignorara y siguiera luchando”"}
+        }
+    }
+}

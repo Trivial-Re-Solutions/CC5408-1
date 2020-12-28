@@ -43,8 +43,8 @@ var is_attacking = false
 var invulnerable = false
 
 # Ataque
-var Attack = preload("res://scenes/Entity/Main/Attack.tscn")
-var Sword = preload("res://scenes/Entity/Main/Sword.tscn")
+var Attack = preload("res://Scenes/Entity/Main/Attack.tscn")
+var Sword = preload("res://Scenes/Entity/Main/Sword.tscn")
 
 # Vida
 var health = 100 setget set_health

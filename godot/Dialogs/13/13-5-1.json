@@ -1,0 +1,22 @@
+{
+    "scene": "Pre vortex 4 SE1",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox",
+        "2":"Señor oscuro"
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"Ponerle fin… a ¿todo esto?"},
+        "1": {"P":2, "D":"¡¡¡SI!!!, Un último sacrificio de tu alma, acepta el odio de tu corazón…"},
+        "2": {"P":2, "D":"Apaguemos el odio con odio y lancemos la última bomba…"},
+        "3": {"P":0, "D":"…"},
+        "4": {"P":0, "D":"¿PARADOX?..."},
+        "5": {"P":1, "D":"Este fue el camino que escogiste [player], este es el verdadero tú que buscabas…"},
+        "6": {"P":0, "D":"…"},
+        "7": {"P":0, "D":"Okey..."}
+    }
+}

@@ -12,13 +12,14 @@ var current_animation = "Idle"
 var spawn_point = null
 
 # Ataque
-var AttackNode = preload("res://scenes/Entity/Enemies/Enemy0/Attack.tscn")
+var AttackNode = preload("res://Scenes/Entity/Enemies/Enemy0/Attack.tscn")
 
 # Character
 onready var CMain = get_tree().get_nodes_in_group("Player")[0]
 
 # Controles
 var done_move = false
+var keep_position = false
 var invulnerable = false
 
 # Vida

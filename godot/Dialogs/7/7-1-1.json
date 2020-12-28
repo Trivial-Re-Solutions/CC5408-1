@@ -1,0 +1,30 @@
+{
+    "scene": "vortex 2 max ME1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Max"
+    },
+    "dials": 12,
+    "texts":
+    {
+        "0": {"P":0, "D":"Tu… tu eres…"},
+        "1": {"P":0, "D":"Max… no puede ser…"},
+        "2": {"P":1, "D":"[player]… ¿eres tu?... amigo, por favor…"},
+        "3": {"P":0, "D":"Tranquilo amigo, aquí estoy…"},
+        "4": {"P":0, "D":"¡¿Qué fue lo que sucedió?!"},
+        "5": {"P":1, "D":"Un loco… me ataco… yo solo…"},
+        "6": {"P":0, "D":"¡¡¡MAL NACIDO!!!"},
+        "7": {"P":0, "D":"¡¡¡DONDE ESTA!!!, ¡¡¡VOY A …!!!"},
+        "8": {"P":1, "D":"[player]… no… por favor"},
+        "9": {"P":1, "D":"La venganza… ¡Agh!... no…"},
+        "10": {"P":0, "D":"¡¡¡MAX!!!..."},
+        "11": {"P":-1, "D":"“[player] desespera mientras se pierde en el tiempo por 3 minutos”"}
+    }
+}
+
+
+
+
+

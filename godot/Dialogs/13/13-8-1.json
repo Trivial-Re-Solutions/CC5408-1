@@ -1,0 +1,16 @@
+{
+    "scene": "G2E1",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":-1, "D":"Arreglar las cosas con él, e ir tranquilo a la última batalla de la humanidad…"},
+        "1": {"P":-1, "D":"tras conversar, el general se unió a la lucha…"},
+        "2": {"P":-1, "D":"sentir su apoyo y compañía me alienta a seguir luchando…"},
+        "3": {"P":-1, "D":"Los frentes cayeron y cayeron… no paramos de retroceder hasta llegar al último fuerte…"},
+        "4": {"P":-1, "D":"el Señor Oscuro era imparable… y el plan era resistir hasta que la última esperanza estuviera lista… la máquina del tiempo”"}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "scene": "2E",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Pasé toda la noche pensando… "},
+        "1": {"P":-1, "D":"en todo… todo lo que perdí… todo lo que sufrí… "},
+        "2": {"P":-1, "D":"las vidas que perecieron… y lo que aún me queda por proteger."},
+        "3": {"P":-1, "D":"Ese día no dejaría que más sacrificios fueran en vano, que el sufrimiento no fuera pagado y que la luz de este mundo dejara de brillar…"},
+        "4": {"P":-1, "D":"así que me preparé, para el día que presentí. cambiaria mi futuro… y el de la humanidad…”"}
+    }
+}

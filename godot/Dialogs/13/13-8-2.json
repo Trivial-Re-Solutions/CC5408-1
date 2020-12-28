@@ -1,0 +1,17 @@
+{
+    "scene": "G2E2",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":-1, "D":"Pedir su ayuda, pero no acepto… tras discutir volví a mi escuadra y resistimos lo más que pudimos…"},
+        "1": {"P":-1, "D":"cuando estábamos a punto de caer… de la nada llego el General BUCC…"},
+        "2": {"P":-1, "D":"le pregunte ¿Por qué? Y me dijo que no era nada personal… pero que no estaría con los brazos cruzados mientras un demente destruye su mundo…"},
+        "3": {"P":-1, "D":"eso me alentó y pese a nuestros choques, luchamos como hermanos…"},
+        "4": {"P":-1, "D":"Los frentes cayeron y cayeron… no paramos de retroceder hasta llegar al último fuerte…"},
+        "5": {"P":-1, "D":"el Señor Oscuro era imparable… y el plan era resistir hasta que la última esperanza estuviera lista… la máquina del tiempo”"}
+    }
+}

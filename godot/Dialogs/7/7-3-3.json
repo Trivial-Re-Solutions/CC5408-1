@@ -1,0 +1,32 @@
+{
+    "scene": "vortex 2 asesino AE3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 6,
+    "texts":
+    {
+
+        "0": {"P":0, "D":"(Alucinación… otra vez…)"},
+        "1": {"P":0, "D":"… "},
+        "2": {"P":1, "D":"¡¡¡POR FAVOR!!!"},
+        "3": {"P":0, "D":"Mira amigo… no sé quién eres, así que tranquilo… te dejo"},
+        "4": {"P":1, "D":"¡¡¡ESPERA, SACAME DE… AQUÍ TE LO RUEGO!!!"},
+        "5": {"P":0, "D":"(Joder que insistentes que son… mejor me voy rápido)"}
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

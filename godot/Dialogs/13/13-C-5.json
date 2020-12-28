@@ -1,0 +1,19 @@
+{
+    "choise": "vortex 4 General",
+    "save": "B4GENERAL",
+    "opts": 3,
+    "text": 
+    {
+        "0": "Arreglar las cosas",
+        "1": "Pedir su ayuda…",
+        "2": "Simplemente conversar"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“fui a ver al General, necesitaba…”"}
+        }
+    }
+}

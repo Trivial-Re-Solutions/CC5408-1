@@ -1,0 +1,20 @@
+{
+    "scene": "VORTEX 3 B3E1",
+    "chars": 0, 
+    "names":
+    {
+
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Corrimos juntos entre trincheras y dejamos atrás el campo de batalla, estaba todo perdido”"},
+        "1": {"P":-1, "D":"“Por desertar, pasé en prisión 5 largos años, ¿Qué hace un soldado en una cárcel junto a sus enemigos?, fueron años muy duros, por suerte pude salir adelante”"},
+        "2": {"P":-1, "D":"“… Pero no volví a saber de Mary”"},
+        "3": {"P":-1, "D":"“Al tercer año, el General BUCC me saco de la cárcel… me dijo que ni el mismo hubiera sido capaz de frenar el avance del enemigo en esa situación”"},
+        "4": {"P":-1, "D":"“Las cosas estaban difíciles y por mis habilidades creyó que sería buena idea rescatarme e integrarme en su escuadrón…”"},
+        "5": {"P":-1, "D":"“No tenía ninguna otra opción en ese entonces… no tenía a nadie”"},
+        "6": {"P":-1, "D":"“Así que me uní a ellos.”"}
+    }
+}
+

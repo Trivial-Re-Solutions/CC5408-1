@@ -1,0 +1,30 @@
+{
+    "scene": "intervencion",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":-1, "D":"[player] completaste el tercer desafio"},
+        "1": {"P":-1, "D":"Otro fragmento de tu historia acaba de encontrarte"},
+        "2": {"P":-1, "D":"JEJEJE"},
+        "3": {"P":0, "D":"¿?... ¿Que?"},
+        "4": {"P":1, "D":"“Te ves desesperado… [player]…”"},
+        "5": {"P":0, "D":"Quien… ¿quién es? ..."},
+        "6": {"P":0, "D":"No…"},
+        "7": {"P":1, "D":"“Creíste que nuestro asunto ya estaba solucionado ¿no?”"},
+        "8": {"P":0, "D":"Que haces aquí, ¡maldito!... no puede ser"},
+        "9": {"P":0, "D":"Tú… tú no perteneces a mis recuerdos…"},
+        "10": {"P":1, "D":"“¿Que tan seguro estas de eso?, querido [player]… no sabes ni la mitad de lo que está sucediendo aquí… no comprendes que es… el tiempo.”"},
+        "11": {"P":0, "D":"¡¡¡VETE!!! No puedes estar en mi cabeza… ¡¡¡SAL DE MI CABEZA!!!"},
+        "12": {"P":1, "D":"“[player]… relájate, siempre estuve allí, desde antes de lo que crees…”"},
+        "13": {"P":1, "D":"“Ya somos uno, [player]…  yo nos hice uno, tú nos hiciste uno…”"},
+        "14": {"P":1, "D":"“JAJAJA”"}
+    }
+}
+
+

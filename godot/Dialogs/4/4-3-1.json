@@ -1,0 +1,30 @@
+{
+    "scene": "vortex 1 niño NE1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Niño"
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":0, "D":"Esta bien, juguemos un rato"},
+        "1": {"P":1, "D":"¡¡¡Genial!!!, entonces tu agarra esta piedra… "},
+        "2": {"P":1, "D":"Ahora yo voy ,y ¡¡¡pum!!!... entonces agarra estas ramas"},
+        "3": {"P":1, "D":"¡vuela vuela pajarito!, ¡cuidado!"},
+        "4": {"P":0, "D":"Jejeje…"},
+        "5": {"P":1, "D":"Okey, ahora ven y tu conduce la carroza… vamos llegando… ¡¡¡cuidado!!!"},
+        "6": {"P":-1, "D":"“[player] se divierte… perdiéndose en el tiempo por 3 minutos”"}
+    }
+}
+
+
+
+
+
+
+
+
+
+

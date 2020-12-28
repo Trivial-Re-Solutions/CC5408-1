@@ -1,0 +1,25 @@
+{
+    "scene": "vortex 1 niño",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":1, "D":"Te ves muy solo… yo también estoy solo…"},
+        "1": {"P":0, "D":"¿Disculpa?..."},
+        "2": {"P":1, "D":"¿Quieres jugar conmigo?... Podríamos ser amigos…"},
+        "3": {"P":1, "D":"Ven… vamos a jugar"}
+    }
+}
+
+
+
+
+
+
+
+

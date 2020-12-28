@@ -1,0 +1,34 @@
+{
+    "scene": "vortex 2 asesino AE2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Asesino"
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":0, "D":"Tu… ¿tuviste piedad con Max?"},
+        "1": {"P":0, "D":"¡¿eh?!, ¡mal nacido!… "},
+        "2": {"P":0, "D":"Él era un inocente…"},
+        "3": {"P":0, "D":"¡¡¡SUFRIRAS LO MISMO QUE ÉL, MALDITO BASTARDO!!!"},
+        "4": {"P":1, "D":"¡¡¡NOOOOO!!!"},
+        "5": {"P":0, "D":"¡¡¡MUERE!!! ¡¡¡MUERE!!! ¡¡¡MUERE!!! ¡¡¡MUERE!!! ¡¡¡MUERE!!! ¡¡¡MUERE!!!"},
+        "6": {"P":1, "D":"¡¡¡AGH!!... ¡¡¡AAAH!!!"},
+        "7": {"P":1, "D":"¡Agh!... aah…"},
+        "8": {"P":1, "D":"…"},
+        "9": {"P":-1, "D":"“[player], segado por la ira, se perdió en el tiempo por 3 minutos…”"}
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+

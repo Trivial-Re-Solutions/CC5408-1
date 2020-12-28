@@ -1,0 +1,33 @@
+{
+    "scene": "[player] en la sala del tiempo",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 20,
+    "texts":
+    {
+        "0": {"P":1, "D":"[player]…"},
+        "1": {"P":1, "D":"llego el momento…"},
+        "2": {"P":1, "D":"El CLIMAX TEMPORAL está aquí… la paradoja"},
+        "3": {"P":1, "D":"Destruiste tu tiempo con ella"},
+        "4": {"P":1, "D":"Exactamente en este punto"},
+        "5": {"P":1, "D":"Interesante…"},
+        "6": {"P":1, "D":"Mi mundo colapsa… el Señor Oscuro absorbió mi poder al estar ligado a tu paradoja"},
+        "7": {"P":1, "D":"Al ligarte a ti a este mundo… también lo ligue a él "},
+        "8": {"P":0, "D":"PARADOX, tu mundo… esto es mi culpa"},
+        "9": {"P":1, "D":"No te preocupes… esto debía ocurrir"},
+        "10": {"P":1, "D":"Mi mundo se renueva, nunca se destruye"},
+        "11": {"P":1, "D":"Esto da paso a un nuevo destino… y estoy expectante a el"},
+        "12": {"P":1, "D":"Es aburrido cuando conoces absolutamente todo en este mundo… pero estos momentos son tan…"},
+        "13": {"P":1, "D":"Interesantes"},
+        "14": {"P":0, "D":"PARADOX…"},
+        "15": {"P":1, "D":"Como te dije, soy el Dios del tiempo y del espacio"},
+        "16": {"P":1, "D":"Me encuentro presente en cada momento de este mundo… pasado, presente y futuro"},
+        "17": {"P":1, "D":"En este momento, observo la línea que estas cruzando sin mirar más adelante, para vivir este momento junto a ti… "},
+        "18": {"P":1, "D":"Ahora, ¿Qué vas a hacer, [player]?... "},
+        "19": {"P":1, "D":"¿Como afrontarás el destino que se crea frente a tus ojos?"}
+    }
+}

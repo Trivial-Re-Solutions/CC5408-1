@@ -1,0 +1,30 @@
+{
+    "scene": "extempore 2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 9,
+    "texts":
+    {
+        "0": {"P":0, "D":" ¿Eh? "},
+        "1": {"P":0, "D":" La niebla ha disminuido… "},
+        "2": {"P":0, "D":" Este lugar… se ve más vivo…"},
+        "3": {"P":1, "D":"Es porque tus recuerdos se están aclarando, [player]…"},
+        "4": {"P":1, "D":"¿Qué haces?"},
+        "5": {"P":0, "D":"Intentando entrar… agh, no puedo"},
+        "6": {"P":1, "D":"[player], aún no recuperas completamente tus recuerdos"},
+        "7": {"P":1, "D":"Primero debes recuperar la llave de esta mazmorra"},
+        "8": {"P":1, "D":"Ven, vámonos de aquí."}
+    
+    }
+}
+
+
+
+
+
+
+

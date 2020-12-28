@@ -1,0 +1,18 @@
+{
+    "choise": "pre vortex 3 General",
+    "save": "PB3GENERAL",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Nunca lo dejaré atras",
+        "1": "Quizas esta vez"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], tu lider y amigo está herido pero te ordena que te retires, ¿Lo desafiarás para ayudarlo?”"}
+        }
+    }
+}

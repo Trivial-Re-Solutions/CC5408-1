@@ -1,0 +1,23 @@
+{
+    "scene": "vortex 2 max ME2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 5,
+    "texts":
+    {
+        "0": {"P":0, "D":"(Otra alucinación de estas… debería…)"},
+        "1": {"P":0, "D":"Lo siento chico… no se quién eres y no tengo tiempo… "},
+        "2": {"P":0, "D":"Perdóname…"},
+        "3": {"P":1, "D":"Por… favor… alguien…"},
+        "4": {"P":0, "D":"(Dios, este lugar me pone los pelos de punta… mejor me voy, no tengo tiempo que perder)"}
+    }
+}
+
+
+
+
+

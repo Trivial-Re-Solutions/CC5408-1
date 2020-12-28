@@ -1,0 +1,36 @@
+{
+    "scene": "final 6",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro",
+        "2":"Niño [player]"
+
+    },
+    "dials": 21,
+    "texts":
+    {
+        "0": {"P":1, "D":"¡¡¡AAGH!!!"},
+        "1": {"P":1, "D":"¡¡¡NOOO!!!"},
+        "2": {"P":1, "D":"¡¡¡NOS CONDENASTE!!!"},
+        "3": {"P":1, "D":"¡¡¡CONDENASTE A ESTE MUNDO A UN BUCLE SIN FIN!!!"},
+        "4": {"P":1, "D":"¡¡¡ROMPISTE EL TIEMPO, YA NO HAY…!!!"},
+        "5": {"P":1, "D":"¡¡¡AGH!!!"},
+        "6": {"P":1, "D":"Mierda…"},
+        "7": {"P":1, "D":"[player], ESE ERES TU ¿NO?"},
+        "8": {"P":0, "D":"!!!"},
+        "9": {"P":0, "D":"!!!"},
+        "10": {"P":0, "D":"¡¡¡TU, BASTARDO, ¡¡¡NO TE LO PERMITIRÉ!!!"},
+        "11": {"P":2, "D":"Que sucede…"},
+        "12": {"P":0, "D":"¡¡¡AGH!!!"},
+        "13": {"P":0, "D":"¡¡¡AGH!!!"},
+        "14": {"P":-1, "D":"[flash]"},
+        "15": {"P":1, "D":"te lo dije [player]… nada me puede detener…"},
+        "16": {"P":1, "D":"Espera…"},
+        "17": {"P":1, "D":"Aquí es donde comienza tu futuro… y el mío…"},
+        "18": {"P":0, "D":"¡¡¡NOOO!!!"},
+        "19": {"P":1, "D":"¡¡¡NOOO!!!"},
+        "20": {"P":0, "D":"!!!"}
+    }
+}

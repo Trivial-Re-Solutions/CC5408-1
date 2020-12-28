@@ -1,0 +1,18 @@
+{
+    "choise": "Mal camino pre vortex 4",
+    "save": "PB4OSCURO",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Un mártir…",
+        "1": "No… ya no puedo"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"[player] este es el final, un ciclo sin fin del que has sido parte, ¿Continuarás con esto aún sabiendo como terminará?"}
+        }
+    }
+}

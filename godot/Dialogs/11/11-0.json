@@ -1,0 +1,29 @@
+{
+    "scene": "sala del tiempo 4",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 12,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡VETE!!!... ¿eh?"},
+        "1": {"P":1, "D":"Tranquilo chico, si quieres me voy…"},
+        "2": {"P":1, "D":"Aunque no puedo mover la espada yo solo…"},
+        "3": {"P":0, "D":"Perdón PARADOX… él… tú lo viste ¿no?"},
+        "4": {"P":1, "D":"Si que lo vi… interesante… "},
+        "5": {"P":1, "D":"Algo debió ocurrir en el viaje para que los dos quedaran atrapados en mi mundo, aunque solo puede verte a ti vagando fuera del tiempo…"},
+        "6": {"P":0, "D":"Debo encontrarlo… debo detenerlo"},
+        "7": {"P":0, "D":"Él debe está en alguna parte… ¡y no sé qué estará planeando!"},
+        "8": {"P":1, "D":"Bueno, solo queda un VORTEX… estas a punto de reconstruir tu línea"},
+        "9": {"P":1, "D":"La verdad no esperaba que llegaras tan lejos, pero esta vez tengo fe… tú puedes [player]."},
+        "10": {"P":0, "D":"Gracias PARADOX"},
+        "11": {"P":0, "D":"Obtendré el ultimo VORTEX y detendré todo esto…."}
+    }
+}
+
+
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="1" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="mainlevbuild" tilewidth="16" tileheight="16" tilecount="2560" columns="64">
+  <image source="mainlevbuild.png" width="1024" height="640"/>
+ </tileset>
+ <layer id="3" name="Piso" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-32" y="-16" width="16" height="16">
+   eJxjYBgFo2Bog/Vs5OnbBNX3nkz9n4aBfgB3Cwki
+  </chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+   eJxjYGBgeM/GQBYwYofQ+kDaAIoNkdj4MEgdTH8+kC6A4kIkNj4MUlfETp67R8EoGAUQAAD3ggtn
+  </chunk>
+  </data>
+ </layer>
+ <layer id="2" name="Fondo" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-32" y="-16" width="16" height="16">
+   eJzt0FkKwjAQxvE0uL95J3dc72Q3qdud7Aat1hv5lyZUQ+mzDwZ+5BvCkGGE+J9fOR4cuCr7NXWAo9G3t4QIuRNEiFVOa+oMOQpcrbL/xj3GBFPMjDzHEiusscEWT9XfkkLYZAcuPCP7CHDECWdcMJRl/4g7pI4QIzFyigw57nigwE5W87fJHfTQV7nbUA9wldX+xuQJZpirPG2oF/J7fza18/Fed3S/j4P83p+e31PvdcdV73r+z/2Z8zf9r+d/7+8FIkE5aw==
+  </chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+   eJxjYGBgaGFiYGgF4jYg7gDiTiDGBtqR5LuAeCJU3REgfRSIjwHxCSA+iUP/cST5U0B8EYe6UTAKRgF9AACXJw1P
+  </chunk>
+  </data>
+ </layer>
+ <layer id="1" name="Puerta" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-48" y="-16" width="16" height="16">
+   eJxjYBgFo2BkAlNWyvSXDgP9AP1vAiM=
+  </chunk>
+   <chunk x="-32" y="-16" width="16" height="16">
+   eJxjYBgFo2DoAjNWyvSX4dAfBcTRQBwDxLFAHEeEfjcmBgZ3IPYA4kwgPwuIs4E4B4hz0eSx6W8DircDcQcQrwTyVwHxaiBeA8Rr0eQJuf8lEL8C4tdA/AaI3+JwPwB7JxLl
+  </chunk>
+   <chunk x="-16" y="-16" width="16" height="16">
+   eJxjYBgFo2DoAlNWBgYz1lH95AIAtgECSg==
+  </chunk>
+   <chunk x="-48" y="0" width="16" height="16">
+   eJxjYCAflLJSoHlU/ygYBQMOAMxYAmM=
+  </chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+   eJwrY2XACjQZGRi0gFgbiHWAWJcRu7oyHPozgeqzgDgbiHOAOJdE/cQCkH4zCnAZhXgUjIKhDADuZRAK
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   eJwzZWVgMANicoHpAOs3o1B/GSsEj4JRMBIBAIR5Asw=
+  </chunk>
+  </data>
+ </layer>
+ <layer id="4" name="Reja" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-32" y="-16" width="16" height="16">
+   eJxjYBgFo2AU0AIsguLFZOp/BMWPydSvxAjByoy41QAAQE8E+Q==
+  </chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+   eJxjYMANlBghWJkRjyI8IIkRgpPJ1D8KRsEooC0AANc9AZU=
+  </chunk>
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,25 @@
+{
+    "scene": "vortex 1 madre MAE3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 6,
+    "texts":
+    {
+        "0": {"P":0, "D":"(¿Sera algún tipo de alucinación?)"},
+        "1": {"P":0, "D":"Señora… discúlpeme, pero no sé lo que está hablando…"},
+        "2": {"P":0, "D":"Usted no me conoce… "},
+        "3": {"P":0, "D":"Es simplemente… una ilusión de este lugar… "},
+        "4": {"P":0, "D":"( No puedo perder tiempo, debo seguir adelante)"},
+        "5": {"P":1, "D":"[player]…"}
+    }
+}
+
+
+
+
+
+

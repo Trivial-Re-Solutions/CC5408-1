@@ -11,10 +11,11 @@ bg_color = Color( 1, 1, 1, 0.0588235 )
 size = 30
 font_data = ExtResource( 2 )
 
-[node name="Choise" type="Node2D"]
+[node name="Choice" type="Node2D"]
 script = ExtResource( 3 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 3
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 margin_right = 1024.0
@@ -26,21 +27,22 @@ __meta__ = {
 }
 
 [node name="Button" type="Button" parent="CanvasLayer/ColorRect"]
-margin_left = 300.0
+margin_left = 240.0
 margin_top = 300.0
-margin_right = 720.0
+margin_right = 780.0
 margin_bottom = 360.0
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = SubResource( 2 )
 text = "Boton 1"
 __meta__ = {
+"_edit_use_anchors_": false,
 "_editor_description_": ""
 }
 
 [node name="Button2" type="Button" parent="CanvasLayer/ColorRect"]
-margin_left = 300.0
+margin_left = 240.0
 margin_top = 380.0
-margin_right = 720.0
+margin_right = 780.0
 margin_bottom = 440.0
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = SubResource( 2 )
@@ -50,9 +52,9 @@ __meta__ = {
 }
 
 [node name="Button3" type="Button" parent="CanvasLayer/ColorRect"]
-margin_left = 300.0
+margin_left = 240.0
 margin_top = 460.0
-margin_right = 720.0
+margin_right = 780.0
 margin_bottom = 520.0
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = SubResource( 2 )
@@ -63,6 +65,6 @@ __meta__ = {
 
 [node name="Node" parent="CanvasLayer" instance=ExtResource( 1 )]
 margin_left = 100.0
-margin_top = 200.0
+margin_top = 180.0
 margin_right = 924.0
-margin_bottom = 300.0
+margin_bottom = 280.0

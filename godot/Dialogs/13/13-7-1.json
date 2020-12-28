@@ -1,0 +1,14 @@
+{
+    "scene": "1E",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Me aliste como nunca y espere ansioso el momento, el sentido de mi vida…"},
+        "1": {"P":-1, "D":"algo me decía que ese día cambiaría para siempre el futuro… "},
+        "2": {"P":-1, "D":"no solo el mío, el de toda la humanidad…”"}
+    }
+}

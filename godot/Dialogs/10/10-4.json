@@ -1,0 +1,15 @@
+{
+    "scene": "VORTEX 3",
+    "chars": 1, 
+    "names":
+    {
+        "0":"[player]"
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":0, "D":"agh… esto… esta ocurriendo de nuevo…"},
+        "1": {"P":-1, "D":"“En el ejercito conocí a Mary, en mi época esto era un mundo de hombres, un sacrificio que moralmente nosotros debíamos hacer… pero por la constante guerra y la falta de soldados aceptaron cadetes femeninas…” "},
+        "2": {"P":-1, "D":"“Mary siempre fue ruda, la más ruda de todas… pero conmigo siempre fue como un ángel, el más hermoso de todo el panteón… conectábamos muy bien y fue el pilar más fuerte en todo ese infierno que era el campo de batalla, hacíamos una dupla fenomenal”"}
+    }
+}

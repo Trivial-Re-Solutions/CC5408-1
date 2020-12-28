@@ -1,0 +1,15 @@
+{
+    "scene": "pre vortex general",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡General!"},
+        "1": {"P":1, "D":"Que quieres [player], que más buscas de mi…"}
+    }
+}

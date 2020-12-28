@@ -1,0 +1,37 @@
+{
+    "scene": "final 1",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General",
+        "2":"Paradox"
+
+    },
+    "dials": 22,
+    "texts":
+    {
+        "0": {"P":0, "D":"Finalmente…"},
+        "1": {"P":0, "D":"¡¡¡JAJAJA!!!"},
+        "2": {"P":0, "D":"[flash] ¿¡Eh?!"},
+        "3": {"P":1, "D":"[player]… Señor Oscuro…"},
+        "4": {"P":0, "D":"¿Qué haces aquí?"},
+        "5": {"P":1, "D":"Después de todo, sabía que mi intuición no me fallaría"},
+        "6": {"P":1, "D":"Tenia que ver para creer, no te dejaría solo con la maquina después de todo"},
+        "7": {"P":1, "D":"¡Siempre presentí que escondías algo oscuro dentro de ti!"},
+        "8": {"P":1, "D":"¡No permitiré que acabes con este mundo!"},
+        "9": {"P":0, "D":"¡¡¡JAJAJA, ESO ESTA POR VERSE!!!"},
+        "10": {"P":1, "D":"¡¡¡PARADOX!!!"},
+        "11": {"P":0, "D":"!!!"},
+        "12": {"P":0, "D":"¿Qué haces aquí PARADOX?, ¿Como?"},
+        "13": {"P":0, "D":"¡¡¡¿POR QUÉ ESTAS CON ÉL?!!!"},
+        "14": {"P":2, "D":"Tus líneas no son las únicas que se afectan entre si"},
+        "15": {"P":2, "D":"Hay más realidades que cambian en un punto, no solo la tuya, también la de otras personas."},
+        "16": {"P":2, "D":"[player], deberías haberlo previsto"},
+        "17": {"P":0, "D":"Arrg, ¡Mierda!"},
+        "18": {"P":0, "D":"… Ja..."},
+        "19": {"P":0, "D":"¡¡¡JAJAJAJAJA!!!"},
+        "20": {"P":0, "D":"Esta bien, General"},
+        "21": {"P":0, "D":"¡Tengamos nuestra última batalla! ¡¡¡JAJAJA!!!"}
+    }
+}

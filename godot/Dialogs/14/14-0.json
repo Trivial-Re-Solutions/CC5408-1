@@ -1,0 +1,47 @@
+{
+    "scene": "flashback post vortex 4",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro",
+        "2":"[player] niño"
+    },
+    "dials": 33,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“JEJEJE… [player]… así que ya lo recuerdas todo ¿no?”"},
+        "1": {"P":-1, "D":"“…”"},
+        "2": {"P":-1, "D":"“Deja mostrarte un último recuerdo…”"},
+        "3": {"P":0, "D":"[black]¿Qué?... donde… "},
+        "4": {"P":0, "D":"¡Esta es mi casa!... pero esto… ¿el viaje funciono?... porque llegue a mi casa…"},
+        "5": {"P":1, "D":"JAJAJA… tal y como esperaba… tal y como debía pasar…"},
+        "6": {"P":0, "D":"¡¡¡TU!!, de que hablas… "},
+        "7": {"P":0, "D":"¿Eh?"},
+        "8": {"P":1, "D":"[player], ESE ERES TU ¿NO?"},
+        "9": {"P":0, "D":"!!!"},
+        "10": {"P":0, "D":"¡¡¡TU, BASTARDO, ¡¡¡NO TE LO PERMITIRÉ!!!"},
+        "11": {"P":2, "D":"Que sucede…"},
+        "12": {"P":0, "D":"¡¡¡AGH!!! [flash]"},
+        "13": {"P":1, "D":"te lo dije [player]… nada me puede detener…"},
+        "14": {"P":1, "D":"Aquí es donde comienza tu futuro… y el mío…"},
+        "15": {"P":0, "D":"¡¡¡NOOO!!!"},
+        "16": {"P":0, "D":"¡¡¡AAAAAAAAAAH!!!"},
+        "17": {"P":1, "D":"JAJAJA… ¿qué pasa si viajas al pasado y te asesinan de pequeño?..."},
+        "18": {"P":1, "D":"¿Qué ocurre primero?... al universo no le gusta responder estas preguntas"},
+        "19": {"P":1, "D":"¡¡¡JAJAJAJA!!!"},
+        "20": {"P":1, "D":"¡¡¡¡DESTRUYAMOS ESTA REALIDAD [player]!!!!"},
+        "21": {"P":1, "D":"¡¡¡JUNTOS!!!"},
+        "22": {"P":0, "D":"¡¡¡AAAAAAAAAAAH!!!"},
+        "23": {"P":-1, "D":"“…”"},
+        "24": {"P":1, "D":"¿Ahora lo entiendes todo?"},
+        "25": {"P":1, "D":"Tu y yo… causantes de una paradoja, que destruyo nuestra realidad…"},
+        "26": {"P":1, "D":"Los que se atrevieron a desafiar al tiempo… no tenemos permitido existir ¿Cuál es el objetivo de todo esto?"},
+        "27": {"P":1, "D":"Si vieras a un venado agonizando por una herida mortal, ¿Qué es más humano? ¿matarlo y acabar con su sufrimiento o “dejar vivir”?"},
+        "28": {"P":1, "D":"La humanidad no tiene salvación… el sufrimiento de nuestra agonizante especie seguirá así por los siglos de los siglos… "},
+        "29": {"P":1, "D":"Hasta que caiga la última bomba…"},
+        "30": {"P":1, "D":"Yo adelantaré ese suceso, con el poder dl tiempo que he absorbido de PARADOX crearé un nuevo destino donde no haya más dolor."},
+        "31": {"P":1, "D":"[player]… tu y yo creamos todo esto… esto nos permitió ser quienes somos y lo que haremos"},
+        "32": {"P":1, "D":"¿No estamos emocionado? ... aquí es donde todo comienza"}
+    }
+}

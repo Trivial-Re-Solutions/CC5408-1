@@ -45,21 +45,27 @@ func on_0_pressed():
 		GameManager.new_game(0)
 	else:
 		GameManager.load_game(0)
-	LevelManager.next()
+	load_game()
 
 func on_1_pressed():
 	if (main_data["1"]["name"] == null):
 		GameManager.new_game(1)
 	else:
-		GameManager.load_game(0)
-	LevelManager.next()
+		GameManager.load_game(1)
+	load_game()
 
 func on_2_pressed():
 	if (main_data["2"]["name"] == null):
 		GameManager.new_game(2)
 	else:
-		GameManager.load_game(0)
-	LevelManager.next()
+		GameManager.load_game(2)
+	load_game()
+
+func load_game():
+	if (GameManager.save_data["tuto"]):
+		LevelManager.toGame()
+	else:
+		LevelManager.next()
 
 func on_GBack_pressed():
 	$Panel/Game.visible = false

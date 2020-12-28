@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tiled/Vortex3/MCasttle3.tmx" type="PackedScene" id=1]
+
+[node name="MCasttle3" instance=ExtResource( 1 )]
+
+[node name="extras 2" parent="." index="2"]
+z_index = 10

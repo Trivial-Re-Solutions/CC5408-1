@@ -1,0 +1,24 @@
+{
+    "scene": "sala del tiempo 3",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":1, "D":"Has vuelto"},
+        "1": {"P":0, "D":"¿Viaje… en el tiempo?..."},
+        "2": {"P":0, "D":"Ay, mi cabeza."},
+        "3": {"P":1, "D":"Eso explica suficiente, algo te paso en el viaje y por eso estas corrupto… fin del misterio"},
+        "4": {"P":0, "D":"Pero el Señor Oscuro viajo conmigo… "},
+        "5": {"P":0, "D":"Que le habrá pasado…"},
+        "6": {"P":1, "D":"Interesante…Interesante…"},
+        "7": {"P":1, "D":"Aún quedan 2 VORTEX por recuperar… tal vez ahí estén las piezas que faltantes de este rompecabezas…"},
+        "8": {"P":0, "D":"Debo… detener al Señor Oscuro"},
+        "9": {"P":0, "D":"¡¡¡ALLA VOY!!!"}
+    
+    }
+}

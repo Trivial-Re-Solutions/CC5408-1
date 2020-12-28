@@ -1,0 +1,29 @@
+{
+    "scene": "Pre vortex 4 SE2",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox",
+        "2":"Señor oscuro"
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":0, "D":"…"},
+        "1": {"P":0, "D":"¡¡¡NO!!!"},
+        "2": {"P":0, "D":"Jamás caeré en tu maldad…"},
+        "3": {"P":2, "D":"Es tu propia maldad que no quieres aceptar [player]… "},
+        "4": {"P":2, "D":"Una pena que esta sea la línea que escogiste…"},
+        "5": {"P":1, "D":"[player]…"},
+        "6": {"P":0, "D":"¡¡¡CALLATE!!!... ¡¡¡TRAIDOR!!!"},
+        "7": {"P":1, "D":"Este fue el camino que escogiste [player]… este momento te esperaba… yo solo soy un mero espectador de los enredos del destino… "},
+        "8": {"P":1, "D":"pero aún queda EL CLIMAX TEMPORAL…[player]"},
+        "9": {"P":0, "D":"¿y que hay con eso?…"},
+        "10": {"P":1, "D":"Ahí termina el tiempo que conocemos, tu destino de esta línea… más allá son libres de escoger, pero eso solo dependerá de ti… "},
+        "11": {"P":1, "D":"Por mientras seguiré a tu lado, quieras o no."},
+        "12": {"P":0, "D":"¿Por qué?... ¿POR QUE PARADOX?"},
+        "13": {"P":1, "D":"¿Por qué?"},
+        "14": {"P":1, "D":"PORQUE… ESTO ES MUY INTERESANTE, JEJEJE."}
+    }
+}

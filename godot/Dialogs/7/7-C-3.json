@@ -1,0 +1,18 @@
+{
+    "choise": "vortex 2 Max",
+    "save": "B2MAX",
+    "opts": 2,
+    "text": 
+    {
+        "0": "Con mi amigo Max",
+        "1": "Para entrar al ejército"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“De mayor no sabía qué hacer con mi vida, me pasaba los días entrenando… ”"}
+        }
+    }
+}

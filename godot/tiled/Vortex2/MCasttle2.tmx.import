@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/MCasttle2.tmx-8f75d065d7925dc6174ad5a29ceff7a7.scn"
+
+[deps]
+
+source_file="res://tiled/Vortex2/MCasttle2.tmx"
+dest_files=[ "res://.import/MCasttle2.tmx-8f75d065d7925dc6174ad5a29ceff7a7.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

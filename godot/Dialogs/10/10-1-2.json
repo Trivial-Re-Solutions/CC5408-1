@@ -1,0 +1,27 @@
+{
+    "scene": "vortex 3 mary MRE2",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Mary"
+    },
+    "dials": 10,
+    "texts":
+    {
+        "0": {"P":0, "D":"Tranquila Mary…"},
+        "1": {"P":0, "D":"¡Yo te protegeré!"},
+        "2": {"P":1, "D":"¡No digas estupideces, jamás podrías con tantos soldados enemigos! "},
+        "3": {"P":0, "D":"¡¿Alguna vez te he fallado Mary?!"},
+        "4": {"P":1, "D":"Eh… yo…"},
+        "5": {"P":0, "D":"dime, ¿te he fallado o te mentido?"},
+        "6": {"P":0, "D":"¡Yo siempre cumplo mis promesas!"},
+        "7": {"P":1, "D":"Pero [player], son demasiados…"},
+        "8": {"P":0, "D":"Confía en mí, sé que puedo con ellos…"},
+        "9": {"P":-1, "D":"“[player] se siente en conflicto… se pierde en el tiempo durante 3 minutos”"}
+    }
+}
+
+
+
+

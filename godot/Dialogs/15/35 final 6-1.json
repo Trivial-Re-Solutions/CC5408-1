@@ -1,0 +1,36 @@
+{
+    "scene": "final 6",
+    "chars": 3, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro",
+        "2":"Paradox"
+
+    },
+    "dials": 20,
+    "texts":
+    {
+        "0": {"P":0, "D":"… yo"},
+        "1": {"P":2, "D":"¿Qué ocurre [player], no tienes claro tus objetivos?"},
+        "2": {"P":0, "D":"Me siento… confundido aún, tal vez deba…"},
+        "3": {"P":2, "D":"No hay tiempo [player], el CLIMAX es ahora, tu… "},
+        "4": {"P":-1, "D":"[flash]"},
+        "5": {"P":1, "D":"[player]…"},
+        "6": {"P":0, "D":"!!!"},
+        "7": {"P":1, "D":"¿Por qué sigues rechazándome?"},
+        "8": {"P":0, "D":"Tu… estas mal…"},
+        "9": {"P":1, "D":"Tus memorias están corrompidas… no calzan con tu realidad…"},
+        "10": {"P":0, "D":"Yo…"},
+        "11": {"P":1, "D":"Acéptame… ese es tu destino… debes hacerlo… sino…"},
+        "12": {"P":0, "D":"Debo…"},
+        "13": {"P":0, "D":"… "},
+        "14": {"P":0, "D":"¡¡¡NOOO!!!"},
+        "15": {"P":0, "D":"No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No No"},
+        "16": {"P":0, "D":"¡¡¡CALLATE!!!"},
+        "17": {"P":1, "D":"$$%&$#$%&$$@$#$@@"},
+        "18": {"P":1, "D":"…"},
+        "19": {"P":-1, "D":"[flash]"}
+
+    }
+}

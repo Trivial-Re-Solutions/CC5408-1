@@ -28,12 +28,21 @@ func exit(next_state):
 # Procesamiento
 
 func process(delta):
-	if (!Entity.done_move):
+	if (Entity.keep_position):
+		no_move()
+	elif (!Entity.done_move):
 		a_move()
 
 # ------------------------------------------------------------------------------
 # Control de movimiento
 
+func no_move():
+	periodic +=0.05
+	target_vel = Vector2(0.0, 0.0)
+	target_vel += Vector2(sin(periodic)*1.5, cos(periodic)*1.5)
+	linear_vel = lerp(linear_vel, target_vel * 100, 0.5)
+	linear_vel = Entity.move_and_slide(linear_vel)
+	
 func a_move():
 	var to_player = Vector2(Entity.CMain.global_position - Entity.global_position)
 	var distance_player = to_player.length()

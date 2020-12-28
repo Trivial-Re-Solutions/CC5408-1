@@ -1,0 +1,14 @@
+{
+    "scene": "post flashback",
+    "chars": 1, 
+    "names":
+    {
+        "0":"Señor Oscuro"
+    },
+    "dials": 2,
+    "texts":
+    {
+        "0": {"P":-1, "D":" “Nuestro Genesis, Señor Oscuro”"},
+        "1": {"P":0, "D":"Nuestro Genesis, [player]"}
+    }
+}

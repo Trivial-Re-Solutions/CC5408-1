@@ -9,7 +9,7 @@ export (int) var dif_len = int(m_len/n_len)
 var minimap_scale:int
 var minimap_center = Vector2(150, 100)
 
-var Camp0 = preload("res://scenes/Maps/NCamp0.tscn")
+var Camp0 = preload("res://Scenes/Maps/NCamp0.tscn")
 
 var Instanced_camps = []
 

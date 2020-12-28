@@ -1,0 +1,18 @@
+{
+    "choise": "decision inicial",
+    "save": "F1INICIO",
+    "opts": 2,
+    "text": 
+    {
+        "0": "SI",
+        "1": "NO"
+    },
+
+    "main":
+    {
+        "scene": "Vortex","chars": 0,"names":{},"dials":1,"texts":
+        {
+            "0": {"P":-1, "D":"“[player], quizas en tu interior aun se encuentra tu propia verdad, ¿quieres intentar buscarla?”"}
+        }
+    }
+}

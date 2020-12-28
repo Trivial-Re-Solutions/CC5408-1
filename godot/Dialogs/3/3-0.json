@@ -1,0 +1,32 @@
+{
+    "scene": "extempore 1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Paradox"
+    },
+    "dials": 15,
+    "texts":
+    {
+        "0": {"P":0, "D":"Uff… la niebla… no veo casi nada…"},
+        "1": {"P":1, "D":"Ten… dejo un mapa, así sabes a donde ir… "},
+        "2": {"P":1, "D":"Debes llegar a la TORRE DESTINATI para encontrar tu destino, pero para eso tu linea debe estar más definida"},
+        "3": {"P":1, "D":"Primero debes visitar el CASTILLO PUERITTIA que esta a tu lado... pero como te dije, aquí estamos fuera del tiempo, así que puedes tomarte tu tiempo para reconstruir tus recuerdos…"},
+        "4": {"P":0, "D":"Mierda, está cerrada…"},
+        "5": {"P":1, "D":"Las Pesadillas robaron todas las llaves de las puerta para acceder a los guardianes…"},
+        "6": {"P":0, "D":"¿Pesadillas?"},
+        "7": {"P":1, "D":"Son entes nacidos de tu Remanencia en este mundo"},
+        "8": {"P":1, "D":"Como te dije… no debes estar aquí, así que buscan eliminarte… "},
+        "9": {"P":1, "D":"Ten cuidado, por cada instante que percibes este mundo se hacen más fuertes."},
+        "10": {"P":0, "D":"Otro problema más… genial"},
+        "11": {"P":1, "D":"No es el unico inconveniente que te encontraras [player]… te adentras en un VORTEX cuando accedas al castillo"},
+        "12": {"P":1, "D":"Tu inexistencia hace que no puedas pasar mucho tiempo en este lugar, desapareces a cada segundo y yo no puedo hacer nada… así que hazlo lo más pronto posible."},
+        "13": {"P":0, "D":"¿Eres el Dios del tiempo y no puedes hacer nada para detener esto?"},
+        "14": {"P":1, "D":"Soy un ente que nace con el tiempo y el espacio, yo solo le otorgo existencia a este, no lo controlo a voluntad… observo."}
+    
+    }
+}
+
+
+

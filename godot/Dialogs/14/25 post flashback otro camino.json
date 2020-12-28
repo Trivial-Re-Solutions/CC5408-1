@@ -1,0 +1,16 @@
+{
+    "scene": "post flashback",
+    "chars": 3, 
+    "names":
+    {
+        "0":"Señor Oscuro"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Estas demente… la esperanza no se puede arrebatar”"},
+        "1": {"P":-1, "D":"“Nadie escribirá nuestro destino… solo nosotros mismos”"},
+        "2": {"P":-1, "D":"“Te detendré, Señor oscuro”"},
+        "3": {"P":0, "D":"Quiero verte intentándolo, [player]…"}
+    }
+}

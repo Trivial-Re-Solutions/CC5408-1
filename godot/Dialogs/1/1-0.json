@@ -1,0 +1,17 @@
+{
+    "scene": " post flaskback 1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"¿¿¿???"
+    },
+    "dials": 4,
+    "texts":
+    {
+        "0": {"P":0, "D":"¡¡¡Ahg!!!"},
+        "1": {"P":0, "D":"ahg… mi cabeza, que dolor…"},
+        "2": {"P":0, "D":"¿Qué fue eso?... ¿Cómo llegue aquí?... debería salir pronto de este lugar"},
+        "3": {"P":1, "D":"[stop]“Busca en tu interior y utiliza WASD para caminar…”"}
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "scene": "Pre vortex 4 G2E1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General"
+    },
+    "dials": 18,
+    "texts":
+    {
+        "0": {"P":0, "D":"General…"},
+        "1": {"P":0, "D":"Lo lamento tanto…"},
+        "2": {"P":1, "D":"Tranquilo [player]"},
+        "3": {"P":1, "D":"Lo que paso ya… fue historia…"},
+        "4": {"P":0, "D":"Sé que he cometido errores, general… pero la guerra esta delante y el Señor Oscuro destruye todo a su paso…"},
+        "5": {"P":0, "D":"Se que no volverá con nosotros, pero no conozco a nadie más capacitado que usted…"},
+        "6": {"P":1, "D":"Los Superiores no lo aceptarían…"},
+        "7": {"P":0, "D":"Ellos mismos me mandaron aquí por usted… "},
+        "8": {"P":0, "D":"Miré, no lo obligare a nada, vine aquí solamente a disculparme por… todo"},
+        "9": {"P":0, "D":"En usted recae el querer luchar en la última batalla... Conmigo."},
+        "10": {"P":1, "D":"[player]…"},
+        "11": {"P":1, "D":"Jamás…"},
+        "12": {"P":0, "D":"Lo entiendo General, yo…"},
+        "13": {"P":1, "D":"Jamás, dejaría a mi escuadra sola…"},
+        "14": {"P":0, "D":"¿Eh?"},
+        "15": {"P":1, "D":"Muy bien, aunque la salud no me acompañe mucho estos días, no puedo quedarme con los brazos cruzados mientras semejante soldado lucha esta batalla por mi…"},
+        "16": {"P":0, "D":"General…"},
+        "17": {"P":1, "D":"Muy bien [player]… vamos, estaré cubriéndote la espalda."}
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "scene": "final 1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"General"
+
+    },
+    "dials": 8,
+    "texts":
+    {
+        "0": {"P":0, "D":"Finalmente…"},
+        "1": {"P":1, "D":"…"},
+        "2": {"P":0, "D":"¡¡¡JAJAJAJAJAAJAJAJAJA!!!"},
+        "3": {"P":0, "D":"Te lo dije, ¡¡¡NADA PUEDE DETENERME!!!"},
+        "4": {"P":0, "D":"¡¡¡YO!!!..."},
+        "5": {"P":0, "D":"…Uff, bien"},
+        "6": {"P":0, "D":"Este hecho, hora de crear el nuevo mundo…"},
+        "7": {"P":-1, "D":"[black]"}
+    }
+}

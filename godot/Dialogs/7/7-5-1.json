@@ -1,0 +1,18 @@
+{
+    "scene": "VORTEX 2 B2E1",
+    "chars": 0, 
+    "names":
+    {
+    },
+    "dials": 3,
+    "texts":
+    {
+        "0": {"P":-1, "D":"“Me la pasaba horas hablando con él… siempre me contaba historias sobre su héroe, su padre, sobre sus ideas de cambiar al mundo y frenar las guerras… era muy ambicioso”"},
+        "1": {"P":-1, "D":"“Max quería entrar al ejército y ser como su padre…  cada vez que me comentaba el tema, verlo era como ver la luz, y oírlo me daba esperanzas sobre el futuro, y en un país en guerra, eso es mucho… tal vez demasiado”"},
+        "2": {"P":-1, "D":"“Por eso quería acompañarlo…”"}
+    }
+}
+
+
+
+
