@@ -792,7 +792,7 @@ format = 1
 [node name="Node_Camp" type="Node2D" parent="Node2D"]
 
 [node name="Terrain_tree" type="TileMap" parent="Node2D"]
-z_index = 10
+z_index = 5
 tile_set = SubResource( 10 )
 format = 1
 

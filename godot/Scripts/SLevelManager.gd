@@ -8,6 +8,9 @@ onready var Game = get_tree().get_root().get_node("Game")
 # ------------------------------------------------------------------------------
 # Control de escenas
 
+func restart():
+	Game.restart()
+	
 func next():
 	Game.next()
 

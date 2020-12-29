@@ -79,7 +79,7 @@ __meta__ = {
 margin_right = 512.0
 margin_bottom = 101.0
 custom_fonts/font = SubResource( 3 )
-text = "Demo Trivial Re-Solutions
+text = "Cross Life: Apocalipse
 "
 align = 1
 
@@ -117,7 +117,7 @@ __meta__ = {
 visible = false
 anchor_left = 0.25
 anchor_top = 0.3
-anchor_right = 0.75
+anchor_right = 0.7
 anchor_bottom = 0.8
 margin_top = -62.246
 margin_right = 0.000305176
@@ -127,16 +127,16 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="Panel/Game"]
-margin_right = 512.0
+margin_right = 460.0
 margin_bottom = 101.0
 custom_fonts/font = SubResource( 3 )
-text = "Demo Trivial Re-Solutions
+text = "Cross Life: Apocalipse
 "
-align = 1
+align = 2
 
 [node name="B0" type="Button" parent="Panel/Game"]
 margin_top = 105.0
-margin_right = 512.0
+margin_right = 460.0
 margin_bottom = 172.0
 custom_fonts/font = ExtResource( 1 )
 text = "Nueva Partida"
@@ -146,7 +146,7 @@ __meta__ = {
 
 [node name="B1" type="Button" parent="Panel/Game"]
 margin_top = 176.0
-margin_right = 512.0
+margin_right = 460.0
 margin_bottom = 243.0
 custom_fonts/font = ExtResource( 1 )
 text = "Nueva Partida"
@@ -156,7 +156,7 @@ __meta__ = {
 
 [node name="B2" type="Button" parent="Panel/Game"]
 margin_top = 247.0
-margin_right = 512.0
+margin_right = 460.0
 margin_bottom = 314.0
 custom_fonts/font = ExtResource( 1 )
 text = "Nueva Partida"
@@ -166,10 +166,61 @@ __meta__ = {
 
 [node name="Back" type="Button" parent="Panel/Game"]
 margin_top = 318.0
-margin_right = 512.0
+margin_right = 460.0
 margin_bottom = 385.0
 custom_fonts/font = ExtResource( 1 )
 text = "Atras"
+
+[node name="Del" type="VBoxContainer" parent="Panel"]
+visible = false
+anchor_left = 0.705
+anchor_top = 0.3
+anchor_right = 0.75
+anchor_bottom = 0.8
+margin_top = -62.246
+margin_right = 0.000305176
+margin_bottom = -10.2455
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/Del"]
+margin_right = 53.0
+margin_bottom = 101.0
+custom_fonts/font = SubResource( 3 )
+text = "
+"
+align = 2
+
+[node name="B0" type="Button" parent="Panel/Del"]
+margin_top = 105.0
+margin_right = 53.0
+margin_bottom = 172.0
+custom_fonts/font = ExtResource( 1 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="B1" type="Button" parent="Panel/Del"]
+margin_top = 176.0
+margin_right = 53.0
+margin_bottom = 243.0
+custom_fonts/font = ExtResource( 1 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="B2" type="Button" parent="Panel/Del"]
+margin_top = 247.0
+margin_right = 53.0
+margin_bottom = 314.0
+custom_fonts/font = ExtResource( 1 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )

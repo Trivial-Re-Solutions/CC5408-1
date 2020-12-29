@@ -6,7 +6,7 @@
         "0":"Paradox",
         "1":"[player]"
     },
-    "dials": 15,
+    "dials": 17,
     "texts":
     {
         "0": {"P":1, "D":"El sol… se está poniendo"},
@@ -23,7 +23,9 @@
         "11": {"P":0, "D":" Tranquilo… has lo que estimes conveniente"},
         "12": {"P":0, "D":"Repito, soy un mero espectador…"},
         "13": {"P":0, "D":"Pero…"},
-        "14": {"P":0, "D":"Mis plantitas :("}
+        "14": {"P":0, "D":"Mis plantitas :("},
+        "15": {"P":-1, "D":"Presta atención jugador y podras seguir adelante"},
+        "16": {"P":-1, "D":"Debes matar criaturas de este mundo hasta encontrar la llave de esta mazmorra"}
     }
 }
 

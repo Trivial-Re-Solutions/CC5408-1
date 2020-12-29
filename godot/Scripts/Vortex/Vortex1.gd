@@ -1,10 +1,11 @@
 extends Node2D
 
 var ready_dial = {"scene":"Name","chars":0,"names":{},"dials":1,"texts":{"0":{"P":-1,"D":"Viajero... Ha aparecido la gema de esta mazmorra"}}}
+var boss = preload("res://Scenes/Entity/Enemies/Bosses/Boss1.tscn")
 
 var nino_state = 0
 var mama_state = 0
-var main_state = 0
+var main_state = 1
 
 func _ready():
 	$Node2D/Piso1.connect("body_entered", self, "tp1")
@@ -12,7 +13,7 @@ func _ready():
 	
 	$Mama/Area2D.connect("body_entered", self, "question1")
 	$Nino/Area2D.connect("body_entered", self, "question2")
-	$Boss.connect("body_entered", self, "final1")
+	$Boss.connect("body_entered", self, "final_boss")
 	
 	hide_dialog()
 	hide_choice()
@@ -45,9 +46,16 @@ func question2(body:Node):
 	$Dialog.load_file("res://Dialogs/4/4-2.json", self)
 	$Dialog.start_dialog()
 
-func final1(body:Node):
+func final_boss(body:Node):
 	if (main_state != 1):
 		return
+	$Boss1.add_child(boss.instance())
+
+func win():
+	yield(get_tree().create_timer(3.0), "timeout")
+	final1()
+
+func final1():
 	main_state = 2
 	$MainCharacter.done_move = true
 	$CanvasLayer/ColorRect.visible = true

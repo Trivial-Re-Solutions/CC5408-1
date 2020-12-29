@@ -6,7 +6,7 @@
         "0":"[player]",
         "1":"Paradox"
     },
-    "dials": 13,
+    "dials": 15,
     "texts":
     {
         "0": {"P":0, "D":"El cielo… esta… rojo… parece que estuviera bañado en sangre…"},
@@ -21,7 +21,9 @@
         "9": {"P":1, "D":"El reino esta colisionando con las líneas temporales, un CLIMAX TEMPORAL… "},
         "10": {"P":1, "D":"[player]… no se quien eras… pero quien seas ahora está creando un nuevo destino, un punto de partida donde termina el tiempo… y nace uno nuevo."},
         "11": {"P":1, "D":"La máquina del tiempo debió haber creado un CLIMAX TEMPORAL cuando la usaron… no estamos dirigiendo a ese punto"},
-        "12": {"P":1, "D":"Así que no escuches a ese payaso, ¡¡¡ve y forja tu futuro!!!"}
+        "12": {"P":1, "D":"Así que no escuches a ese payaso, ¡¡¡ve y forja tu futuro!!!"},
+        "13": {"P":-1, "D":"Presta atención jugador y podras seguir adelante"},
+        "14": {"P":-1, "D":"Debes matar criaturas de este mundo hasta encontrar la llave de esta mazmorra"}
     }
 }
 

@@ -6,7 +6,7 @@
         "0":"[player]",
         "1":"Paradox"
     },
-    "dials": 9,
+    "dials": 11,
     "texts":
     {
         "0": {"P":0, "D":" ¿Eh? "},
@@ -17,7 +17,9 @@
         "5": {"P":0, "D":"Intentando entrar… agh, no puedo"},
         "6": {"P":1, "D":"[player], aún no recuperas completamente tus recuerdos"},
         "7": {"P":1, "D":"Primero debes recuperar la llave de esta mazmorra"},
-        "8": {"P":1, "D":"Ven, vámonos de aquí."}
+        "8": {"P":1, "D":"Ven, vámonos de aquí."},
+        "9": {"P":-1, "D":"Presta atención jugador y podras seguir adelante"},
+        "10": {"P":-1, "D":"Debes matar criaturas de este mundo hasta encontrar la llave de esta mazmorra"}
     
     }
 }

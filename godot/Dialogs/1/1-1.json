@@ -6,7 +6,7 @@
         "0":"[player]",
         "1":"¿¿¿???"
     },
-    "dials": 20,
+    "dials": 21,
     "texts":
     {
         "0": {"P":0, "D":"¿Qué es eso? ..."},
@@ -28,6 +28,7 @@
         "16": {"P":0, "D":"¡¡¡Joder!!!"},
         "17": {"P":1, "D":"Tal vez no seas de mi incumbencia…"},
         "18": {"P":0, "D":"¡¡¡mierda!!!"},
-        "19": {"P":1, "D":"Por ahora solo sigue avanzando y no mires atras"}
+        "19": {"P":1, "D":"Por ahora solo SIGUE AVANZANDO"},
+        "20": {"P":1, "D":"Y NO TE DETENGAS A MIRAR ATRAS"}
     }
 }

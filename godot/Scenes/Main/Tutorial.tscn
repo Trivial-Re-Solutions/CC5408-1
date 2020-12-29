@@ -74,11 +74,23 @@ position = Vector2( 464, 600 )
 
 [node name="Enemies" type="Node2D" parent="."]
 
+[node name="Skull" parent="Enemies" instance=ExtResource( 4 )]
+position = Vector2( 300, -1000 )
+
+[node name="Skull1" parent="Enemies" instance=ExtResource( 4 )]
+position = Vector2( 280, -900 )
+
 [node name="Skull2" parent="Enemies" instance=ExtResource( 4 )]
-position = Vector2( 280, -1000 )
+position = Vector2( 660, -900 )
 
 [node name="Skull3" parent="Enemies" instance=ExtResource( 4 )]
-position = Vector2( 620, -1000 )
+position = Vector2( 640, -1000 )
+
+[node name="Skull4" parent="Enemies" instance=ExtResource( 4 )]
+position = Vector2( 680, -800 )
+
+[node name="Skull5" parent="Enemies" instance=ExtResource( 4 )]
+position = Vector2( 260, -800 )
 
 [node name="CloneWall" type="Node2D" parent="."]
 visible = false

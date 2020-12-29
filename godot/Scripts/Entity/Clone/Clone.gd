@@ -47,13 +47,13 @@ var Attack = preload("res://Scenes/Entity/Main/Attack.tscn")
 var Sword = preload("res://Scenes/Entity/Main/Sword.tscn")
 
 # Vida
-var health = 100 setget set_health
+var health = 20 setget set_health
 func set_health(value):
 	if invulnerable:
 		return
 	if value < health:
 		get_damage()
-	health = clamp(value, 0, 100)
+	health = clamp(value, 0, 20)
 	$ControlBar/HealthBar.value = health
 	if health == 0:
 		killed()
@@ -114,6 +114,10 @@ func a_move():
 	elif (ind >= str_len):
 		load_string = a_load()
 		ind = 0
+	
+	var x_vel = target_vel.x
+	var y_vel = target_vel.y
+	target_vel = Vector2(x_vel*0.7 if y_vel != 0 else x_vel, y_vel*0.7 if x_vel != 0 else y_vel)
 	linear_vel = lerp(linear_vel, target_vel * 200, 0.5)
 	linear_vel = move_and_slide(linear_vel)
 

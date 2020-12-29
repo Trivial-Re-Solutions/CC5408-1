@@ -1,5 +1,10 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://sprites/tileset/NCamp1.json" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Entity/Enemies/Skull/Skull.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Maps/Camp.gd" type="Script" id=3]
 
 [node name="NCamp1" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="Skull" parent="." index="2" instance=ExtResource( 2 )]

@@ -17,6 +17,10 @@ func _ready():
 	$Panel/Game/B2.connect("pressed", self, "on_2_pressed")
 	$Panel/Game/Back.connect("pressed", self, "on_GBack_pressed")
 	
+	$Panel/Del/B0.connect("pressed", self, "on_0_del")
+	$Panel/Del/B1.connect("pressed", self, "on_1_del")
+	$Panel/Del/B2.connect("pressed", self, "on_2_del")
+	
 
 # ------------------------------------------------------------------------------
 # Control de escena
@@ -26,12 +30,19 @@ func on_Game_pressed():
 	main_data = GameManager.get_preview()
 	if (main_data["0"]["name"] != null):
 		$Panel/Game/B0.text = 	main_data["0"]["name"]
+	else:
+		$Panel/Game/B0.text = 	"Nueva partida"
 	if (main_data["1"]["name"] != null):
 		$Panel/Game/B1.text = 	main_data["1"]["name"]
+	else:
+		$Panel/Game/B1.text = 	"Nueva partida"
 	if (main_data["2"]["name"] != null):
 		$Panel/Game/B2.text = 	main_data["2"]["name"]
+	else:
+		$Panel/Game/B2.text = 	"Nueva partida"
 	$Panel/Main0.visible = false
 	$Panel/Game.visible = true
+	$Panel/Del.visible = true
 
 func on_Settings_pressed():
 	pass
@@ -69,4 +80,18 @@ func load_game():
 
 func on_GBack_pressed():
 	$Panel/Game.visible = false
+	$Panel/Del.visible = false
 	$Panel/Main0.visible = true
+
+func on_0_del():
+	GameManager.delete_save(0)
+	on_Game_pressed()
+
+func on_1_del():
+	GameManager.delete_save(1)
+	on_Game_pressed()
+
+func on_2_del():
+	GameManager.delete_save(2)
+	on_Game_pressed()
+

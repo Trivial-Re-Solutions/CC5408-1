@@ -4,5 +4,5 @@
 
 [node name="MCasttle2" instance=ExtResource( 1 )]
 
-[node name="extras2" parent="." index="2"]
+[node name="extras2" parent="." index="3"]
 z_index = 10

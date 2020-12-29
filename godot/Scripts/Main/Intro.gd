@@ -2,6 +2,7 @@ extends CanvasLayer
 
 var animation = 0
 var enemies = false
+var in_name = true
 
 var name_dial = {"scene":"Name","chars":0,"names":{},"dials":1,"texts":{"0":{"P":-1,"D":"Viajero... ¿Cual es tu nombre?"}}}
 var dict
@@ -14,6 +15,7 @@ func _ready():
 	$CanvasLayer/Dialogs.hide()
 	$CanvasLayer/ColorRect/Button.connect("pressed", self, "_on_button")
 	if (GameManager.save_data["name"] != null):
+		in_name = false
 		start_intro()
 	else:
 		$CanvasLayer/Node.set_parameters(name_dial, self)
@@ -23,8 +25,9 @@ func _process(delta):
 		$Enemy.position += Vector2(1.0, 0.0)
 
 func _on_button():
-	var text = $CanvasLayer/ColorRect/TextEdit.get_line(0).substr(0,20)
+	var text = $CanvasLayer/ColorRect/LineEdit.text
 	GameManager.new_save(GameManager.save_data["slot"], text)
+	in_name = false
 	start_intro()
 
 func start_intro():
@@ -80,3 +83,7 @@ func end_dialog():
 		$CanvasLayer/ColorRect2.visible = true
 		yield(get_tree().create_timer(1.0), "timeout")
 		LevelManager.next()
+
+func _input(event):
+	if (in_name and Input.is_action_pressed("action_accept")):
+		_on_button()

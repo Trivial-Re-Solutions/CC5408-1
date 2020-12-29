@@ -1,5 +1,7 @@
 extends Node2D
 
+var skull = preload("res://Scenes/Entity/Enemies/Skull/Skull.tscn")
+
 var stop_bool = false
 var stop_state = 0
 
@@ -17,6 +19,13 @@ func _ready():
 	$Choice.hide()
 	$Dialogs.load_file("res://Dialogs/1/1-0.json", self)
 	$Dialogs.start_dialog()
+	
+	$Enemies/Skull.set_max_health(1000)
+	$Enemies/Skull1.set_max_health(900)
+	$Enemies/Skull2.set_max_health(800)
+	$Enemies/Skull3.set_max_health(700)
+	$Enemies/Skull4.set_max_health(600)
+	$Enemies/Skull5.set_max_health(500)
 
 func event1(body:Node):
 	if ((not body.is_in_group("Player")) or stop_state != 1):
@@ -31,8 +40,12 @@ func event2(body:Node):
 	if ((not body.is_in_group("Player")) or stop_state != 3):
 		return
 	stop_state = 4
+	$Enemies/Skull.keep_position = true
+	$Enemies/Skull1.keep_position = true
 	$Enemies/Skull2.keep_position = true
 	$Enemies/Skull3.keep_position = true
+	$Enemies/Skull4.keep_position = true
+	$Enemies/Skull5.keep_position = true
 	$Dialogs.show()
 	$MainCharacter.done_move = true
 	$Dialogs.load_file("res://Dialogs/1/1-2.json", self)
@@ -155,8 +168,12 @@ func _input(event):
 			$CloneWall.visible = true
 			stop_bool = false
 			stop_state = 5
+			$Enemies/Skull.keep_position = false
+			$Enemies/Skull1.keep_position = false
 			$Enemies/Skull2.keep_position = false
 			$Enemies/Skull3.keep_position = false
+			$Enemies/Skull4.keep_position = false
+			$Enemies/Skull5.keep_position = false
 			$Dialogs.resume()
 		elif (stop_state == 6 and stop_bool):
 			$CloneWall/Sprite6.visible = true

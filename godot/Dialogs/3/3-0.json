@@ -6,7 +6,7 @@
         "0":"[player]",
         "1":"Paradox"
     },
-    "dials": 15,
+    "dials": 17,
     "texts":
     {
         "0": {"P":0, "D":"Uff… la niebla… no veo casi nada…"},
@@ -23,7 +23,9 @@
         "11": {"P":1, "D":"No es el unico inconveniente que te encontraras [player]… te adentras en un VORTEX cuando accedas al castillo"},
         "12": {"P":1, "D":"Tu inexistencia hace que no puedas pasar mucho tiempo en este lugar, desapareces a cada segundo y yo no puedo hacer nada… así que hazlo lo más pronto posible."},
         "13": {"P":0, "D":"¿Eres el Dios del tiempo y no puedes hacer nada para detener esto?"},
-        "14": {"P":1, "D":"Soy un ente que nace con el tiempo y el espacio, yo solo le otorgo existencia a este, no lo controlo a voluntad… observo."}
+        "14": {"P":1, "D":"Soy un ente que nace con el tiempo y el espacio, yo solo le otorgo existencia a este, no lo controlo a voluntad… observo."},
+        "15": {"P":-1, "D":"Presta atención jugador y podras seguir adelante"},
+        "16": {"P":-1, "D":"Debes matar criaturas de este mundo hasta encontrar la llave de esta mazmorra"}
     
     }
 }

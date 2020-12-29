@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/Casttle.tmx-6b153fc57d6a430c4e783ad22f9761dc.scn"
+
+[deps]
+
+source_file="res://tiled/Other/Casttle.tmx"
+dest_files=[ "res://.import/Casttle.tmx-6b153fc57d6a430c4e783ad22f9761dc.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

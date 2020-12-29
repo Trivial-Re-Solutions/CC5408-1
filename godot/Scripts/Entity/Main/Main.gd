@@ -9,7 +9,6 @@ var Death = preload("res://Scenes/Entity/Main/States/Death.tscn").instance()
 var CClone = preload("res://Scenes/Entity/Clone/Clone.tscn")
 
 # Clones
-var CloneStorage = []
 var CloneNum = 0
 
 # Control de Clones
@@ -31,7 +30,6 @@ var attack_dict = {Vector2(0,-1):"Attack_U", Vector2(-1,0):"Attack_L", Vector2(1
 var idle_dict = {Vector2(0,-1):"Idle_U", Vector2(-1,0):"Idle_L", Vector2(1,0):"Idle_R", Vector2(0,1):"Idle_D"}
 
 var rotate_dict = {Vector2(0,-1):270, Vector2(-1,0):180, Vector2(1,0):0, Vector2(0,1):90}
-var scale_dict = {Vector2(0,-1):270, Vector2(-1,0):180, Vector2(1,0):0, Vector2(0,1):90}
 
 # Animation
 onready var playback = $AnimationTree.get("parameters/playback")
@@ -52,6 +50,7 @@ var str_len = 512
 var ind:int
 
 # Controles
+var clone_ready = true
 var done_move = false
 var saving = false
 
@@ -65,12 +64,13 @@ func set_health(value):
 	health = clamp(value, 0, 100)
 	$ControlBar/HealthBar.value = health
 	if health == 0:
-		pass
+		GameManager.restart()
 
 # ------------------------------------------------------------------------------
 # Inicialización
 
 func _ready():
+	
 	Defend.set_params(self)
 	Damage.set_params(self)
 	playback.start("Idle")
@@ -80,8 +80,7 @@ func _ready():
 # Procesamiento
 
 func _process(delta):
-	if (recording):
-		record()
+	set_health(health + 0.02)
 
 # ------------------------------------------------------------------------------
 # Control de guardado
@@ -211,8 +210,11 @@ func record():
 		$Clone.add_child(CCloneNode)
 		CloneNum += 1
 		saving_clone = false
+		yield(get_tree().create_timer(0.5), "timeout")
+		clone_ready = true
 	
-	elif (not saving_clone):
+	elif (clone_ready):
 		start_record("Clone"+str(CloneNum))
 		saving_clone = true
+		clone_ready = false
 

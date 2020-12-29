@@ -31,13 +31,25 @@ func process(delta):
 
 func a_move():
 	var target_vel
+	var record_vel
 	if (!Entity.done_move):
-		target_vel = Vector2(Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
-			Input.get_action_strength("move_down") - Input.get_action_strength("move_up"))
+		var x_vel = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
+		var y_vel = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
+		
+		target_vel = Vector2(x_vel*0.7 if y_vel != 0 else x_vel, y_vel*0.7 if x_vel != 0 else y_vel)
+		record_vel = Vector2(x_vel, y_vel)
 	else:
 		target_vel = Vector2(0.0, 0.0)
-	Entity.a_record(target_vel)
-	Entity.animation_vector(target_vel)
+		record_vel = Vector2(0.0, 0.0)
+	if(Entity.get_slide_count() > 0):
+		if(abs(linear_vel.x) < 0.3):
+			record_vel.x = 0
+		if(abs(linear_vel.y) < 0.3):
+			record_vel.y = 0
+		#record_vel = Vector2(0.0, 0.0)
+	
+	Entity.a_record(record_vel)
+	Entity.animation_vector(record_vel)
 	linear_vel = lerp(linear_vel, target_vel * 200, 0.5)
 	linear_vel = Entity.move_and_slide(linear_vel)
 

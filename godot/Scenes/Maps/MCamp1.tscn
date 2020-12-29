@@ -1,14 +1,18 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://tiled/Camps/MCamp1.tmx" type="PackedScene" id=1]
-
-
+[ext_resource path="res://Scenes/Entity/Enemies/Skull/Skull.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Maps/Camp.gd" type="Script" id=3]
 
 [node name="MCamp1" instance=ExtResource( 1 )]
-position = Vector2( 0, -1000 )
+position = Vector2( 100, -1000 )
+script = ExtResource( 3 )
 
 [node name="extras 1" parent="." index="2"]
 z_index = 5
 
 [node name="extras 2" parent="." index="3"]
 z_index = 5
+tile_data = PoolIntArray( -655364, 3303, 0, -655363, 3304, 0, -589828, 3319, 0, -589827, 3320, 0, -524292, 3335, 0, -524291, 3336, 0, -458756, 3351, 0, -458755, 3352, 0, -5, 1, 0, -4, 1, 0, -3, 1, 0, -2, 1, 0, -1, 1, 0, -65536, 1, 0, 327662, 3303, 0, 327663, 3304, 0, 393198, 3319, 0, 393199, 3320, 0, 458734, 3335, 0, 458735, 3336, 0, 524270, 3351, 0, 524271, 3352, 0 )
+
+[node name="Skull" parent="." index="4" instance=ExtResource( 2 )]

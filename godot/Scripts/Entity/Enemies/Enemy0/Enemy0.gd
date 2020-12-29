@@ -21,6 +21,9 @@ onready var CMain = get_tree().get_nodes_in_group("Player")[0]
 var done_move = false
 var keep_position = false
 var invulnerable = false
+var in_mainmap = false
+
+var max_health = 40
 
 # Vida
 var health = 40 setget set_health
@@ -29,15 +32,26 @@ func set_health(value):
 		return
 	if value < health:
 		get_damage()
-	health = clamp(value, 0, 40)
+	health = clamp(value, 0, max_health)
 	$ControlBar/HealthBar.value = health
 	if health <= 0:
 		state.change_to(Death)
+		if (randi()%1 < 1 and in_mainmap):
+			get_tree().get_nodes_in_group("MainMap")[0].get_key()
 
 # ------------------------------------------------------------------------------
 # Inicialización
 
+func set_max_health(val):
+	$ControlBar/HealthBar.max_value = val
+	$ControlBar/HealthBar.value = val
+	max_health = val
+	health = val
+
 func _ready() -> void:
+	randomize()
+	$Sprite.texture = load("res://sprites/enemies/Skulls/Skull"+String(randi()%5)+".png")
+	
 	Defend.set_params(self)
 	Damage.set_params(self)
 	Death.set_params(self)

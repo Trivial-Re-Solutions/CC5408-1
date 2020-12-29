@@ -10,6 +10,11 @@ var minimap_scale:int
 var minimap_center = Vector2(150, 100)
 
 var Camp0 = preload("res://Scenes/Maps/NCamp0.tscn")
+var Camp1 = preload("res://Scenes/Maps/NCamp1.tscn")
+var Camp2 = preload("res://Scenes/Maps/NCamp2.tscn")
+var Camp3 = preload("res://Scenes/Maps/MCamp1.tscn")
+
+var Camps = {0: Camp0, 1: Camp1, 2: Camp3}
 
 var Instanced_camps = []
 
@@ -181,9 +186,8 @@ func camp_generator (pos:Vector2, noise: float):
 		Instanced_camps.append(camp_scene)
 
 func random_camp():
-	var randint = randi()%5
-	
-	return Camp0.instance()
+	var randint = randi()%3
+	return Camps[randint].instance()
 
 # ------------------------------------------------------------------------------
 # Control de eventos

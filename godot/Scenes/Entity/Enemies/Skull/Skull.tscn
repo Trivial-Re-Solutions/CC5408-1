@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Scripts/Entity/Enemies/Enemy0/Enemy0.gd" type="Script" id=1]
-[ext_resource path="res://sprites/enemies/Skull0.png" type="Texture" id=2]
+[ext_resource path="res://sprites/enemies/Skulls/Skull0.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/StateMachine/StateMachine.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/Entity/Enemies/Skull/Attack.tscn" type="PackedScene" id=4]
 
@@ -55,7 +55,7 @@ script = ExtResource( 1 )
 texture = ExtResource( 2 )
 vframes = 4
 hframes = 4
-frame = 2
+frame = 13
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )

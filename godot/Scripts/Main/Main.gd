@@ -35,6 +35,10 @@ func change_scene(scene):
 	current_world = s
 	$World.add_child(current_world)
 
+func restart():
+	loading = true
+	fade.fade_in()
+
 func next():
 	current_level += 1
 	loading = true

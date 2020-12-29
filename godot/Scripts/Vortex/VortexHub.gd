@@ -18,5 +18,3 @@ func _ready():
 	elif (not mazm["D"]):
 		act_map = vortex4.instance()
 	$Vortex.add_child(act_map)
-	
-
