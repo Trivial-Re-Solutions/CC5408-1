@@ -1,7 +1,8 @@
 extends Node2D
 
 # Diccionarios
-var Levels = [preload("res://Scenes/Main/TitleScreen.tscn"),
+var Levels = [preload("res://Scenes/Main/Credits.tscn"),
+			preload("res://Scenes/Main/TitleScreen.tscn"),
 			preload("res://Scenes/Main/Intro.tscn"),
 			preload("res://Scenes/Main/Tutorial.tscn"),
 			preload("res://Scenes/Main/TimeHall.tscn"),
@@ -9,7 +10,7 @@ var Levels = [preload("res://Scenes/Main/TitleScreen.tscn"),
 			preload("res://Scenes/Vortex/VortexHub.tscn")]
 
 # Niveles
-var current_level = 0
+var current_level = 1
 var current_world: Node = null
 
 # Controles
@@ -22,7 +23,7 @@ onready var fade = $CanvasLayer/Fade
 
 func _ready():
 	fade.connect("faded", self, "on_faded")
-	current_world = Levels[0].instance()
+	current_world = Levels[1].instance()
 	$World.add_child(current_world)
 
 # ------------------------------------------------------------------------------
@@ -49,18 +50,23 @@ func back():
 	loading = true
 	fade.fade_in()
 
-func toGame():
-	current_level = 3
+func toCredits():
+	current_level = 0
 	loading = true
 	fade.fade_in()
 
-func toDemo():
+func toGame():
 	current_level = 4
 	loading = true
 	fade.fade_in()
 
-func toVortex():
+func toDemo():
 	current_level = 5
+	loading = true
+	fade.fade_in()
+
+func toVortex():
+	current_level = 6
 	loading = true
 	fade.fade_in()
 
@@ -75,6 +81,6 @@ func on_faded():
 	fade.fade_out()
 		
 func reset():
-	current_level = 0
+	current_level = 1
 	loading = true
 	fade.fade_in()

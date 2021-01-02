@@ -5,7 +5,7 @@ var boss = preload("res://Scenes/Entity/Enemies/Bosses/Boss1.tscn")
 
 var nino_state = 0
 var mama_state = 0
-var main_state = 1
+var main_state = 0
 
 func _ready():
 	$Node2D/Piso1.connect("body_entered", self, "tp1")

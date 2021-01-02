@@ -15,7 +15,10 @@ func next():
 	Game.next()
 
 func back():
-	Game.back() 
+	Game.back()
+
+func toCredits():
+	Game.toCredits()
 
 func toGame():
 	Game.toGame()

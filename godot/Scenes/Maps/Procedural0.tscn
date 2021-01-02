@@ -1,4 +1,4 @@
-[gd_scene load_steps=68 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://Scripts/Maps/Procedural0.gd" type="Script" id=1]
 [ext_resource path="res://sprites/tileset/overworld/[A]Water_pipo.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://sprites/tileset/overworld/[A]Flower_pipo.png" type="Texture" id=4]
 [ext_resource path="res://sprites/tileset/overworld/[Base]BaseChip_pipo.png" type="Texture" id=5]
 [ext_resource path="res://sprites/tileset/minimap/AllAssetsPreview.png" type="Texture" id=6]
+[ext_resource path="res://Sound/Manuel/final.ogg" type="AudioStream" id=7]
 [ext_resource path="res://sprites/Mask.png" type="Texture" id=8]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
@@ -792,7 +793,7 @@ format = 1
 [node name="Node_Camp" type="Node2D" parent="Node2D"]
 
 [node name="Terrain_tree" type="TileMap" parent="Node2D"]
-z_index = 5
+z_index = 10
 tile_set = SubResource( 10 )
 format = 1
 
@@ -836,11 +837,17 @@ format = 1
 tile_data = PoolIntArray( 2424969, 3, 0, 3211322, 0, 0 )
 
 [node name="Terrain_tree" type="TileMap" parent="CanvasLayer/CenterContainer/Node2D"]
-scale = Vector2( 2, 2 )
+scale = Vector2( 1.5, 1.5 )
 tile_set = SubResource( 60 )
 cell_size = Vector2( 16, 16 )
 cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
 format = 1
+tile_data = PoolIntArray( -2621509, 3, 0, -1, 3, 0 )
 __meta__ = {
 "_editor_description_": ""
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = 5.0
+autoplay = true

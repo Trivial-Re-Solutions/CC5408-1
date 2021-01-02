@@ -13,7 +13,7 @@
 [ext_resource path="res://tiled/Vortex1/MCasttle2.png" type="Texture" id=11]
 [ext_resource path="res://tiled/Vortex1/MCasttle1.png" type="Texture" id=12]
 
-[sub_resource type="CapsuleShape2D" id=6]
+[sub_resource type="CapsuleShape2D" id=1]
 radius = 50.0
 height = 200.0
 
@@ -89,7 +89,7 @@ gravity_vec = Vector2( 0, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Piso1"]
 rotation = 1.5708
-shape = SubResource( 6 )
+shape = SubResource( 1 )
 
 [node name="Piso2" type="Area2D" parent="Node2D"]
 position = Vector2( 1635, -1840 )
@@ -97,7 +97,7 @@ gravity_vec = Vector2( 0, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Piso2"]
 rotation = 1.5708
-shape = SubResource( 6 )
+shape = SubResource( 1 )
 __meta__ = {
 "_editor_description_": ""
 }

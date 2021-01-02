@@ -7,7 +7,7 @@ var save_data = {
 		"slot": "-1",
 		"name": "LtFabin",
 		"tuto": true,
-		"mazm": {"A": true, "B": false, "C": false, "D": false},
+		"mazm": {"A": false, "B": false, "C": false, "D": false},
 		"levl": {"A": 0, "B": 0, "C": 0, "D": 0, "E": 0, "F":0, "G":0, "H":0},
 		"elec": {"F1INICIO": 0, "FDIM1":0, "FDIM2":0,
 				"PB1MAMA": 0, "PB1NINO": 0, "B1MAMA": 0, "B1NINO":0,

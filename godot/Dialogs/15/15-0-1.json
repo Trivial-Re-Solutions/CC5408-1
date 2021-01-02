@@ -1,0 +1,20 @@
+{
+    "scene": "final 1",
+    "chars": 2, 
+    "names":
+    {
+        "0":"[player]",
+        "1":"Señor Oscuro"
+    },
+    "dials": 7,
+    "texts":
+    {
+        "0": {"P":0, "D":"Entonces… tu y yo somos"},
+        "1": {"P":1, "D":"Ahora tu eres el Señor Oscuro…"},
+        "2": {"P":1, "D":"Debes ocupar el poder de PARADOX que hay en la espada e invadir el mundo con las pesadillas de su reino…"},
+        "3": {"P":0, "D":"¿Cómo diablos hago eso?"},
+        "4": {"P":1, "D":"ten..."},
+        "5": {"P":0, "D":"¡agh!... "},
+        "6": {"P":0, "D":"ja…"}
+    }
+}

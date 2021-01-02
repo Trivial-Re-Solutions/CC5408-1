@@ -141,14 +141,13 @@ func attack():
 	var attack = Attack.instance()
 	var sword = Sword.instance()	
 	attack.set_damage(10)
-	#attack.rotation_degrees = rotate_dict [last_animation]
 	yield(get_tree().create_timer(0.2), "timeout")
 	attack.add_child(sword)
 	$Attack/Pos.add_child(attack)
-	yield(get_tree().create_timer(0.6), "timeout")
+	yield(get_tree().create_timer(0.8), "timeout")
 	is_attacking = false
-	get_parent().remove_child(attack)
-	get_parent().remove_child(sword)
+	$Attack/Pos.remove_child(attack)
+	attack.queue_free()
 
 # ------------------------------------------------------------------------------
 # Control de eventos

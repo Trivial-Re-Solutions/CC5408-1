@@ -11,10 +11,9 @@ var minimap_center = Vector2(150, 100)
 
 var Camp0 = preload("res://Scenes/Maps/NCamp0.tscn")
 var Camp1 = preload("res://Scenes/Maps/NCamp1.tscn")
-var Camp2 = preload("res://Scenes/Maps/NCamp2.tscn")
-var Camp3 = preload("res://Scenes/Maps/MCamp1.tscn")
+var Camp2 = preload("res://Scenes/Maps/MCamp1.tscn")
 
-var Camps = {0: Camp0, 1: Camp1, 2: Camp3}
+var Camps = {0: Camp0, 1: Camp1, 2: Camp2}
 
 var Instanced_camps = []
 

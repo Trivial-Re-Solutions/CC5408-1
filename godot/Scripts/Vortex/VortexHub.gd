@@ -4,6 +4,7 @@ var vortex1 = preload("res://Scenes/Vortex/Vortex1.tscn")
 var vortex2 = preload("res://Scenes/Vortex/Vortex2.tscn")
 var vortex3 = preload("res://Scenes/Vortex/Vortex3.tscn")
 var vortex4 = preload("res://Scenes/Vortex/Vortex4.tscn")
+var final = preload("res://Scenes/Vortex/Final.tscn")
 
 var act_map
 
@@ -17,4 +18,6 @@ func _ready():
 		act_map = vortex3.instance()
 	elif (not mazm["D"]):
 		act_map = vortex4.instance()
+	else:
+		act_map = final.instance()
 	$Vortex.add_child(act_map)

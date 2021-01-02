@@ -20,7 +20,7 @@ func _ready():
 	
 	$Rotation/Gems/AnimationPlayer.play("Idle")
 	$AnimationPlayer.play("Idle")
-	$Rotation/Gems.set_parameters(self)
+	$Rotation/Gems.set_parameters(self, 0)
 
 func _process(delta):
 	var vec = Vector2(CMain.global_position - self.global_position)
@@ -31,7 +31,7 @@ func on_body_entered(body:Node):
 		return
 	body.state.take_damage(10)
 
-func take_damage(damage):
+func take_damage(damage, id):
 	if (invulnerable):
 		return
 	invulnerable = true

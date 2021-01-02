@@ -5,7 +5,8 @@ var dict
 
 func _ready():
 	$CanvasLayer/Key/AnimationPlayer.play("Press")
-
+	$CanvasLayer/Node/Text.modulate = Color(0.0, 0.0, 0.0, 1.0)
+	
 func load_file(path:String, node):
 	parent = node
 	var file = File.new()

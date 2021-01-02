@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 var parent
+var id
 
 onready var state = self
 
@@ -8,8 +9,9 @@ onready var state = self
 func _ready():
 	pass # Replace with function body.
 
-func set_parameters(node):
+func set_parameters(node, num):
 	parent = node
+	id = num
 
 func take_damage(damage):
-	parent.take_damage(damage)
+	parent.take_damage(damage, id)

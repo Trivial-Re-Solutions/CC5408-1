@@ -59,7 +59,14 @@ func _process(delta):
 		var act_dialog = texts[String(act_dial)]
 		var character = ""
 		if (act_dialog["P"] != -1 and act_dialog["P"] < chars):
-			character = names[String(act_dialog["P"])]+" : "
+			var char_name = names[String(act_dialog["P"])]
+			character = char_name + " : "
+			if (char_name != "¿¿¿???"):
+				$Sprite.texture = load("res://sprites/Dialogs/"+char_name+".png")
+			else:
+				$Sprite.texture = null
+		else:
+			$Sprite.texture = null
 		var dialog:String = act_dialog["D"]
 		var text_stop = dialog.replacen("[stop]", "")
 		if (dialog != text_stop):

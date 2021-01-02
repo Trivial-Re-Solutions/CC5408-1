@@ -31,13 +31,13 @@ tracks/0/keys = {
 radius = 25.0
 height = 40.0
 
-[sub_resource type="CircleShape2D" id=6]
+[sub_resource type="CircleShape2D" id=7]
 radius = 40.0
 
-[sub_resource type="StyleBoxFlat" id=4]
+[sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.12549, 0.490196, 0.137255, 1 )
 
-[sub_resource type="StyleBoxFlat" id=5]
+[sub_resource type="StyleBoxFlat" id=6]
 
 [node name="Boss1" type="KinematicBody2D"]
 script = ExtResource( 4 )
@@ -69,7 +69,7 @@ shape = SubResource( 3 )
 [node name="Area2D" type="Area2D" parent="Rotation/Shield"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Rotation/Shield/Area2D"]
-shape = SubResource( 6 )
+shape = SubResource( 7 )
 
 [node name="Gems" parent="Rotation" instance=ExtResource( 3 )]
 
@@ -86,9 +86,10 @@ __meta__ = {
 [node name="HealthBar" type="ProgressBar" parent="Control"]
 margin_right = 60.0
 margin_bottom = 14.0
-custom_styles/fg = SubResource( 4 )
-custom_styles/bg = SubResource( 5 )
-value = 100.0
+custom_styles/fg = SubResource( 8 )
+custom_styles/bg = SubResource( 6 )
+max_value = 500.0
+value = 500.0
 percent_visible = false
 __meta__ = {
 "_edit_use_anchors_": false,

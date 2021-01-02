@@ -48,7 +48,7 @@ func on_Settings_pressed():
 	pass
 
 func on_Exit_pressed():
-	get_tree().quit()
+	LevelManager.toCredits()
 
 # Game
 func on_0_pressed():
@@ -73,7 +73,9 @@ func on_2_pressed():
 	load_game()
 
 func load_game():
-	if (GameManager.save_data["tuto"]):
+	if (GameManager.save_data["mazm"]["D"]):
+		LevelManager.toVortex()
+	elif (GameManager.save_data["tuto"]):
 		LevelManager.toGame()
 	else:
 		LevelManager.next()

@@ -1,7 +1,59 @@
+# 
+Cross Life: Apocalypse
+
+# 
+Taller de Diseño y Desarrollo de Videojuegos
+Universidad de Chile, FCFM
+Profesor: Elías Zelada
+
+# Equipo princial
+Fabián Díaz
+Manuel Díaz
+Enzo Nahamias
+
+# Programación
+Fabián Díaz
+
+# Ilustración
+David Cavieres
+Manuel Díaz
+
+# Guión
+Manuel Díaz
+Enzo Nahamias
+
+# Testers
+David Cavieres
+Hector Romo
+
+# Software
+
+Name: Godot Engine
+Licence: No Attribution & commercial
+https://godotengine.org/license
+
+Name: Tiled
+Licence: No Attribution & commercial
+https://www.mapeditor.org/
+
+Name: Tiled importer
+Licence: No Attribution & commercial
+https://github.com/vnen/godot-tiled-importer
+
+
+# Planillas
+
+Name: Clases CC5408-1
+Profesor: Elías Zelada
+
+Name: Godot Credits
+Licence: No Attribution & commercial
+https://github.com/benbishopnz/godot-credit
+
 
 # Tileset
 
-Name: Pipoya RPG TIleset
+Name: Pipoya RPG Tileset
 Licence: No Attribution & commercial
 https://pipoya.itch.io/pipoya-rpg-tileset-32x32
 
@@ -85,8 +137,7 @@ https://hugoss-visual-design.itch.io/samurai-asset
 
 Name: Floating Skull
 Licence: Attribution & Allow Commercial
-https://untiedgames.itch.io/floating-skull-enemy?download
-
+https://untiedgames.itch.io/floating-skull-enemy
 Name: Evil Wizard 2
 Licence: No Attribution & Allow Commercial
 https://luizmelo.itch.io/evil-wizard-2
@@ -121,9 +172,6 @@ https://lunalucid.itch.io/free-creative-commons-bgm-collection
 Name: Fantasy RPG Music Pack
 Licence: No Attribution & Allow Commercial
 https://muhammadriza.itch.io/free-fantasy-rpg-music-pack
-
-Name: 
-Licence: No Attribution & Allow Commercial
 
 # Others
 

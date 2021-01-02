@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/NCamp1.tmx-04d65100e9baf0b90d1e1c19a38c6328.scn"
+
+[deps]
+
+source_file="res://tiled/Camps/NCamp1.tmx"
+dest_files=[ "res://.import/NCamp1.tmx-04d65100e9baf0b90d1e1c19a38c6328.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""

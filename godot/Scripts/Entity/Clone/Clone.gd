@@ -134,20 +134,14 @@ func attack():
 	
 	var attack = Attack.instance()
 	var sword = Sword.instance()	
-	attack.set_damage(10)
-	attack.rotation_degrees = rotate_dict [last_animation]
+	attack.set_damage(20)
 	yield(get_tree().create_timer(0.2), "timeout")
 	attack.add_child(sword)
-	get_parent().add_child(attack)
-	attack.global_position = $Attack.get_child(0).global_position
-	sword.global_position = $Attack.get_child(0).global_position
-	yield(get_tree().create_timer(0.3), "timeout")
-	attack.global_position = $Attack.get_child(0).global_position
-	sword.global_position = $Attack.get_child(0).global_position
-	yield(get_tree().create_timer(0.3), "timeout")
+	$Attack/Pos.add_child(attack)
+	yield(get_tree().create_timer(0.6), "timeout")
 	is_attacking = false
-	get_parent().remove_child(attack)
-	get_parent().remove_child(sword)
+	$Attack/Pos.remove_child(attack)
+	attack.queue_free()
 
 func get_damage():
 	invulnerable = true

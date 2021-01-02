@@ -216,7 +216,6 @@ playback_speed = 0.5
 anims/Run = SubResource( 6 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-layer = 10
 
 [node name="SimpleFade" parent="CanvasLayer" instance=ExtResource( 7 )]
 margin_right = 1024.0
@@ -270,7 +269,7 @@ __meta__ = {
 }
 
 [node name="Dialogs" parent="CanvasLayer" instance=ExtResource( 8 )]
-z_index = 1
+z_index = 2
 
 [node name="Node" parent="CanvasLayer" instance=ExtResource( 4 )]
 margin_left = 100.0

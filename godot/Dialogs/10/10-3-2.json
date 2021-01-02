@@ -4,7 +4,7 @@
     "names":
     {
         "0":"[player]",
-        "1":"¿General?"
+        "1":"General"
     },
     "dials": 6,
     "texts":
@@ -14,7 +14,7 @@
         "2": {"P":0, "D":"Lo siento general."},
         "3": {"P":1, "D":"Está bien cadete… ve al frente"},
         "4": {"P":1, "D":"Yo puedo… agh…"},
-        "5": {"P":0, "D":"…"},
+        "5": {"P":0, "D":"…"}
     }
 }
 
